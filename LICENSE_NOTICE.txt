@@ -1,0 +1,12 @@
+This repository accompanies the manuscript:
+Preserving complete evidence chains and opposing support under context budgets.
+
+No additional project-wide reuse license has been granted in this prepared release.
+Public visibility alone does not select an open-source license.
+The authors may add a license for their original code and numerical outputs when
+they publish the repository.
+
+Third-party font files retain the license notices in figure_sources/fonts and
+plot_sources/fonts. Original benchmark text, dataset releases, model weights and
+upstream implementations remain subject to their respective source terms. No
+project license supersedes those terms.

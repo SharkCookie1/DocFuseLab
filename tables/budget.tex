@@ -1,0 +1,23 @@
+\begin{table}[pos=H]
+\caption{Results across source-token budgets.}\label{tab:budget}
+\centering\small
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{rlrrrr}
+\toprule
+Budget & Selector & Correct conflicts & Both sides & Ordinary EM (\%) & False conflicts \\
+\midrule
+128 & Plain set & 8/146 & 9 & 51.9 & 2 \\
+128 & Same-graph set & 6/146 & 7 & 49.0 & 2 \\
+128 & Chain closure & 16/146 & 25 & 51.9 & 2 \\
+128 & Joint preservation & 13/146 & 22 & 51.9 & 2 \\
+256 & Plain set & 21/146 & 28 & 58.7 & 2 \\
+256 & Same-graph set & 14/146 & 26 & 56.7 & 2 \\
+256 & Chain closure & 36/146 & 62 & 55.8 & 2 \\
+256 & Joint preservation & 36/146 & 63 & 55.8 & 2 \\
+512 & Plain set & 60/146 & 62 & 66.3 & 0 \\
+512 & Same-graph set & 58/146 & 64 & 66.3 & 0 \\
+512 & Chain closure & 63/146 & 80 & 66.3 & 0 \\
+512 & Joint preservation & 63/146 & 80 & 66.3 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}

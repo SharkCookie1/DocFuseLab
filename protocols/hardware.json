@@ -1,0 +1,13 @@
+{
+  "operating_system": "Windows 11",
+  "cpu": "Intel Core Ultra 9 275HX",
+  "system_memory_gb": 32,
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "gpu_count": 1,
+  "nominal_gpu_memory_gb": 8,
+  "nvidia_smi_reported_memory_mib": 8151,
+  "record_date": "2026-10-05",
+  "cpu_gpu_source": "new_pc_hardware.txt",
+  "memory_source": "User-provided computer configuration recorded on 2026-10-05",
+  "scope": "Hardware identification; the recorded software environment is stored separately."
+}

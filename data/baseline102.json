@@ -1,0 +1,1525 @@
+{
+  "experiment": "Step102 fixed-graph128/256/512 budget curve with frozen8B reader",
+  "status": "complete",
+  "complete": true,
+  "planned_questions": 250,
+  "completed_questions": 250,
+  "planned_logical_arms": 3000,
+  "completed_logical_arms": 3000,
+  "completed_unique_packets": 1123,
+  "completed_calls": 2953,
+  "groups": {
+    "128": {
+      "completed_n": 250,
+      "tables": {
+        "hotpot_conflict": {
+          "plain_set": {
+            "n": 146,
+            "correct": 8.0,
+            "em": 0.0547945205479452,
+            "f1": 0.0547945205479452,
+            "conflict_count": 8,
+            "invalid": 1,
+            "mean_source_tokens": 120.6986301369863,
+            "reader_cost": {
+              "calls": 291.0,
+              "input_tokens": 132162.0,
+              "output_tokens": 14011.0,
+              "seconds": 568.7077291000169
+            },
+            "construction_cost": {
+              "calls": 146.0,
+              "input_tokens": 135211.0,
+              "output_tokens": 5418.0,
+              "seconds": 474.5483506002929
+            },
+            "logical_total_cost": {
+              "calls": 437.0,
+              "input_tokens": 267373.0,
+              "output_tokens": 19429.0,
+              "seconds": 1043.2560797003098
+            },
+            "automatic_graph_both_sides_retained_questions": 9,
+            "automatic_graph_one_sided_questions": 48,
+            "fallback_counts": {}
+          },
+          "set_graph": {
+            "n": 146,
+            "correct": 6.0,
+            "em": 0.0410958904109589,
+            "f1": 0.0410958904109589,
+            "conflict_count": 6,
+            "invalid": 1,
+            "mean_source_tokens": 120.78767123287672,
+            "reader_cost": {
+              "calls": 291.0,
+              "input_tokens": 132343.0,
+              "output_tokens": 14154.0,
+              "seconds": 573.5411704008002
+            },
+            "construction_cost": {
+              "calls": 1391.0,
+              "input_tokens": 721792.0,
+              "output_tokens": 1009091.0,
+              "seconds": 48627.61305190576
+            },
+            "logical_total_cost": {
+              "calls": 1682.0,
+              "input_tokens": 854135.0,
+              "output_tokens": 1023245.0,
+              "seconds": 49201.15422230656
+            },
+            "automatic_graph_both_sides_retained_questions": 7,
+            "automatic_graph_one_sided_questions": 45,
+            "fallback_counts": {}
+          },
+          "strong_chain": {
+            "n": 146,
+            "correct": 16.0,
+            "em": 0.1095890410958904,
+            "f1": 0.1095890410958904,
+            "conflict_count": 16,
+            "invalid": 1,
+            "mean_source_tokens": 120.4041095890411,
+            "reader_cost": {
+              "calls": 291.0,
+              "input_tokens": 133007.0,
+              "output_tokens": 14916.0,
+              "seconds": 599.8826311996672
+            },
+            "construction_cost": {
+              "calls": 1391.0,
+              "input_tokens": 721792.0,
+              "output_tokens": 1009091.0,
+              "seconds": 48627.61305190576
+            },
+            "logical_total_cost": {
+              "calls": 1682.0,
+              "input_tokens": 854799.0,
+              "output_tokens": 1024007.0,
+              "seconds": 49227.49568310543
+            },
+            "automatic_graph_both_sides_retained_questions": 25,
+            "automatic_graph_one_sided_questions": 43,
+            "fallback_counts": {
+              "no_model_accepted_complete_chain": 12
+            }
+          },
+          "joint": {
+            "n": 146,
+            "correct": 13.0,
+            "em": 0.08904109589041095,
+            "f1": 0.08904109589041095,
+            "conflict_count": 13,
+            "invalid": 1,
+            "mean_source_tokens": 120.56849315068493,
+            "reader_cost": {
+              "calls": 291.0,
+              "input_tokens": 133090.0,
+              "output_tokens": 14923.0,
+              "seconds": 600.1722393997479
+            },
+            "construction_cost": {
+              "calls": 1391.0,
+              "input_tokens": 721792.0,
+              "output_tokens": 1009091.0,
+              "seconds": 48627.61305190576
+            },
+            "logical_total_cost": {
+              "calls": 1682.0,
+              "input_tokens": 854882.0,
+              "output_tokens": 1024014.0,
+              "seconds": 49227.78529130551
+            },
+            "automatic_graph_both_sides_retained_questions": 22,
+            "automatic_graph_one_sided_questions": 32,
+            "fallback_counts": {
+              "no_complete_balanced_conflict_fits_budget": 61,
+              "no_model_accepted_complete_chain": 12
+            }
+          }
+        },
+        "hotpot_clean": {
+          "plain_set": {
+            "n": 104,
+            "correct": 54.0,
+            "em": 0.5192307692307693,
+            "f1": 0.6559065934065933,
+            "conflict_count": 2,
+            "invalid": 0,
+            "mean_source_tokens": 117.39423076923077,
+            "reader_cost": {
+              "calls": 208.0,
+              "input_tokens": 93797.0,
+              "output_tokens": 9849.0,
+              "seconds": 403.89068100135773
+            },
+            "construction_cost": {
+              "calls": 104.0,
+              "input_tokens": 59580.0,
+              "output_tokens": 3788.0,
+              "seconds": 168.69234660058282
+            },
+            "logical_total_cost": {
+              "calls": 312.0,
+              "input_tokens": 153377.0,
+              "output_tokens": 13637.0,
+              "seconds": 572.5830276019406
+            },
+            "automatic_graph_both_sides_retained_questions": 1,
+            "automatic_graph_one_sided_questions": 2,
+            "fallback_counts": {}
+          },
+          "set_graph": {
+            "n": 104,
+            "correct": 51.0,
+            "em": 0.49038461538461536,
+            "f1": 0.6286630036630036,
+            "conflict_count": 2,
+            "invalid": 0,
+            "mean_source_tokens": 117.53846153846153,
+            "reader_cost": {
+              "calls": 208.0,
+              "input_tokens": 93932.0,
+              "output_tokens": 9938.0,
+              "seconds": 407.13547280128114
+            },
+            "construction_cost": {
+              "calls": 817.0,
+              "input_tokens": 350931.0,
+              "output_tokens": 525121.0,
+              "seconds": 21763.10262550367
+            },
+            "logical_total_cost": {
+              "calls": 1025.0,
+              "input_tokens": 444863.0,
+              "output_tokens": 535059.0,
+              "seconds": 22170.23809830495
+            },
+            "automatic_graph_both_sides_retained_questions": 1,
+            "automatic_graph_one_sided_questions": 3,
+            "fallback_counts": {}
+          },
+          "strong_chain": {
+            "n": 104,
+            "correct": 54.0,
+            "em": 0.5192307692307693,
+            "f1": 0.663919413919414,
+            "conflict_count": 2,
+            "invalid": 0,
+            "mean_source_tokens": 117.08653846153847,
+            "reader_cost": {
+              "calls": 208.0,
+              "input_tokens": 93748.0,
+              "output_tokens": 9854.0,
+              "seconds": 404.1832779000979
+            },
+            "construction_cost": {
+              "calls": 817.0,
+              "input_tokens": 350931.0,
+              "output_tokens": 525121.0,
+              "seconds": 21763.10262550367
+            },
+            "logical_total_cost": {
+              "calls": 1025.0,
+              "input_tokens": 444679.0,
+              "output_tokens": 534975.0,
+              "seconds": 22167.28590340377
+            },
+            "automatic_graph_both_sides_retained_questions": 1,
+            "automatic_graph_one_sided_questions": 3,
+            "fallback_counts": {
+              "no_model_accepted_complete_chain": 5
+            }
+          },
+          "joint": {
+            "n": 104,
+            "correct": 54.0,
+            "em": 0.5192307692307693,
+            "f1": 0.6671245421245421,
+            "conflict_count": 2,
+            "invalid": 0,
+            "mean_source_tokens": 117.13461538461539,
+            "reader_cost": {
+              "calls": 208.0,
+              "input_tokens": 93712.0,
+              "output_tokens": 9810.0,
+              "seconds": 402.6198739001993
+            },
+            "construction_cost": {
+              "calls": 817.0,
+              "input_tokens": 350931.0,
+              "output_tokens": 525121.0,
+              "seconds": 21763.10262550367
+            },
+            "logical_total_cost": {
+              "calls": 1025.0,
+              "input_tokens": 444643.0,
+              "output_tokens": 534931.0,
+              "seconds": 22165.72249940387
+            },
+            "automatic_graph_both_sides_retained_questions": 1,
+            "automatic_graph_one_sided_questions": 3,
+            "fallback_counts": {
+              "no_complete_balanced_conflict_fits_budget": 4,
+              "no_model_accepted_complete_chain": 5
+            }
+          }
+        }
+      },
+      "paired_comparisons": {
+        "hotpot_conflict": {
+          "joint_vs_plain_set": {
+            "n": 146,
+            "metric": "em",
+            "delta": 0.03424657534246575,
+            "wins": 7,
+            "losses": 2,
+            "ties": 137,
+            "clusters": 146,
+            "seed": 1962947992,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.00684931506849315,
+              0.07534246575342465
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_set_graph": {
+            "n": 146,
+            "metric": "em",
+            "delta": 0.04794520547945205,
+            "wins": 7,
+            "losses": 0,
+            "ties": 139,
+            "clusters": 146,
+            "seed": 1327552096,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0136986301369863,
+              0.0821917808219178
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_strong_chain": {
+            "n": 146,
+            "metric": "em",
+            "delta": -0.02054794520547945,
+            "wins": 0,
+            "losses": 3,
+            "ties": 143,
+            "clusters": 146,
+            "seed": 3615778150,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.04794520547945205,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        },
+        "hotpot_clean": {
+          "joint_vs_plain_set": {
+            "n": 104,
+            "metric": "f1",
+            "delta": 0.011217948717948716,
+            "wins": 6,
+            "losses": 5,
+            "ties": 93,
+            "clusters": 103,
+            "seed": 1732625034,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.04647435897435898,
+              0.06796116504854369
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_set_graph": {
+            "n": 104,
+            "metric": "f1",
+            "delta": 0.038461538461538464,
+            "wins": 5,
+            "losses": 0,
+            "ties": 99,
+            "clusters": 103,
+            "seed": 3408429501,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.009523809523809525,
+              0.07692307692307693
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_strong_chain": {
+            "n": 104,
+            "metric": "f1",
+            "delta": 0.003205128205128205,
+            "wins": 1,
+            "losses": 0,
+            "ties": 103,
+            "clusters": 103,
+            "seed": 1091366841,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.009708737864077669
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        }
+      },
+      "packet_identity": {
+        "hotpot_conflict": {
+          "joint_vs_plain_set": {
+            "same_packets": 57,
+            "n": 146
+          },
+          "joint_vs_set_graph": {
+            "same_packets": 112,
+            "n": 146
+          },
+          "joint_vs_strong_chain": {
+            "same_packets": 124,
+            "n": 146
+          }
+        },
+        "hotpot_clean": {
+          "joint_vs_plain_set": {
+            "same_packets": 80,
+            "n": 104
+          },
+          "joint_vs_set_graph": {
+            "same_packets": 94,
+            "n": 104
+          },
+          "joint_vs_strong_chain": {
+            "same_packets": 103,
+            "n": 104
+          }
+        }
+      }
+    },
+    "256": {
+      "completed_n": 250,
+      "tables": {
+        "hotpot_conflict": {
+          "plain_set": {
+            "n": 146,
+            "correct": 21.0,
+            "em": 0.14383561643835616,
+            "f1": 0.14383561643835616,
+            "conflict_count": 21,
+            "invalid": 1,
+            "mean_source_tokens": 247.3013698630137,
+            "reader_cost": {
+              "calls": 291.0,
+              "input_tokens": 171997.0,
+              "output_tokens": 17367.0,
+              "seconds": 946.4313280959614
+            },
+            "construction_cost": {
+              "calls": 146.0,
+              "input_tokens": 135211.0,
+              "output_tokens": 5562.0,
+              "seconds": 1082.5567193015013
+            },
+            "logical_total_cost": {
+              "calls": 437.0,
+              "input_tokens": 307208.0,
+              "output_tokens": 22929.0,
+              "seconds": 2028.9880473974627
+            },
+            "automatic_graph_both_sides_retained_questions": 28,
+            "automatic_graph_one_sided_questions": 45,
+            "fallback_counts": {}
+          },
+          "set_graph": {
+            "n": 146,
+            "correct": 14.0,
+            "em": 0.0958904109589041,
+            "f1": 0.0958904109589041,
+            "conflict_count": 14,
+            "invalid": 0,
+            "mean_source_tokens": 247.513698630137,
+            "reader_cost": {
+              "calls": 292.0,
+              "input_tokens": 172085.0,
+              "output_tokens": 16483.0,
+              "seconds": 910.9358231972437
+            },
+            "construction_cost": {
+              "calls": 1391.0,
+              "input_tokens": 721792.0,
+              "output_tokens": 1009059.0,
+              "seconds": 49588.10687050549
+            },
+            "logical_total_cost": {
+              "calls": 1683.0,
+              "input_tokens": 893877.0,
+              "output_tokens": 1025542.0,
+              "seconds": 50499.04269370274
+            },
+            "automatic_graph_both_sides_retained_questions": 26,
+            "automatic_graph_one_sided_questions": 44,
+            "fallback_counts": {}
+          },
+          "strong_chain": {
+            "n": 146,
+            "correct": 36.0,
+            "em": 0.2465753424657534,
+            "f1": 0.2465753424657534,
+            "conflict_count": 36,
+            "invalid": 1,
+            "mean_source_tokens": 247.6095890410959,
+            "reader_cost": {
+              "calls": 291.0,
+              "input_tokens": 172687.0,
+              "output_tokens": 17949.0,
+              "seconds": 968.7567629979458
+            },
+            "construction_cost": {
+              "calls": 1391.0,
+              "input_tokens": 721792.0,
+              "output_tokens": 1009059.0,
+              "seconds": 49588.10687050549
+            },
+            "logical_total_cost": {
+              "calls": 1682.0,
+              "input_tokens": 894479.0,
+              "output_tokens": 1027008.0,
+              "seconds": 50556.86363350344
+            },
+            "automatic_graph_both_sides_retained_questions": 62,
+            "automatic_graph_one_sided_questions": 18,
+            "fallback_counts": {
+              "no_model_accepted_complete_chain": 12
+            }
+          },
+          "joint": {
+            "n": 146,
+            "correct": 36.0,
+            "em": 0.2465753424657534,
+            "f1": 0.2465753424657534,
+            "conflict_count": 36,
+            "invalid": 1,
+            "mean_source_tokens": 247.4794520547945,
+            "reader_cost": {
+              "calls": 291.0,
+              "input_tokens": 172690.0,
+              "output_tokens": 17967.0,
+              "seconds": 968.0715345975477
+            },
+            "construction_cost": {
+              "calls": 1391.0,
+              "input_tokens": 721792.0,
+              "output_tokens": 1009059.0,
+              "seconds": 49588.10687050549
+            },
+            "logical_total_cost": {
+              "calls": 1682.0,
+              "input_tokens": 894482.0,
+              "output_tokens": 1027026.0,
+              "seconds": 50556.17840510304
+            },
+            "automatic_graph_both_sides_retained_questions": 63,
+            "automatic_graph_one_sided_questions": 13,
+            "fallback_counts": {
+              "no_complete_balanced_conflict_fits_budget": 22,
+              "no_model_accepted_complete_chain": 12
+            }
+          }
+        },
+        "hotpot_clean": {
+          "plain_set": {
+            "n": 104,
+            "correct": 61.0,
+            "em": 0.5865384615384616,
+            "f1": 0.7520604395604396,
+            "conflict_count": 2,
+            "invalid": 0,
+            "mean_source_tokens": 236.0096153846154,
+            "reader_cost": {
+              "calls": 208.0,
+              "input_tokens": 118891.0,
+              "output_tokens": 10308.0,
+              "seconds": 745.7567493006354
+            },
+            "construction_cost": {
+              "calls": 104.0,
+              "input_tokens": 59580.0,
+              "output_tokens": 3949.0,
+              "seconds": 257.5760604995303
+            },
+            "logical_total_cost": {
+              "calls": 312.0,
+              "input_tokens": 178471.0,
+              "output_tokens": 14257.0,
+              "seconds": 1003.3328098001657
+            },
+            "automatic_graph_both_sides_retained_questions": 4,
+            "automatic_graph_one_sided_questions": 1,
+            "fallback_counts": {}
+          },
+          "set_graph": {
+            "n": 104,
+            "correct": 59.0,
+            "em": 0.5673076923076923,
+            "f1": 0.7328296703296703,
+            "conflict_count": 2,
+            "invalid": 0,
+            "mean_source_tokens": 236.3846153846154,
+            "reader_cost": {
+              "calls": 208.0,
+              "input_tokens": 119085.0,
+              "output_tokens": 10418.0,
+              "seconds": 746.1362910002936
+            },
+            "construction_cost": {
+              "calls": 817.0,
+              "input_tokens": 350931.0,
+              "output_tokens": 525123.0,
+              "seconds": 21946.56306220265
+            },
+            "logical_total_cost": {
+              "calls": 1025.0,
+              "input_tokens": 470016.0,
+              "output_tokens": 535541.0,
+              "seconds": 22692.699353202945
+            },
+            "automatic_graph_both_sides_retained_questions": 5,
+            "automatic_graph_one_sided_questions": 0,
+            "fallback_counts": {}
+          },
+          "strong_chain": {
+            "n": 104,
+            "correct": 58.0,
+            "em": 0.5576923076923077,
+            "f1": 0.7296245421245421,
+            "conflict_count": 2,
+            "invalid": 0,
+            "mean_source_tokens": 237.02884615384616,
+            "reader_cost": {
+              "calls": 208.0,
+              "input_tokens": 119090.0,
+              "output_tokens": 10293.0,
+              "seconds": 747.5666845005471
+            },
+            "construction_cost": {
+              "calls": 817.0,
+              "input_tokens": 350931.0,
+              "output_tokens": 525123.0,
+              "seconds": 21946.56306220265
+            },
+            "logical_total_cost": {
+              "calls": 1025.0,
+              "input_tokens": 470021.0,
+              "output_tokens": 535416.0,
+              "seconds": 22694.129746703198
+            },
+            "automatic_graph_both_sides_retained_questions": 5,
+            "automatic_graph_one_sided_questions": 0,
+            "fallback_counts": {
+              "no_model_accepted_complete_chain": 5
+            }
+          },
+          "joint": {
+            "n": 104,
+            "correct": 58.0,
+            "em": 0.5576923076923077,
+            "f1": 0.7296245421245421,
+            "conflict_count": 2,
+            "invalid": 0,
+            "mean_source_tokens": 237.02884615384616,
+            "reader_cost": {
+              "calls": 208.0,
+              "input_tokens": 119090.0,
+              "output_tokens": 10293.0,
+              "seconds": 747.5666845005471
+            },
+            "construction_cost": {
+              "calls": 817.0,
+              "input_tokens": 350931.0,
+              "output_tokens": 525123.0,
+              "seconds": 21946.56306220265
+            },
+            "logical_total_cost": {
+              "calls": 1025.0,
+              "input_tokens": 470021.0,
+              "output_tokens": 535416.0,
+              "seconds": 22694.129746703198
+            },
+            "automatic_graph_both_sides_retained_questions": 5,
+            "automatic_graph_one_sided_questions": 0,
+            "fallback_counts": {
+              "no_complete_balanced_conflict_fits_budget": 1,
+              "no_model_accepted_complete_chain": 5
+            }
+          }
+        }
+      },
+      "paired_comparisons": {
+        "hotpot_conflict": {
+          "joint_vs_plain_set": {
+            "n": 146,
+            "metric": "em",
+            "delta": 0.10273972602739725,
+            "wins": 25,
+            "losses": 10,
+            "ties": 111,
+            "clusters": 146,
+            "seed": 1962947992,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0273972602739726,
+              0.18493150684931506
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_set_graph": {
+            "n": 146,
+            "metric": "em",
+            "delta": 0.1506849315068493,
+            "wins": 25,
+            "losses": 3,
+            "ties": 118,
+            "clusters": 146,
+            "seed": 1327552096,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.08904109589041095,
+              0.2191780821917808
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_strong_chain": {
+            "n": 146,
+            "metric": "em",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 146,
+            "clusters": 146,
+            "seed": 3615778150,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        },
+        "hotpot_clean": {
+          "joint_vs_plain_set": {
+            "n": 104,
+            "metric": "f1",
+            "delta": -0.022435897435897436,
+            "wins": 0,
+            "losses": 3,
+            "ties": 101,
+            "clusters": 103,
+            "seed": 1732625034,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.05177993527508091,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_set_graph": {
+            "n": 104,
+            "metric": "f1",
+            "delta": -0.0032051282051282055,
+            "wins": 0,
+            "losses": 1,
+            "ties": 103,
+            "clusters": 103,
+            "seed": 3408429501,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.009708737864077669,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_strong_chain": {
+            "n": 104,
+            "metric": "f1",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 104,
+            "clusters": 103,
+            "seed": 1091366841,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        }
+      },
+      "packet_identity": {
+        "hotpot_conflict": {
+          "joint_vs_plain_set": {
+            "same_packets": 51,
+            "n": 146
+          },
+          "joint_vs_set_graph": {
+            "same_packets": 79,
+            "n": 146
+          },
+          "joint_vs_strong_chain": {
+            "same_packets": 139,
+            "n": 146
+          }
+        },
+        "hotpot_clean": {
+          "joint_vs_plain_set": {
+            "same_packets": 88,
+            "n": 104
+          },
+          "joint_vs_set_graph": {
+            "same_packets": 89,
+            "n": 104
+          },
+          "joint_vs_strong_chain": {
+            "same_packets": 104,
+            "n": 104
+          }
+        }
+      }
+    },
+    "512": {
+      "completed_n": 250,
+      "tables": {
+        "hotpot_conflict": {
+          "plain_set": {
+            "n": 146,
+            "correct": 60.0,
+            "em": 0.410958904109589,
+            "f1": 0.410958904109589,
+            "conflict_count": 60,
+            "invalid": 0,
+            "mean_source_tokens": 476.63013698630135,
+            "reader_cost": {
+              "calls": 292.0,
+              "input_tokens": 242209.0,
+              "output_tokens": 19706.0,
+              "seconds": 930.8332012982573
+            },
+            "construction_cost": {
+              "calls": 101.0,
+              "input_tokens": 105758.0,
+              "output_tokens": 4130.0,
+              "seconds": 417.2461320993025
+            },
+            "logical_total_cost": {
+              "calls": 393.0,
+              "input_tokens": 347967.0,
+              "output_tokens": 23836.0,
+              "seconds": 1348.0793333975598
+            },
+            "automatic_graph_both_sides_retained_questions": 62,
+            "automatic_graph_one_sided_questions": 16,
+            "fallback_counts": {}
+          },
+          "set_graph": {
+            "n": 146,
+            "correct": 58.0,
+            "em": 0.3972602739726027,
+            "f1": 0.3972602739726027,
+            "conflict_count": 58,
+            "invalid": 0,
+            "mean_source_tokens": 476.28767123287673,
+            "reader_cost": {
+              "calls": 292.0,
+              "input_tokens": 241803.0,
+              "output_tokens": 19394.0,
+              "seconds": 916.3072821984533
+            },
+            "construction_cost": {
+              "calls": 957.0,
+              "input_tokens": 530234.0,
+              "output_tokens": 707755.0,
+              "seconds": 34734.196697100764
+            },
+            "logical_total_cost": {
+              "calls": 1249.0,
+              "input_tokens": 772037.0,
+              "output_tokens": 727149.0,
+              "seconds": 35650.50397929922
+            },
+            "automatic_graph_both_sides_retained_questions": 64,
+            "automatic_graph_one_sided_questions": 13,
+            "fallback_counts": {}
+          },
+          "strong_chain": {
+            "n": 146,
+            "correct": 63.0,
+            "em": 0.4315068493150685,
+            "f1": 0.4315068493150685,
+            "conflict_count": 63,
+            "invalid": 0,
+            "mean_source_tokens": 476.0342465753425,
+            "reader_cost": {
+              "calls": 292.0,
+              "input_tokens": 242586.0,
+              "output_tokens": 20274.0,
+              "seconds": 950.8326185983606
+            },
+            "construction_cost": {
+              "calls": 957.0,
+              "input_tokens": 530234.0,
+              "output_tokens": 707755.0,
+              "seconds": 34734.196697100764
+            },
+            "logical_total_cost": {
+              "calls": 1249.0,
+              "input_tokens": 772820.0,
+              "output_tokens": 728029.0,
+              "seconds": 35685.029315699125
+            },
+            "automatic_graph_both_sides_retained_questions": 80,
+            "automatic_graph_one_sided_questions": 0,
+            "fallback_counts": {
+              "no_model_accepted_complete_chain": 7
+            }
+          },
+          "joint": {
+            "n": 146,
+            "correct": 63.0,
+            "em": 0.4315068493150685,
+            "f1": 0.4315068493150685,
+            "conflict_count": 63,
+            "invalid": 0,
+            "mean_source_tokens": 476.0342465753425,
+            "reader_cost": {
+              "calls": 292.0,
+              "input_tokens": 242586.0,
+              "output_tokens": 20274.0,
+              "seconds": 950.8326185983606
+            },
+            "construction_cost": {
+              "calls": 957.0,
+              "input_tokens": 530234.0,
+              "output_tokens": 707755.0,
+              "seconds": 34734.196697100764
+            },
+            "logical_total_cost": {
+              "calls": 1249.0,
+              "input_tokens": 772820.0,
+              "output_tokens": 728029.0,
+              "seconds": 35685.029315699125
+            },
+            "automatic_graph_both_sides_retained_questions": 80,
+            "automatic_graph_one_sided_questions": 0,
+            "fallback_counts": {
+              "no_model_accepted_complete_chain": 7
+            }
+          }
+        },
+        "hotpot_clean": {
+          "plain_set": {
+            "n": 104,
+            "correct": 69.0,
+            "em": 0.6634615384615384,
+            "f1": 0.8193681318681318,
+            "conflict_count": 0,
+            "invalid": 0,
+            "mean_source_tokens": 344.625,
+            "reader_cost": {
+              "calls": 208.0,
+              "input_tokens": 141476.0,
+              "output_tokens": 10309.0,
+              "seconds": 469.43777049984783
+            },
+            "construction_cost": {
+              "calls": 4.0,
+              "input_tokens": 3323.0,
+              "output_tokens": 160.0,
+              "seconds": 7.82808730006218
+            },
+            "logical_total_cost": {
+              "calls": 212.0,
+              "input_tokens": 144799.0,
+              "output_tokens": 10469.0,
+              "seconds": 477.26585779991
+            },
+            "automatic_graph_both_sides_retained_questions": 5,
+            "automatic_graph_one_sided_questions": 0,
+            "fallback_counts": {}
+          },
+          "set_graph": {
+            "n": 104,
+            "correct": 69.0,
+            "em": 0.6634615384615384,
+            "f1": 0.8193681318681318,
+            "conflict_count": 0,
+            "invalid": 0,
+            "mean_source_tokens": 344.625,
+            "reader_cost": {
+              "calls": 208.0,
+              "input_tokens": 141476.0,
+              "output_tokens": 10309.0,
+              "seconds": 469.43777049984783
+            },
+            "construction_cost": {
+              "calls": 34.0,
+              "input_tokens": 17885.0,
+              "output_tokens": 18240.0,
+              "seconds": 779.0300909997895
+            },
+            "logical_total_cost": {
+              "calls": 242.0,
+              "input_tokens": 159361.0,
+              "output_tokens": 28549.0,
+              "seconds": 1248.4678614996374
+            },
+            "automatic_graph_both_sides_retained_questions": 5,
+            "automatic_graph_one_sided_questions": 0,
+            "fallback_counts": {}
+          },
+          "strong_chain": {
+            "n": 104,
+            "correct": 69.0,
+            "em": 0.6634615384615384,
+            "f1": 0.8193681318681318,
+            "conflict_count": 0,
+            "invalid": 0,
+            "mean_source_tokens": 344.625,
+            "reader_cost": {
+              "calls": 208.0,
+              "input_tokens": 141476.0,
+              "output_tokens": 10309.0,
+              "seconds": 469.43777049984783
+            },
+            "construction_cost": {
+              "calls": 34.0,
+              "input_tokens": 17885.0,
+              "output_tokens": 18240.0,
+              "seconds": 779.0300909997895
+            },
+            "logical_total_cost": {
+              "calls": 242.0,
+              "input_tokens": 159361.0,
+              "output_tokens": 28549.0,
+              "seconds": 1248.4678614996374
+            },
+            "automatic_graph_both_sides_retained_questions": 5,
+            "automatic_graph_one_sided_questions": 0,
+            "fallback_counts": {}
+          },
+          "joint": {
+            "n": 104,
+            "correct": 69.0,
+            "em": 0.6634615384615384,
+            "f1": 0.8193681318681318,
+            "conflict_count": 0,
+            "invalid": 0,
+            "mean_source_tokens": 344.625,
+            "reader_cost": {
+              "calls": 208.0,
+              "input_tokens": 141476.0,
+              "output_tokens": 10309.0,
+              "seconds": 469.43777049984783
+            },
+            "construction_cost": {
+              "calls": 34.0,
+              "input_tokens": 17885.0,
+              "output_tokens": 18240.0,
+              "seconds": 779.0300909997895
+            },
+            "logical_total_cost": {
+              "calls": 242.0,
+              "input_tokens": 159361.0,
+              "output_tokens": 28549.0,
+              "seconds": 1248.4678614996374
+            },
+            "automatic_graph_both_sides_retained_questions": 5,
+            "automatic_graph_one_sided_questions": 0,
+            "fallback_counts": {}
+          }
+        }
+      },
+      "paired_comparisons": {
+        "hotpot_conflict": {
+          "joint_vs_plain_set": {
+            "n": 146,
+            "metric": "em",
+            "delta": 0.02054794520547945,
+            "wins": 7,
+            "losses": 4,
+            "ties": 135,
+            "clusters": 146,
+            "seed": 1962947992,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.02054794520547945,
+              0.0684931506849315
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_set_graph": {
+            "n": 146,
+            "metric": "em",
+            "delta": 0.03424657534246575,
+            "wins": 6,
+            "losses": 1,
+            "ties": 139,
+            "clusters": 146,
+            "seed": 1327552096,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0684931506849315
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_strong_chain": {
+            "n": 146,
+            "metric": "em",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 146,
+            "clusters": 146,
+            "seed": 3615778150,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        },
+        "hotpot_clean": {
+          "joint_vs_plain_set": {
+            "n": 104,
+            "metric": "f1",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 104,
+            "clusters": 103,
+            "seed": 1732625034,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_set_graph": {
+            "n": 104,
+            "metric": "f1",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 104,
+            "clusters": 103,
+            "seed": 3408429501,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_strong_chain": {
+            "n": 104,
+            "metric": "f1",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 104,
+            "clusters": 103,
+            "seed": 1091366841,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        }
+      },
+      "packet_identity": {
+        "hotpot_conflict": {
+          "joint_vs_plain_set": {
+            "same_packets": 102,
+            "n": 146
+          },
+          "joint_vs_set_graph": {
+            "same_packets": 120,
+            "n": 146
+          },
+          "joint_vs_strong_chain": {
+            "same_packets": 146,
+            "n": 146
+          }
+        },
+        "hotpot_clean": {
+          "joint_vs_plain_set": {
+            "same_packets": 104,
+            "n": 104
+          },
+          "joint_vs_set_graph": {
+            "same_packets": 104,
+            "n": 104
+          },
+          "joint_vs_strong_chain": {
+            "same_packets": 104,
+            "n": 104
+          }
+        }
+      }
+    }
+  },
+  "within_arm_budget_comparisons": {
+    "hotpot_conflict": {
+      "plain_set": {
+        "256_minus_128": {
+          "n": 146,
+          "metric": "em",
+          "delta": 0.08904109589041095,
+          "wins": 16,
+          "losses": 3,
+          "ties": 127,
+          "clusters": 146,
+          "seed": 3008833127,
+          "bootstrap_replicates": 10000,
+          "percentile95": [
+            0.03424657534246575,
+            0.14383561643835616
+          ],
+          "scope": "Known development questions; descriptive uncertainty only."
+        },
+        "512_minus_256": {
+          "n": 146,
+          "metric": "em",
+          "delta": 0.2671232876712329,
+          "wins": 43,
+          "losses": 4,
+          "ties": 99,
+          "clusters": 146,
+          "seed": 141448202,
+          "bootstrap_replicates": 10000,
+          "percentile95": [
+            0.18493150684931506,
+            0.3493150684931507
+          ],
+          "scope": "Known development questions; descriptive uncertainty only."
+        }
+      },
+      "set_graph": {
+        "256_minus_128": {
+          "n": 146,
+          "metric": "em",
+          "delta": 0.0547945205479452,
+          "wins": 11,
+          "losses": 3,
+          "ties": 132,
+          "clusters": 146,
+          "seed": 1080882141,
+          "bootstrap_replicates": 10000,
+          "percentile95": [
+            0.00684931506849315,
+            0.10273972602739725
+          ],
+          "scope": "Known development questions; descriptive uncertainty only."
+        },
+        "512_minus_256": {
+          "n": 146,
+          "metric": "em",
+          "delta": 0.3013698630136986,
+          "wins": 46,
+          "losses": 2,
+          "ties": 98,
+          "clusters": 146,
+          "seed": 1762089192,
+          "bootstrap_replicates": 10000,
+          "percentile95": [
+            0.2191780821917808,
+            0.3767123287671233
+          ],
+          "scope": "Known development questions; descriptive uncertainty only."
+        }
+      },
+      "strong_chain": {
+        "256_minus_128": {
+          "n": 146,
+          "metric": "em",
+          "delta": 0.136986301369863,
+          "wins": 30,
+          "losses": 10,
+          "ties": 106,
+          "clusters": 146,
+          "seed": 935807494,
+          "bootstrap_replicates": 10000,
+          "percentile95": [
+            0.0547945205479452,
+            0.2191780821917808
+          ],
+          "scope": "Known development questions; descriptive uncertainty only."
+        },
+        "512_minus_256": {
+          "n": 146,
+          "metric": "em",
+          "delta": 0.18493150684931506,
+          "wins": 34,
+          "losses": 7,
+          "ties": 105,
+          "clusters": 146,
+          "seed": 455322971,
+          "bootstrap_replicates": 10000,
+          "percentile95": [
+            0.10273972602739725,
+            0.2671232876712329
+          ],
+          "scope": "Known development questions; descriptive uncertainty only."
+        }
+      },
+      "joint": {
+        "256_minus_128": {
+          "n": 146,
+          "metric": "em",
+          "delta": 0.15753424657534246,
+          "wins": 30,
+          "losses": 7,
+          "ties": 109,
+          "clusters": 146,
+          "seed": 2911590196,
+          "bootstrap_replicates": 10000,
+          "percentile95": [
+            0.0821917808219178,
+            0.2328767123287671
+          ],
+          "scope": "Known development questions; descriptive uncertainty only."
+        },
+        "512_minus_256": {
+          "n": 146,
+          "metric": "em",
+          "delta": 0.18493150684931506,
+          "wins": 34,
+          "losses": 7,
+          "ties": 105,
+          "clusters": 146,
+          "seed": 3267700772,
+          "bootstrap_replicates": 10000,
+          "percentile95": [
+            0.10273972602739725,
+            0.2671232876712329
+          ],
+          "scope": "Known development questions; descriptive uncertainty only."
+        }
+      }
+    },
+    "hotpot_clean": {
+      "plain_set": {
+        "256_minus_128": {
+          "n": 104,
+          "metric": "f1",
+          "delta": 0.09615384615384616,
+          "wins": 17,
+          "losses": 6,
+          "ties": 81,
+          "clusters": 103,
+          "seed": 3316768749,
+          "bootstrap_replicates": 10000,
+          "percentile95": [
+            0.02357939516840064,
+            0.17460508241758238
+          ],
+          "scope": "Known development questions; descriptive uncertainty only."
+        },
+        "512_minus_256": {
+          "n": 104,
+          "metric": "f1",
+          "delta": 0.0673076923076923,
+          "wins": 11,
+          "losses": 2,
+          "ties": 91,
+          "clusters": 103,
+          "seed": 4036982344,
+          "bootstrap_replicates": 10000,
+          "percentile95": [
+            0.016504854368932037,
+            0.12307692307692307
+          ],
+          "scope": "Known development questions; descriptive uncertainty only."
+        }
+      },
+      "set_graph": {
+        "256_minus_128": {
+          "n": 104,
+          "metric": "f1",
+          "delta": 0.10416666666666667,
+          "wins": 18,
+          "losses": 4,
+          "ties": 82,
+          "clusters": 103,
+          "seed": 1093394088,
+          "bootstrap_replicates": 10000,
+          "percentile95": [
+            0.0372168284789644,
+            0.17307692307692307
+          ],
+          "scope": "Known development questions; descriptive uncertainty only."
+        },
+        "512_minus_256": {
+          "n": 104,
+          "metric": "f1",
+          "delta": 0.08653846153846154,
+          "wins": 13,
+          "losses": 2,
+          "ties": 89,
+          "clusters": 103,
+          "seed": 3952663563,
+          "bootstrap_replicates": 10000,
+          "percentile95": [
+            0.030793040293040294,
+            0.14660194174757282
+          ],
+          "scope": "Known development questions; descriptive uncertainty only."
+        }
+      },
+      "strong_chain": {
+        "256_minus_128": {
+          "n": 104,
+          "metric": "f1",
+          "delta": 0.06570512820512821,
+          "wins": 14,
+          "losses": 5,
+          "ties": 85,
+          "clusters": 103,
+          "seed": 1415961599,
+          "bootstrap_replicates": 10000,
+          "percentile95": [
+            -2.1147105230955365e-18,
+            0.13141025641025642
+          ],
+          "scope": "Known development questions; descriptive uncertainty only."
+        },
+        "512_minus_256": {
+          "n": 104,
+          "metric": "f1",
+          "delta": 0.08974358974358974,
+          "wins": 13,
+          "losses": 1,
+          "ties": 90,
+          "clusters": 103,
+          "seed": 872746136,
+          "bootstrap_replicates": 10000,
+          "percentile95": [
+            0.03365384615384615,
+            0.15016562862551133
+          ],
+          "scope": "Known development questions; descriptive uncertainty only."
+        }
+      },
+      "joint": {
+        "256_minus_128": {
+          "n": 104,
+          "metric": "f1",
+          "delta": 0.0625,
+          "wins": 13,
+          "losses": 5,
+          "ties": 86,
+          "clusters": 103,
+          "seed": 3529807405,
+          "bootstrap_replicates": 10000,
+          "percentile95": [
+            -0.0016025641025641053,
+            0.13106796116504854
+          ],
+          "scope": "Known development questions; descriptive uncertainty only."
+        },
+        "512_minus_256": {
+          "n": 104,
+          "metric": "f1",
+          "delta": 0.08974358974358974,
+          "wins": 13,
+          "losses": 1,
+          "ties": 90,
+          "clusters": 103,
+          "seed": 4001806953,
+          "bootstrap_replicates": 10000,
+          "percentile95": [
+            0.03525595238095238,
+            0.15048932661189937
+          ],
+          "scope": "Known development questions; descriptive uncertainty only."
+        }
+      }
+    }
+  },
+  "cost": {
+    "new_selectors": {
+      "calls": 710,
+      "input_tokens": 663762,
+      "output_tokens": 22396,
+      "seconds": 2432.939607303124
+    },
+    "new_readers": {
+      "calls": 1419,
+      "input_tokens": 845115,
+      "output_tokens": 78092,
+      "seconds": 3389.777904098155
+    },
+    "new_completed_all": {
+      "calls": 2129,
+      "input_tokens": 1508877,
+      "output_tokens": 100488,
+      "seconds": 5822.717511401279
+    },
+    "new_partial_attempts": {
+      "calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.0
+    },
+    "new_all_attempts": {
+      "calls": 2129,
+      "input_tokens": 1508877,
+      "output_tokens": 100488,
+      "seconds": 5822.717511401279
+    },
+    "historical_reader_calls_reused": {
+      "calls": 824,
+      "input_tokens": 483299,
+      "output_tokens": 47258,
+      "seconds": 2774.1363916943083
+    },
+    "all102_calls_and_partials": {
+      "calls": 2953,
+      "input_tokens": 1992176,
+      "output_tokens": 147746,
+      "seconds": 8596.853903095587
+    },
+    "prior_fixed_graph_calls_for_full_cohort": {
+      "calls": 1958.0,
+      "input_tokens": 838907.0,
+      "output_tokens": 1528004.0,
+      "seconds": 69588.54225660651
+    },
+    "prior256_selection_calls_for_full_cohort": {
+      "calls": 500.0,
+      "input_tokens": 428607.0,
+      "output_tokens": 15689.0,
+      "seconds": 3286.260455902666
+    }
+  },
+  "invalid_calls_by_stage": {
+    "set_plain": 0,
+    "set_graph": 0,
+    "check": 3,
+    "answer": 0
+  },
+  "cohort": "Exactly all250 previously defined compression-required questions with candidate_cost>256 from Step100, regardless of outcomes. This curve is conditional on that cohort, not the350-question primary table. All three budgets retain every selected question.",
+  "scope": "Known benchmark compression cohort, fixed representation, one fixed8B reader stack. Completed4B256 main results remain separate. This is not new-source confirmation or a weights-only comparison.",
+  "cost_policy": "Report actual new calls and partial attempts separately from imported reader cost and prior fixed-graph construction. Per-budget logical cold-start construction includes graph cost whenever compression is required; skip it when the full pool fits. Plain_set never pays graph construction. Historical retrieval/ranking costs remain unknown. Source cap does not equalize cumulative tokens or compute.",
+  "decision": "All three budget points and prespecified controls are reported. No prompt/model/threshold/seed tuning, no output repair, no extra candidate pruning, no auto rerun of valid or invalid completed calls.",
+  "mechanism_scope": "Automatic graph coverage is a diagnostic, not independent semantic evidence certification. Budget variation alone is not the targeted deletion mechanism experiment."
+}

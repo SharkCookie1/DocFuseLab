@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript when using this analysis release."
+type: software
+title: "DocFuseLab evidence preservation analysis"
+version: 1.0.0
+authors:
+  - family-names: Zhang
+    given-names: Lingjia
+  - family-names: Wang
+    given-names: Shoujin
+abstract: "Analysis records and frozen selection components for complete evidence chains and opposing support under context budgets."
+keywords:
+  - retrieval-augmented generation
+  - evidence selection
+  - context budgets

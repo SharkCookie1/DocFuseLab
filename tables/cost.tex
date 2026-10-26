@@ -1,0 +1,17 @@
+\begin{table}[pos=H]
+\caption{Model computation across selection methods.}\label{tab:cost}
+\centering\small
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{lrrrr}
+\toprule
+Selector & Calls & Input tokens (M) & Output tokens (M) & Model time (h) \\
+\midrule
+Plain set & 900 & 0.926 & 0.044 & 2.15 \\
+SetR-IRI (adapted) & 900 & 0.986 & 0.308 & 6.53 \\
+MMR & 600 & 0.354 & 0.034 & 0.39 \\
+Same-graph set & 2,693 & 1.997 & 1.963 & 30.40 \\
+Chain closure & 2,693 & 1.997 & 1.963 & 30.40 \\
+Joint preservation & 2,693 & 1.997 & 1.963 & 30.41 \\
+\bottomrule
+\end{tabular}
+\end{table}

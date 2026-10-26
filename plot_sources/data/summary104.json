@@ -1,0 +1,3406 @@
+{
+  "experiment": "Step104 matched-source bridge and conflict-side interventions",
+  "status": "complete",
+  "complete": true,
+  "planned_questions": 25,
+  "completed_questions": 25,
+  "completed_packets": 75,
+  "completed_calls": 150,
+  "tables": {
+    "bridge": {
+      "intact": {
+        "n": 16,
+        "original_response_em": 0.5625,
+        "original_response_f1": 0.6791666666666667,
+        "context_appropriate_em": 0.5625,
+        "context_appropriate_f1": 0.6791666666666667,
+        "original_response_count": 9.0,
+        "context_appropriate_count": 9.0,
+        "conflict_count": 0,
+        "unknown_count": 1,
+        "invalid": 0,
+        "mean_source_tokens": 208.0,
+        "source_tokens_min": 148,
+        "source_tokens_max": 256,
+        "logical_reader_cost": {
+          "calls": 32.0,
+          "input_tokens": 17254.0,
+          "output_tokens": 1486.0,
+          "seconds": 100.64824610075448
+        }
+      },
+      "critical": {
+        "n": 16,
+        "original_response_em": 0.4375,
+        "original_response_f1": 0.4375,
+        "context_appropriate_em": 0.4375,
+        "context_appropriate_f1": 0.4375,
+        "original_response_count": 7.0,
+        "context_appropriate_count": 7.0,
+        "conflict_count": 0,
+        "unknown_count": 7,
+        "invalid": 0,
+        "mean_source_tokens": 208.1875,
+        "source_tokens_min": 148,
+        "source_tokens_max": 256,
+        "logical_reader_cost": {
+          "calls": 32.0,
+          "input_tokens": 17584.0,
+          "output_tokens": 1795.0,
+          "seconds": 135.65446949959733
+        }
+      },
+      "sham": {
+        "n": 16,
+        "original_response_em": 0.5625,
+        "original_response_f1": 0.6791666666666667,
+        "context_appropriate_em": 0.5625,
+        "context_appropriate_f1": 0.6791666666666667,
+        "original_response_count": 9.0,
+        "context_appropriate_count": 9.0,
+        "conflict_count": 0,
+        "unknown_count": 2,
+        "invalid": 0,
+        "mean_source_tokens": 208.125,
+        "source_tokens_min": 148,
+        "source_tokens_max": 256,
+        "logical_reader_cost": {
+          "calls": 32.0,
+          "input_tokens": 17314.0,
+          "output_tokens": 1541.0,
+          "seconds": 120.29027349990793
+        }
+      }
+    },
+    "side": {
+      "intact": {
+        "n": 9,
+        "original_response_em": 0.3333333333333333,
+        "original_response_f1": 0.3333333333333333,
+        "context_appropriate_em": 0.3333333333333333,
+        "context_appropriate_f1": 0.3333333333333333,
+        "original_response_count": 3.0,
+        "context_appropriate_count": 3.0,
+        "conflict_count": 3,
+        "unknown_count": 0,
+        "invalid": 0,
+        "mean_source_tokens": 251.22222222222223,
+        "source_tokens_min": 245,
+        "source_tokens_max": 256,
+        "logical_reader_cost": {
+          "calls": 18.0,
+          "input_tokens": 10689.0,
+          "output_tokens": 1003.0,
+          "seconds": 57.22842599952128
+        }
+      },
+      "critical": {
+        "n": 9,
+        "original_response_em": 0.0,
+        "original_response_f1": 0.0,
+        "context_appropriate_em": 0.8888888888888888,
+        "context_appropriate_f1": 0.8888888888888888,
+        "original_response_count": 0.0,
+        "context_appropriate_count": 8.0,
+        "conflict_count": 0,
+        "unknown_count": 1,
+        "invalid": 0,
+        "mean_source_tokens": 249.22222222222223,
+        "source_tokens_min": 242,
+        "source_tokens_max": 256,
+        "logical_reader_cost": {
+          "calls": 18.0,
+          "input_tokens": 10478.0,
+          "output_tokens": 833.0,
+          "seconds": 50.81088229990564
+        }
+      },
+      "sham": {
+        "n": 9,
+        "original_response_em": 0.5555555555555556,
+        "original_response_f1": 0.5555555555555556,
+        "context_appropriate_em": 0.5555555555555556,
+        "context_appropriate_f1": 0.5555555555555556,
+        "original_response_count": 5.0,
+        "context_appropriate_count": 5.0,
+        "conflict_count": 5,
+        "unknown_count": 0,
+        "invalid": 0,
+        "mean_source_tokens": 249.0,
+        "source_tokens_min": 239,
+        "source_tokens_max": 256,
+        "logical_reader_cost": {
+          "calls": 18.0,
+          "input_tokens": 10813.0,
+          "output_tokens": 1169.0,
+          "seconds": 71.09358280082233
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "bridge": {
+      "primary_sham_minus_critical": {
+        "n": 16,
+        "metric": "original_response_em",
+        "delta": 0.125,
+        "wins": 3,
+        "losses": 1,
+        "ties": 12,
+        "clusters": 16,
+        "seed": 3083620508,
+        "bootstrap_replicates": 10000,
+        "percentile95": [
+          -0.125,
+          0.375
+        ],
+        "scope": "Known development questions; descriptive uncertainty only.",
+        "two_sided_exact_discordant_p": 0.625,
+        "independent_source_clusters": true,
+        "interpretation": "Descriptive paired diagnostic on pre-reviewed known questions; no confirmatory significance claim or multiplicity adjustment."
+      },
+      "control_intact_minus_sham": {
+        "n": 16,
+        "metric": "original_response_em",
+        "delta": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "ties": 16,
+        "clusters": 16,
+        "seed": 1035247709,
+        "bootstrap_replicates": 10000,
+        "percentile95": [
+          0.0,
+          0.0
+        ],
+        "scope": "Known development questions; descriptive uncertainty only.",
+        "two_sided_exact_discordant_p": 1.0,
+        "independent_source_clusters": true,
+        "interpretation": "Descriptive paired diagnostic on pre-reviewed known questions; no confirmatory significance claim or multiplicity adjustment."
+      }
+    },
+    "side": {
+      "primary_sham_minus_critical": {
+        "n": 9,
+        "metric": "original_response_em",
+        "delta": 0.5555555555555556,
+        "wins": 5,
+        "losses": 0,
+        "ties": 4,
+        "clusters": 9,
+        "seed": 3083620508,
+        "bootstrap_replicates": 10000,
+        "percentile95": [
+          0.2222222222222222,
+          0.8888888888888888
+        ],
+        "scope": "Known development questions; descriptive uncertainty only.",
+        "two_sided_exact_discordant_p": 0.0625,
+        "independent_source_clusters": true,
+        "interpretation": "Descriptive paired diagnostic on pre-reviewed known questions; no confirmatory significance claim or multiplicity adjustment."
+      },
+      "control_intact_minus_sham": {
+        "n": 9,
+        "metric": "original_response_em",
+        "delta": -0.2222222222222222,
+        "wins": 1,
+        "losses": 3,
+        "ties": 5,
+        "clusters": 9,
+        "seed": 1035247709,
+        "bootstrap_replicates": 10000,
+        "percentile95": [
+          -0.6666666666666666,
+          0.2222222222222222
+        ],
+        "scope": "Known development questions; descriptive uncertainty only.",
+        "two_sided_exact_discordant_p": 0.625,
+        "independent_source_clusters": true,
+        "interpretation": "Descriptive paired diagnostic on pre-reviewed known questions; no confirmatory significance claim or multiplicity adjustment."
+      }
+    }
+  },
+  "cost": {
+    "new_completed_calls": {
+      "calls": 96,
+      "input_tokens": 53840,
+      "output_tokens": 5159,
+      "seconds": 369.96504480042495
+    },
+    "new_partial_attempts": {
+      "calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.0
+    },
+    "new_all_attempts": {
+      "calls": 96,
+      "input_tokens": 53840,
+      "output_tokens": 5159,
+      "seconds": 369.96504480042495
+    },
+    "historical_reader_calls_reused": {
+      "calls": 54,
+      "input_tokens": 30292,
+      "output_tokens": 2668,
+      "seconds": 165.76083540008403
+    },
+    "all_required_calls_and_partials": {
+      "calls": 150,
+      "input_tokens": 84132,
+      "output_tokens": 7827,
+      "seconds": 535.725880200509
+    },
+    "logical_cost_note": "Physical calls shared by identical packets are counted once. Per-arm logical costs must not be summed as physical execution cost."
+  },
+  "invalid_calls_by_stage": {},
+  "scope": "Controlled source-evidence diagnostic on known questions, not new-source generalization and not an independent advantage claim over strong_chain. Bridge and side groups are separate; no factorial interaction/synergy claim.",
+  "primary": "Per group, sham minus critical in preservation of the original supported response (bridge: reference-answer EM; side: CONFLICT response). Report paired difference, wins/losses/ties, exact discordant sign test and fixed-seed descriptive bootstrap95. No baseline-correctness filter.",
+  "secondary": "Intact vs sham perturbation control; critical context-appropriate response (UNKNOWN for lost bridge; remaining supported answer for lost side); F1, invalid responses, source lengths and full cost ledger. Never score a correctly changed answer as failure against the original CONFLICT label.",
+  "cost_policy": "Report actual new and reused calls separately; reuse retains historical inference cost. This reader-only intervention run does not establish end-to-end selector speedup.",
+  "interpretation": "Original-response preservation is a mechanism readout, NOT accuracy after evidence changes. A supported change to UNKNOWN/remaining answer is scored separately as context-appropriate.",
+  "details": [
+    {
+      "qid": "119202a14681e0d14d46eefb",
+      "group": "side",
+      "source_id": "d7962a8e980e415fa4938f1c5233899a",
+      "analysis_cluster": "84cca95d100c663892dda654",
+      "pre_output_review_reason": "同一视频博客的成立年1998与2005；移除1998句后保留2005句，新增文本不提供另一成立年。",
+      "edits": {
+        "remove": [
+          14
+        ],
+        "sham_remove": [
+          3
+        ],
+        "add": [
+          4
+        ],
+        "sham_add": [
+          16
+        ],
+        "tokens": [
+          245,
+          247,
+          239
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "CONFLICT",
+          "valid": true,
+          "source_ids": [
+            2,
+            3,
+            5,
+            11,
+            12,
+            14
+          ],
+          "source_tokens": 245,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "CONFLICT"
+          ],
+          "predicted_conflict": true,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1219,
+            "output_tokens": 135,
+            "seconds": 5.619024999905378
+          },
+          "record_keys": [
+            "01fc5cecfb1b7d5360b7a5c41f3754c829398f0a3d14a8f44fb007059cdb2f57__check",
+            "54b89e4987a7a3a4a0dfa93bbebda9802a4e627be6a52ee01e0d1740034bdcca__answer"
+          ]
+        },
+        "critical": {
+          "answer": "2005",
+          "valid": true,
+          "source_ids": [
+            2,
+            3,
+            4,
+            5,
+            11,
+            12
+          ],
+          "source_tokens": 247,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "2005"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1202,
+            "output_tokens": 116,
+            "seconds": 4.999290099949576
+          },
+          "record_keys": [
+            "b9f55c415d14b1afd2a2d61dfb116b37448fd4a8fd51a665788b9c24e5d4f635__check",
+            "173394c96e8784db50ae6ae2ce7ce0df975cd5a93cc7c721ad98e058e2c3542b__answer"
+          ]
+        },
+        "sham": {
+          "answer": "2005",
+          "valid": true,
+          "source_ids": [
+            2,
+            5,
+            11,
+            12,
+            14,
+            16
+          ],
+          "source_tokens": 239,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "CONFLICT"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1262,
+            "output_tokens": 192,
+            "seconds": 11.845162299927324
+          },
+          "record_keys": [
+            "88ef4f24c2a23895a802eb373ac40bb2d188f5bbbdde17019d9614e2ae3a8866__check",
+            "0dfff169c80169affd553ac288fa376d6ed46694c4ec2045a659c930e89f6a02__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "15996e379b48cdae3fa7a2bb",
+      "group": "bridge",
+      "source_id": "5ac35003554299741d48a24b",
+      "analysis_cluster": "3faeb26ecf2aa8417996d2ed",
+      "pre_output_review_reason": "去除Meyers Mill被征收用于Savannah River Plant的关系，保留核设施名称和属性。",
+      "edits": {
+        "remove": [
+          4
+        ],
+        "sham_remove": [
+          1
+        ],
+        "add": [
+          17
+        ],
+        "sham_add": [
+          44
+        ],
+        "tokens": [
+          229,
+          230,
+          230
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "Savannah River Site",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            3,
+            4,
+            26,
+            27
+          ],
+          "source_tokens": 229,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "The Savannah River Site"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1145,
+            "output_tokens": 110,
+            "seconds": 6.620375300059095
+          },
+          "record_keys": [
+            "6704270a572a4bc22289c8ba8c1aa153073175d4bda862deb60b312ab9d98ab5__check",
+            "3b26fc5d27f9a2ea41d2d82aa787df4ecc5c2659e597b1bb368accf3dbb50cd7__answer"
+          ]
+        },
+        "critical": {
+          "answer": "Savannah River Site",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            3,
+            17,
+            26,
+            27
+          ],
+          "source_tokens": 230,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "UNKNOWN"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1157,
+            "output_tokens": 120,
+            "seconds": 6.976830600062385
+          },
+          "record_keys": [
+            "7af93558d6ed9d30dee866b6b013bd616c64982e51af255dfed17ae08d1506e1__check",
+            "65d9677dec9a3bbcc63ecd0abf8c1093cccee81b49184a65fc60cd2f451761b3__answer"
+          ]
+        },
+        "sham": {
+          "answer": "Savannah River Site",
+          "valid": true,
+          "source_ids": [
+            2,
+            3,
+            4,
+            26,
+            27,
+            44
+          ],
+          "source_tokens": 230,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "The Savannah River Site"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1115,
+            "output_tokens": 78,
+            "seconds": 5.43252049991861
+          },
+          "record_keys": [
+            "029cdcc1998b57aeed40ca572859186bbfb503d5fdbd1469b99fc78f92a7dea9__check",
+            "2c7168289c0b77ec0a96f234d0210aebcdb11cf01e6a8acd99ed53f1c45eac03__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "1b365d9c527b9edf31dc073f",
+      "group": "bridge",
+      "source_id": "5ade595e5542992fa25da761",
+      "analysis_cluster": "8f309692526992d6b2fb3675",
+      "pre_output_review_reason": "去除C. C. Babcock与Lauren Lane的连接，保留Interface演员及Punk #1角色信息。",
+      "edits": {
+        "remove": [
+          21
+        ],
+        "sham_remove": [
+          26
+        ],
+        "add": [
+          8
+        ],
+        "sham_add": [
+          2
+        ],
+        "tokens": [
+          177,
+          176,
+          176
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "John Davies",
+          "valid": true,
+          "source_ids": [
+            20,
+            21,
+            24,
+            25,
+            26,
+            27
+          ],
+          "source_tokens": 177,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "Lou Diamond Phillips"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1052,
+            "output_tokens": 110,
+            "seconds": 5.660611300030723
+          },
+          "record_keys": [
+            "49fe1061e4651d1eecf1adf8db5494a755ba159ba37e02ac4d6818693e03c5f1__check",
+            "9760779c03207ea9625149b252cc5cc684016321a9ce61807acbac7d5bfe8d77__answer"
+          ]
+        },
+        "critical": {
+          "answer": "John Davies",
+          "valid": true,
+          "source_ids": [
+            8,
+            20,
+            24,
+            25,
+            26,
+            27
+          ],
+          "source_tokens": 176,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "UNKNOWN"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1060,
+            "output_tokens": 120,
+            "seconds": 6.552957500098273
+          },
+          "record_keys": [
+            "41abda1cf9f7fb2bb0e6ed60c6ee791f9d2dbd7b86bef682bde851af8b7f4f92__check",
+            "80542490013af3b82e81d40693a49c6b6587f1f0e5bd5be0f9edfbeca3b8223d__answer"
+          ]
+        },
+        "sham": {
+          "answer": "UNKNOWN",
+          "valid": true,
+          "source_ids": [
+            2,
+            20,
+            21,
+            24,
+            25,
+            27
+          ],
+          "source_tokens": 176,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "Lou Diamond Phillips"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": true,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1052,
+            "output_tokens": 111,
+            "seconds": 6.318721399875358
+          },
+          "record_keys": [
+            "d83f15c67bcc56da32a49c0195712f2594f0a5f3e57e910779396b1fd6969477__check",
+            "03b3bd46841a30ddcbfab68b6a4ebc4ff15ce56d1488248623e4ae6d2c0ae7b8__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "1c54e0572c9f0e60b8ca7bc4",
+      "group": "side",
+      "source_id": "4d88ad099584465084c597a68a8f103b",
+      "analysis_cluster": "421b2158b478f7fa9d9ff07e",
+      "pre_output_review_reason": "同一航空公司美国商业航空排名8th与2nd；移除8th句，保留2nd句。",
+      "edits": {
+        "remove": [
+          10
+        ],
+        "sham_remove": [
+          1
+        ],
+        "add": [
+          26
+        ],
+        "sham_add": [
+          17
+        ],
+        "tokens": [
+          256,
+          256,
+          256
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "8",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            9,
+            10,
+            13,
+            16,
+            18,
+            20,
+            22,
+            23,
+            24
+          ],
+          "source_tokens": 256,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "CONFLICT"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1135,
+            "output_tokens": 60,
+            "seconds": 2.756279399851337
+          },
+          "record_keys": [
+            "8abe9706d5ce82812e7d732665d781f7c2369c031c7f8403f96cc9e71420051f__check",
+            "ad234c28b626874d9aadaa0611be2d8998183e030f2de38fa3b0f862b083779c__answer"
+          ]
+        },
+        "critical": {
+          "answer": "2nd",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            9,
+            13,
+            16,
+            18,
+            20,
+            22,
+            23,
+            24,
+            26
+          ],
+          "source_tokens": 256,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "2",
+            "2nd",
+            "second",
+            "2nd largest"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1158,
+            "output_tokens": 84,
+            "seconds": 5.719181900145486
+          },
+          "record_keys": [
+            "2520e6d06caee01e5353770bc39b496f13375fbb3bec042becbc3c73ed311e72__check",
+            "db90b625751361a90dfb35a5c71bd3611785fa2526a909ae6ab52d59feabdbac__answer"
+          ]
+        },
+        "sham": {
+          "answer": "CONFLICT",
+          "valid": true,
+          "source_ids": [
+            2,
+            4,
+            6,
+            8,
+            9,
+            10,
+            13,
+            16,
+            17,
+            18,
+            20,
+            22,
+            23,
+            24
+          ],
+          "source_tokens": 256,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "CONFLICT"
+          ],
+          "predicted_conflict": true,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1204,
+            "output_tokens": 130,
+            "seconds": 7.910733700031415
+          },
+          "record_keys": [
+            "a36002989bd32b0bb187e994da272ddf7bb4365d59654ce36d1e950b57687230__check",
+            "34b67339eb450b0624b72e012fecfeebac096c508cc249c313390a861a4acf61__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "2166e2bbd363741691b0751d",
+      "group": "side",
+      "source_id": "4d2082689a9f4cb88547bb2cac74abf0",
+      "analysis_cluster": "d67acda00357aec2c0f260e0",
+      "pre_output_review_reason": "同一球员同年同顺位被选中的球队不同；移除Dallas句，保留Miami句。",
+      "edits": {
+        "remove": [
+          8
+        ],
+        "sham_remove": [
+          3
+        ],
+        "add": [
+          15
+        ],
+        "sham_add": [
+          4
+        ],
+        "tokens": [
+          248,
+          248,
+          248
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "Dallas Cowboys",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            3,
+            8,
+            12,
+            16,
+            18
+          ],
+          "source_tokens": 248,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "CONFLICT"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1188,
+            "output_tokens": 100,
+            "seconds": 6.239705600077286
+          },
+          "record_keys": [
+            "78567cf169ac83b42f32e133d91671bee4699a833968c19c791400a92cf6ae73__check",
+            "b913dccd0921570d6d8449febc3d681e42f37b08356dccebf090a8ef20674a72__answer"
+          ]
+        },
+        "critical": {
+          "answer": "Miami Dolphins",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            3,
+            12,
+            15,
+            16,
+            18
+          ],
+          "source_tokens": 248,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "Miami Dolphins",
+            "the Miami Dolphins"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1159,
+            "output_tokens": 71,
+            "seconds": 5.253555899951607
+          },
+          "record_keys": [
+            "51cd5d0b291edb153a4970b5a752d55b56d2641045df7df2e3b35d327c72c9e8__check",
+            "713973e320f624389391dee3a9567d36df55f87c351cc2cbb650231af96d934b__answer"
+          ]
+        },
+        "sham": {
+          "answer": "CONFLICT",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            4,
+            8,
+            12,
+            16,
+            18
+          ],
+          "source_tokens": 248,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "CONFLICT"
+          ],
+          "predicted_conflict": true,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1209,
+            "output_tokens": 121,
+            "seconds": 7.611846100306138
+          },
+          "record_keys": [
+            "9e984e7141230755cf7d95ed51cf7cd27bfe6cda15865ba6f1e8351097d28626__check",
+            "de5a2aabf5fb86b8629d3705fb26aa29dc1b9c17fc5ea52e98a286daf51b73c9__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "25433ece97599f00f3fbda8a",
+      "group": "bridge",
+      "source_id": "5a8d4cf35542994ba4e3dc5f",
+      "analysis_cluster": "5cf9198ddd628a0e03f4436e",
+      "pre_output_review_reason": "去除Belknap County与Lakes Region的地域连接，保留WANH服务Lakes Region的信息。",
+      "edits": {
+        "remove": [
+          25
+        ],
+        "sham_remove": [
+          24
+        ],
+        "add": [
+          56
+        ],
+        "sham_add": [
+          2
+        ],
+        "tokens": [
+          227,
+          228,
+          228
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "WVNH",
+          "valid": true,
+          "source_ids": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "source_tokens": 227,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "WANH"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1129,
+            "output_tokens": 104,
+            "seconds": 9.645303200231865
+          },
+          "record_keys": [
+            "0022440799aeea4f5dfae47a1452466219e3148f55d4dde792074166aacef7a5__check",
+            "6222f79a9ebdb53c20e71befec6fa04db4aea8e5233bb2782fb3472679775226__answer"
+          ]
+        },
+        "critical": {
+          "answer": "WANH",
+          "valid": true,
+          "source_ids": [
+            24,
+            26,
+            27,
+            28,
+            29,
+            30,
+            56
+          ],
+          "source_tokens": 228,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "UNKNOWN"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1152,
+            "output_tokens": 125,
+            "seconds": 7.007449600147083
+          },
+          "record_keys": [
+            "ec24b4c65b8c5f67dd385cf9e28ab518b9514588168a32dd9bb84a286cd0d42a__check",
+            "a27e4d393a2434748c0d9d9b93882d4c91798256e4c6eae45896975bcae67bc3__answer"
+          ]
+        },
+        "sham": {
+          "answer": "WVNH",
+          "valid": true,
+          "source_ids": [
+            2,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "source_tokens": 228,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "WANH"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1132,
+            "output_tokens": 105,
+            "seconds": 6.388555600075051
+          },
+          "record_keys": [
+            "feb35fbdcfee5c3bef7c59d2a3805a87b7e09b821859d4f097a0485af6766576__check",
+            "da2189a2bc2c970bac5c45cd8b2066921032a9b9feed2905f04e6b91dfab35f3__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "2dd75f7ed7edda89e39e0809",
+      "group": "side",
+      "source_id": "de0dc98500244456bd533d88f83de166",
+      "analysis_cluster": "c69afb19ed1ec1710acc61d0",
+      "pre_output_review_reason": "Governor’s House设计师Edmund Sharpe的毕业学校不同；移除Cambridge毕业句。",
+      "edits": {
+        "remove": [
+          8
+        ],
+        "sham_remove": [
+          2
+        ],
+        "add": [
+          9
+        ],
+        "sham_add": [
+          10
+        ],
+        "tokens": [
+          253,
+          249,
+          249
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "Cambridge University",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            3,
+            5,
+            8,
+            12,
+            13,
+            16,
+            19
+          ],
+          "source_tokens": 253,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "CONFLICT"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1140,
+            "output_tokens": 67,
+            "seconds": 3.0188331999816
+          },
+          "record_keys": [
+            "0dce99c056a6684b39c815d60366b1a9197d1cf25ee612b96b7398379eca7d28__check",
+            "17c63692ecde8180e546bd120fc07509eacafd9cc55eedf88adfd67e48f781f2__answer"
+          ]
+        },
+        "critical": {
+          "answer": "UNKNOWN",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            3,
+            5,
+            9,
+            12,
+            13,
+            16,
+            19
+          ],
+          "source_tokens": 249,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "University of Tokyo",
+            "the University of Tokyo"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": true,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1143,
+            "output_tokens": 76,
+            "seconds": 5.417515099979937
+          },
+          "record_keys": [
+            "0206afaa376fc778af0d0380182507b85da3f3f32a3faaadd698437eb22d8cb9__check",
+            "3104659aee91c07e0c0b421e6bb348ffcc663884e7c7a806afa7db1aef245b14__answer"
+          ]
+        },
+        "sham": {
+          "answer": "Cambridge University",
+          "valid": true,
+          "source_ids": [
+            1,
+            3,
+            5,
+            8,
+            10,
+            12,
+            13,
+            16,
+            19
+          ],
+          "source_tokens": 249,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "CONFLICT"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1140,
+            "output_tokens": 75,
+            "seconds": 5.370828500250354
+          },
+          "record_keys": [
+            "0941e8fa4fbbf84917398be97bc0d3bbd6da382c1b93423b4394174023caddb3__check",
+            "6d820b030a5329bed9bb1094c9bacd65011bf6f1ccdf686946e5e2da31436524__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "4f712d2909c6f81fee33bf28",
+      "group": "bridge",
+      "source_id": "5abe18e055429976d4830a74",
+      "analysis_cluster": "2e682daaef98f5db67b89eeb",
+      "pre_output_review_reason": "去除WCSU-FM所有者与Central State University的连接，保留大学性质。",
+      "edits": {
+        "remove": [
+          2
+        ],
+        "sham_remove": [
+          3
+        ],
+        "add": [
+          16
+        ],
+        "sham_add": [
+          24
+        ],
+        "tokens": [
+          148,
+          148,
+          148
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "historically black",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            3,
+            14,
+            15
+          ],
+          "source_tokens": 148,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.6666666666666666,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.6666666666666666,
+          "context_expected_aliases": [
+            "black"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 915,
+            "output_tokens": 64,
+            "seconds": 4.941322400001809
+          },
+          "record_keys": [
+            "065ab5ceeffaac0ed8c59a5714cb718d7e339cbcb98e0117e21e06fc770165c3__check",
+            "8759f33bf7eff0423e97c303cf999501448603afd7d4a4083b8338c909b15fa0__answer"
+          ]
+        },
+        "critical": {
+          "answer": "UNKNOWN",
+          "valid": true,
+          "source_ids": [
+            1,
+            3,
+            14,
+            15,
+            16
+          ],
+          "source_tokens": 148,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "UNKNOWN"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": true,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 970,
+            "output_tokens": 117,
+            "seconds": 6.482883699703962
+          },
+          "record_keys": [
+            "e2ada05046e98c45744c4cf9407997b151fdc313f23fee60c3cc7034d8f09c1e__check",
+            "864a59073cd451f33ba530b0d0d2754ac6bf980f3cef334e24deb4ffb011ab87__answer"
+          ]
+        },
+        "sham": {
+          "answer": "historically black",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            14,
+            15,
+            24
+          ],
+          "source_tokens": 148,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.6666666666666666,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.6666666666666666,
+          "context_expected_aliases": [
+            "black"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 939,
+            "output_tokens": 88,
+            "seconds": 5.055203300202265
+          },
+          "record_keys": [
+            "bd0a2f82d36ce31f9ec38a16780604f713268dbb79202524dd6f456e7cee288e__check",
+            "27965370ed4ab1245601c93b0bd8658476bb19ea7dbc854bb12523493e56638d__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "61f6faea9ba27ea46fdf2810",
+      "group": "bridge",
+      "source_id": "5abe4fd95542991f6610613d",
+      "analysis_cluster": "d7fd93c7b1b4c3075fb2a0f2",
+      "pre_output_review_reason": "去除Swingin’ Down Yonder与Dean Martin的连接，保留歌手绰号。",
+      "edits": {
+        "remove": [
+          30
+        ],
+        "sham_remove": [
+          31
+        ],
+        "add": [
+          34
+        ],
+        "sham_add": [
+          22
+        ],
+        "tokens": [
+          232,
+          233,
+          233
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "King of Cool",
+          "valid": true,
+          "source_ids": [
+            7,
+            8,
+            30,
+            31,
+            32
+          ],
+          "source_tokens": 232,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "\"King of Cool\""
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1130,
+            "output_tokens": 87,
+            "seconds": 4.745235200040042
+          },
+          "record_keys": [
+            "564c48e46d807c2f46c8bb4796c7ee989c813f9bff71e85e672c67ff67368559__check",
+            "698753709cb2f6c3de2ea368331ede1d347213daaa932550e507cc9a59ca6f35__answer"
+          ]
+        },
+        "critical": {
+          "answer": "UNKNOWN",
+          "valid": true,
+          "source_ids": [
+            7,
+            8,
+            31,
+            32,
+            34
+          ],
+          "source_tokens": 233,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "UNKNOWN"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": true,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1172,
+            "output_tokens": 125,
+            "seconds": 7.4387137000449
+          },
+          "record_keys": [
+            "d6206e811eec45619e86788bd3e53f468e89d11ce3ee166a5487cf0f562d74f0__check",
+            "8e59a326f639562fbf82a954e009d5b42039bc469df6b0364b6582120d57039e__answer"
+          ]
+        },
+        "sham": {
+          "answer": "King of Cool",
+          "valid": true,
+          "source_ids": [
+            7,
+            8,
+            22,
+            30,
+            32
+          ],
+          "source_tokens": 233,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "\"King of Cool\""
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1131,
+            "output_tokens": 86,
+            "seconds": 5.929308699909598
+          },
+          "record_keys": [
+            "e6abc0467e97844dd7f05a1a17f1f9c223ecc71422038b17b634123fe3ad83dd__check",
+            "4587b57501c3407d663d84efac8ebf515aaa7acd0de5f9c3d818de413396a83c__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "75ea232c7fc8e75cbdb9f960",
+      "group": "bridge",
+      "source_id": "5abcf46255429959677d6b6b",
+      "analysis_cluster": "7bf2ef10c3e9d0fa24972b98",
+      "pre_output_review_reason": "去除A Clockwork Orange与Wendy Carlos的作曲关系，保留出生州。",
+      "edits": {
+        "remove": [
+          16
+        ],
+        "sham_remove": [
+          8
+        ],
+        "add": [
+          26
+        ],
+        "sham_add": [
+          7
+        ],
+        "tokens": [
+          256,
+          256,
+          255
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "Rhode Island",
+          "valid": true,
+          "source_ids": [
+            8,
+            9,
+            16,
+            19,
+            20
+          ],
+          "source_tokens": 256,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "Rhode Island"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1146,
+            "output_tokens": 67,
+            "seconds": 3.04062480002176
+          },
+          "record_keys": [
+            "f254f978286545cfea7d1b6d0ad1cc11908e04249fd6fc366b32cc07c9e38209__check",
+            "95b4021e68459c2284c3cddc5e9519143fa83375ff074f9df92ee341121049d3__answer"
+          ]
+        },
+        "critical": {
+          "answer": "Rhode Island",
+          "valid": true,
+          "source_ids": [
+            8,
+            9,
+            19,
+            20,
+            26
+          ],
+          "source_tokens": 256,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "UNKNOWN"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1155,
+            "output_tokens": 76,
+            "seconds": 9.016290799947456
+          },
+          "record_keys": [
+            "7bc4f87be4b2951f3078430b0f3cd75c2b288fed4ed41048984c7f75dfeb1cdb__check",
+            "92b343a7427e0ed23589619acf6141d17b8ab09e4fb68cd3f095f1f2d5d2dfd3__answer"
+          ]
+        },
+        "sham": {
+          "answer": "Rhode Island",
+          "valid": true,
+          "source_ids": [
+            7,
+            9,
+            16,
+            19,
+            20
+          ],
+          "source_tokens": 255,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "Rhode Island"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1154,
+            "output_tokens": 77,
+            "seconds": 9.015169899910688
+          },
+          "record_keys": [
+            "23b49c611d72cdf0a4cffb10ffa58ad6c551e7909a2683301d44c4b51a219c83__check",
+            "92451287aadc4a6f1d1d3371044247b41c737765c2958a2e67b702f9f95f2ded__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "82abe3117498f4f15bb9f96d",
+      "group": "side",
+      "source_id": "44b586f787a24f3a9ff724a68f203bef",
+      "analysis_cluster": "92fcbf0a1bbfb9e6409cd0c7",
+      "pre_output_review_reason": "同一国家队首次世界杯年份1966与1978；移除1966句，保留1978句。",
+      "edits": {
+        "remove": [
+          11
+        ],
+        "sham_remove": [
+          6
+        ],
+        "add": [
+          13
+        ],
+        "sham_add": [
+          13
+        ],
+        "tokens": [
+          256,
+          253,
+          256
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "CONFLICT",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            11,
+            12
+          ],
+          "source_tokens": 256,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "CONFLICT"
+          ],
+          "predicted_conflict": true,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1227,
+            "output_tokens": 149,
+            "seconds": 12.575671199709177
+          },
+          "record_keys": [
+            "3920f43781433d4babcdfa9f394607f3038126d4a94ee87f36470c43d5430425__check",
+            "5f4f88d44e8420177a707d350e8b7f3718846991e7abb08c6161566eac26d040__answer"
+          ]
+        },
+        "critical": {
+          "answer": "1978",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            12,
+            13
+          ],
+          "source_tokens": 253,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "1978"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1145,
+            "output_tokens": 75,
+            "seconds": 5.474036599975079
+          },
+          "record_keys": [
+            "9c05f04843e0c3873714cca80b5f4db45f554b74005466780c3e2bf19981f575__check",
+            "95a92ad4fd0b9ccdc63931bac90482c2c8db4180556eb0545fb57cd70e2f3c43__answer"
+          ]
+        },
+        "sham": {
+          "answer": "CONFLICT",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            4,
+            8,
+            11,
+            12,
+            13
+          ],
+          "source_tokens": 256,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "CONFLICT"
+          ],
+          "predicted_conflict": true,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1228,
+            "output_tokens": 150,
+            "seconds": 8.477630299981683
+          },
+          "record_keys": [
+            "bf50c06c3e73b869b38c91f6892b01b03888e552246555550de8cc88783ed29a__check",
+            "24db4767af2b2b361bfacaf4de2ddc061d11605934189b8dddcdc417f5f3b937__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "9cbeb57c3f3c37f94bf89c26",
+      "group": "bridge",
+      "source_id": "5adcb7eb5542994ed6169bd0",
+      "analysis_cluster": "9f3c903fb0f6d3fc0e40ab4e",
+      "pre_output_review_reason": "去除Ángel Dealbert与CD Castellón的效力关系，保留球队全称；新增其他球队文本不涉及该球员。",
+      "edits": {
+        "remove": [
+          5
+        ],
+        "sham_remove": [
+          2
+        ],
+        "add": [
+          8
+        ],
+        "sham_add": [
+          14
+        ],
+        "tokens": [
+          152,
+          151,
+          150
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "CD Castellón",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            5
+          ],
+          "source_tokens": 152,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.4,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.4,
+          "context_expected_aliases": [
+            "Club Deportivo Castellón"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 940,
+            "output_tokens": 74,
+            "seconds": 5.423592899693176
+          },
+          "record_keys": [
+            "79d98186f5ca8315e29862376138773101f8bed881a7d41d0d1bbab1a655eda2__check",
+            "d20e2deef1d0933086bd418766c28c8482fc42adf4227a682c3fd797b096bdc1__answer"
+          ]
+        },
+        "critical": {
+          "answer": "UNKNOWN",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            8
+          ],
+          "source_tokens": 151,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "UNKNOWN"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": true,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 955,
+            "output_tokens": 88,
+            "seconds": 4.713171299779788
+          },
+          "record_keys": [
+            "3ce39e65678e9fc6aeb8058c393b72f7624fbff3c09539ebe94458c9361a088f__check",
+            "88121db3371533e0b79c3aa64c312b76974f47ea49c3cc4dda7f884d3a72c46d__answer"
+          ]
+        },
+        "sham": {
+          "answer": "CD Castellón",
+          "valid": true,
+          "source_ids": [
+            1,
+            5,
+            14
+          ],
+          "source_tokens": 150,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.4,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.4,
+          "context_expected_aliases": [
+            "Club Deportivo Castellón"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 939,
+            "output_tokens": 77,
+            "seconds": 4.8351628999225795
+          },
+          "record_keys": [
+            "31a9096d18bc1566947e6117c161be9368dbfe90e73ea4c26bc1076290b70ee3__check",
+            "5aee93172f59f7d5cc1068a5b1cac7d3993621209024ea9d0334874f37b67f06__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "a4a6ebbfb73af36e3bab3aee",
+      "group": "side",
+      "source_id": "38830996e120445db1d8037ba9cef3d5",
+      "analysis_cluster": "5a01dee66be2686f1125d73d",
+      "pre_output_review_reason": "同一集Round Springfield的季数6与10；移除第10季句。",
+      "edits": {
+        "remove": [
+          22
+        ],
+        "sham_remove": [
+          1
+        ],
+        "add": [
+          15
+        ],
+        "sham_add": [
+          15
+        ],
+        "tokens": [
+          254,
+          255,
+          255
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "tenth season",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            3,
+            6,
+            8,
+            16,
+            17,
+            22
+          ],
+          "source_tokens": 254,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "CONFLICT"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1167,
+            "output_tokens": 86,
+            "seconds": 5.773571800207719
+          },
+          "record_keys": [
+            "bd9647a126052c3b4923dda794ca264b83be432cd042b8c6da97c3bce7027b96__check",
+            "aead7e7a8428b6caf1f2bd3404088fa8766f52ed099f74eb38ebc19aa9603e66__answer"
+          ]
+        },
+        "critical": {
+          "answer": "sixth",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            3,
+            6,
+            8,
+            15,
+            16,
+            17
+          ],
+          "source_tokens": 255,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "sixth season",
+            "6",
+            "6th",
+            "sixth",
+            "season 6",
+            "season six",
+            "the sixth season"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1147,
+            "output_tokens": 63,
+            "seconds": 2.8848731998587027
+          },
+          "record_keys": [
+            "8e27a2e9217d464741a45ac6be6a538b5962a8041603d8b031d8bab534c16d50__check",
+            "8c0f5130df638ae63399bb25bb0dc104362e55fb0244b57d3f103327bc93cf69__answer"
+          ]
+        },
+        "sham": {
+          "answer": "CONFLICT",
+          "valid": true,
+          "source_ids": [
+            2,
+            3,
+            6,
+            8,
+            15,
+            16,
+            17,
+            22
+          ],
+          "source_tokens": 255,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "CONFLICT"
+          ],
+          "predicted_conflict": true,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1236,
+            "output_tokens": 152,
+            "seconds": 8.68454090016894
+          },
+          "record_keys": [
+            "e45d7c867a1153c9e19cd918cd909e4b339a99ca3d081379f3d869bee5fd1dad__check",
+            "d6e2b0c3257831f3822195bf9fd8dc813379704a1595c7d57990bcd4ab98f09d__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "a77ebf72f67537d08d457f59",
+      "group": "bridge",
+      "source_id": "5a7f451a55429969796c19ec",
+      "analysis_cluster": "302404b6da764ce1582348df",
+      "pre_output_review_reason": "去除1997 Booker Prize与The God of Small Things的连接，保留作者的第二部小说；非关键替换后作者关系仍由第二部小说介绍建立。",
+      "edits": {
+        "remove": [
+          5
+        ],
+        "sham_remove": [
+          1
+        ],
+        "add": [
+          7
+        ],
+        "sham_add": [
+          18
+        ],
+        "tokens": [
+          197,
+          199,
+          199
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "UNKNOWN",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            38
+          ],
+          "source_tokens": 197,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "The Ministry of Utmost Happiness"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": true,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1096,
+            "output_tokens": 133,
+            "seconds": 6.787090900121257
+          },
+          "record_keys": [
+            "261183b6440ab622b7bb162a53c4bea715e1fe5c398a1fc2854cb30f7fe02b03__check",
+            "f33d947df505b1569d834b4082beb76809adbbbbf4b14dbf73af544fda4a969a__answer"
+          ]
+        },
+        "critical": {
+          "answer": "UNKNOWN",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            3,
+            4,
+            7,
+            38
+          ],
+          "source_tokens": 199,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "UNKNOWN"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": true,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1119,
+            "output_tokens": 152,
+            "seconds": 10.06802190002054
+          },
+          "record_keys": [
+            "47e88dd9baf6e48f305713995ff7eb6684f4252abd9c93cecec035374dfb862d__check",
+            "a0ae0905a74894f008130068d7987e8f9bde640ec397194ab264bb42d1fd77e7__answer"
+          ]
+        },
+        "sham": {
+          "answer": "UNKNOWN",
+          "valid": true,
+          "source_ids": [
+            2,
+            3,
+            4,
+            5,
+            18,
+            38
+          ],
+          "source_tokens": 199,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "The Ministry of Utmost Happiness"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": true,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1165,
+            "output_tokens": 198,
+            "seconds": 12.438519300194457
+          },
+          "record_keys": [
+            "eabe18ff0f373eb9c5446bf3aa9555d0969e22d78496fd180ece9b6cd5bda640__check",
+            "1a1d4b8ba845f3fadc77fb80a87c2236045ae61b0f15572d235110b0e400841c__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "bcce9281c15cf92ddc043d5a",
+      "group": "bridge",
+      "source_id": "5a879dae5542996e4f308885",
+      "analysis_cluster": "9f826b405ace5d373c05d168",
+      "pre_output_review_reason": "去除Abbe error与Ernst Abbe的命名关系，保留其共同拥有的公司。",
+      "edits": {
+        "remove": [
+          26
+        ],
+        "sham_remove": [
+          11
+        ],
+        "add": [
+          5
+        ],
+        "sham_add": [
+          19
+        ],
+        "tokens": [
+          242,
+          242,
+          242
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "Carl Zeiss AG",
+          "valid": true,
+          "source_ids": [
+            11,
+            12,
+            13,
+            14,
+            26,
+            27
+          ],
+          "source_tokens": 241,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "Carl Zeiss AG"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1167,
+            "output_tokens": 119,
+            "seconds": 10.337885499931872
+          },
+          "record_keys": [
+            "af7ae585bd0e8488d9d765f6583c46f90cfce80f51fd4b29d6f79c6d6f686482__check",
+            "c559838af795af834174b790935f1fdb3a0cc0c4371a8ddf8205d32a6f46bcec__answer"
+          ]
+        },
+        "critical": {
+          "answer": "Carl Zeiss AG",
+          "valid": true,
+          "source_ids": [
+            5,
+            11,
+            12,
+            13,
+            14,
+            27
+          ],
+          "source_tokens": 241,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "UNKNOWN"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1128,
+            "output_tokens": 80,
+            "seconds": 5.548252800246701
+          },
+          "record_keys": [
+            "218d436c61313cf482f1b2294bb2cf7916b4f53c0f122b242f4f32d90cd49b7c__check",
+            "cd8cecdbd7059382f68f02177f70eb3c9ca12426d905807bb70762d333d26598__answer"
+          ]
+        },
+        "sham": {
+          "answer": "Carl Zeiss AG",
+          "valid": true,
+          "source_ids": [
+            12,
+            13,
+            14,
+            19,
+            26,
+            27
+          ],
+          "source_tokens": 241,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "Carl Zeiss AG"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1139,
+            "output_tokens": 91,
+            "seconds": 6.004585599992424
+          },
+          "record_keys": [
+            "f0e9b1aab5bbab3df98b11453a4c2507110f984b089b77e7da25d6a1aeacb79f__check",
+            "f36cc67218bf6374cb09909b9fa3cf34908d7a5e789d2592691ca1f88ff61f70__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "bcee4a740e267605a52d4d13",
+      "group": "bridge",
+      "source_id": "5ade0bc55542997545bbbe30",
+      "analysis_cluster": "25cf9e1fef7e4959551455c0",
+      "pre_output_review_reason": "去除指定电影的导演条件，保留演员与角色；两种新增文本均不提供该导演关系。",
+      "edits": {
+        "remove": [
+          7
+        ],
+        "sham_remove": [
+          18
+        ],
+        "add": [
+          10
+        ],
+        "sham_add": [
+          4
+        ],
+        "tokens": [
+          253,
+          254,
+          253
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "Prince Sung-won",
+          "valid": true,
+          "source_ids": [
+            7,
+            8,
+            18,
+            20
+          ],
+          "source_tokens": 253,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "an obsessed and tormented king"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1197,
+            "output_tokens": 109,
+            "seconds": 4.505568600026891
+          },
+          "record_keys": [
+            "5fca3c3cc8e8dd2d04d66a0e540626606d78573f4e79b62c143f91b2473bd11e__check",
+            "2a2667a86cd1dd17a47a0aa1d1d1ed8cc82132f8b340028873a6a0c5868a1044__answer"
+          ]
+        },
+        "critical": {
+          "answer": "Prince Sung-won",
+          "valid": true,
+          "source_ids": [
+            8,
+            10,
+            18,
+            20
+          ],
+          "source_tokens": 254,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "UNKNOWN"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1211,
+            "output_tokens": 121,
+            "seconds": 11.388635799754411
+          },
+          "record_keys": [
+            "9bb066cc3c4be2a00fdbd50720a4ca5bea7e064cc51bf92dfd814df2423b62c2__check",
+            "13340c1f7e16df6163269c25ad315bfbf756e6b0657ac969e314bce853a2da66__answer"
+          ]
+        },
+        "sham": {
+          "answer": "Prince Sung-won",
+          "valid": true,
+          "source_ids": [
+            4,
+            7,
+            8,
+            20
+          ],
+          "source_tokens": 253,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "an obsessed and tormented king"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1196,
+            "output_tokens": 108,
+            "seconds": 10.434304399881512
+          },
+          "record_keys": [
+            "fbe535e4c90ffbd7892b265f1a08329c9beb928d137601c33567f4800ea0817d__check",
+            "3adaa962eef836e02e03a77feff058008d7442a06e2c9ca2966363b921343121__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "c8e0c4faac3df21f69f5f150",
+      "group": "side",
+      "source_id": "0ec16a1e2eeb421b8e51ad43991cc5c5",
+      "analysis_cluster": "3369b17b18f2b122335eb56d",
+      "pre_output_review_reason": "Alfred所在县的两条直接断言分别为York与Cumberland；移除York城镇归属句。余下道路经过York不单独证明Alfred位于York。",
+      "edits": {
+        "remove": [
+          7
+        ],
+        "sham_remove": [
+          1
+        ],
+        "add": [
+          18
+        ],
+        "sham_add": [
+          4
+        ],
+        "tokens": [
+          255,
+          249,
+          253
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "CONFLICT",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            3,
+            5,
+            7,
+            12,
+            13,
+            15,
+            17,
+            19
+          ],
+          "source_tokens": 255,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "CONFLICT"
+          ],
+          "predicted_conflict": true,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1219,
+            "output_tokens": 141,
+            "seconds": 5.838550999993458
+          },
+          "record_keys": [
+            "c8cfcccec558a6ef26ef6ce0a5f7f40227ac498433eb9d3c74ea2565aba6354b__check",
+            "f5cb91224c483ab0d2a7aad145c52fb7cb157aace05f89910e404274159b193e__answer"
+          ]
+        },
+        "critical": {
+          "answer": "Cumberland County",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            3,
+            5,
+            12,
+            13,
+            15,
+            17,
+            18,
+            19
+          ],
+          "source_tokens": 249,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "Cumberland County",
+            "Cumberland"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1189,
+            "output_tokens": 124,
+            "seconds": 7.723968700040132
+          },
+          "record_keys": [
+            "49b25b080a78428fd57b3e4eadd7c6232ad7fa5eda470b3125be1d8402ba90b3__check",
+            "4296dab155e36bdf8423fbfe9ead943142236555f7129c78648e5dcd8a6f3a1f__answer"
+          ]
+        },
+        "sham": {
+          "answer": "CONFLICT",
+          "valid": true,
+          "source_ids": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            12,
+            13,
+            15,
+            17,
+            19
+          ],
+          "source_tokens": 253,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "CONFLICT"
+          ],
+          "predicted_conflict": true,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1165,
+            "output_tokens": 91,
+            "seconds": 5.934573800303042
+          },
+          "record_keys": [
+            "acdca7f13b203151a6ba01627b5cff96318e1ba1e1c481d97a8c43fa4b7b98b5__check",
+            "6271bc14e54b9bddad4cc3bcac67c6792b34629a3e8a94b76dc67f56c94f30b6__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "c901e017a1592040113c9d0e",
+      "group": "bridge",
+      "source_id": "5ae0a54e5542993d6555ebdd",
+      "analysis_cluster": "dd52a139a91c3861ef134499",
+      "pre_output_review_reason": "去除Joseph Benavidez与Urijah Faber的比较关系，保留Faber全名和级别。",
+      "edits": {
+        "remove": [
+          35
+        ],
+        "sham_remove": [
+          31
+        ],
+        "add": [
+          20
+        ],
+        "sham_add": [
+          2
+        ],
+        "tokens": [
+          229,
+          229,
+          229
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "Urijah Faber",
+          "valid": true,
+          "source_ids": [
+            24,
+            31,
+            33,
+            34,
+            35,
+            36
+          ],
+          "source_tokens": 229,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.8,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.8,
+          "context_expected_aliases": [
+            "Urijah Christopher Faber"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1135,
+            "output_tokens": 105,
+            "seconds": 9.688591600162908
+          },
+          "record_keys": [
+            "678b5aee01b389b12e2cc85ed2fc26d770eee30126999a8d146e6d6c704f656f__check",
+            "6df4e1fb8f8c638440b2cbb80a2efbfb0d36a86f5604f10a59d0e7835e82703f__answer"
+          ]
+        },
+        "critical": {
+          "answer": "UNKNOWN",
+          "valid": true,
+          "source_ids": [
+            20,
+            24,
+            31,
+            33,
+            34,
+            36
+          ],
+          "source_tokens": 229,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "UNKNOWN"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": true,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1140,
+            "output_tokens": 107,
+            "seconds": 25.78850659984164
+          },
+          "record_keys": [
+            "7a35ad21b8b14e7dfb66f8caeff4acc92cf38b16a8dc260f3f01848bf4daa2e6__check",
+            "6a7d230b41af8fa9c73072a3c5d6be88559b56c86fe5a844329c29eaf968f1eb__answer"
+          ]
+        },
+        "sham": {
+          "answer": "Urijah Faber",
+          "valid": true,
+          "source_ids": [
+            2,
+            24,
+            33,
+            34,
+            35,
+            36
+          ],
+          "source_tokens": 229,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.8,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.8,
+          "context_expected_aliases": [
+            "Urijah Christopher Faber"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1150,
+            "output_tokens": 120,
+            "seconds": 20.909101200057194
+          },
+          "record_keys": [
+            "88bac55bd788cfaf1c512b78a70c571fca2f2b7be2f1266d1dc385f58a1d4d00__check",
+            "775b012066c47acc30db671e07fcdb5722a500e00867308dd025c42a8ed4e801__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "cd217830204f80357aeabd76",
+      "group": "bridge",
+      "source_id": "5abbd2575542993f40c73bbd",
+      "analysis_cluster": "8d896f4d4c004889a4200385",
+      "pre_output_review_reason": "去除岩画年代与Nordic Bronze Age的连接，保留该时代的结束年份；替换材料不补回连接。",
+      "edits": {
+        "remove": [
+          15
+        ],
+        "sham_remove": [
+          12
+        ],
+        "add": [
+          33
+        ],
+        "sham_add": [
+          7
+        ],
+        "tokens": [
+          256,
+          256,
+          256
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "500 BC",
+          "valid": true,
+          "source_ids": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            53,
+            54
+          ],
+          "source_tokens": 256,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "500 BC"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1192,
+            "output_tokens": 102,
+            "seconds": 6.461140000261366
+          },
+          "record_keys": [
+            "18901642c6ffa788dd5265834bf12e4ebf9bd2d1502cf15fe8a874a7145e3657__check",
+            "016252795c3d0313e1b65ef708dd9e5a1871455c692cfee8c2497681b4f1b3b9__answer"
+          ]
+        },
+        "critical": {
+          "answer": "500 BC",
+          "valid": true,
+          "source_ids": [
+            12,
+            13,
+            14,
+            16,
+            17,
+            33,
+            53,
+            54
+          ],
+          "source_tokens": 256,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "UNKNOWN"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1223,
+            "output_tokens": 133,
+            "seconds": 7.832629600074142
+          },
+          "record_keys": [
+            "0401bd0d568a08f36fa6425a631f8f8d7eb6e404d9d2f468a5ee081f1e507541__check",
+            "232797e81fccc23b33c49d1361d601c25270adb66ac9313fdd171d25822a69ee__answer"
+          ]
+        },
+        "sham": {
+          "answer": "500 BC",
+          "valid": true,
+          "source_ids": [
+            7,
+            13,
+            14,
+            15,
+            16,
+            17,
+            53,
+            54
+          ],
+          "source_tokens": 256,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "500 BC"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1193,
+            "output_tokens": 103,
+            "seconds": 6.549201099900529
+          },
+          "record_keys": [
+            "de4f28a0e7793f83e54379f1a2401e0c73e304c29442d392f572bdedf6b4f6e8__check",
+            "1a44c706084418011d402fc3ab171da72483c059600611fec46c7ae2303a5889__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "d0beed4cc08b98d067ac59c7",
+      "group": "bridge",
+      "source_id": "5abbf3845542993f40c73c2e",
+      "analysis_cluster": "f473a2ff4a86e3ae3027bd36",
+      "pre_output_review_reason": "去除I Get Weak与Belinda Carlisle的连接，保留她所属的乐队。",
+      "edits": {
+        "remove": [
+          59
+        ],
+        "sham_remove": [
+          19
+        ],
+        "add": [
+          15
+        ],
+        "sham_add": [
+          9
+        ],
+        "tokens": [
+          178,
+          178,
+          178
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "The Go-Go's",
+          "valid": true,
+          "source_ids": [
+            19,
+            20,
+            59,
+            60
+          ],
+          "source_tokens": 178,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "The Go-Go's,"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 996,
+            "output_tokens": 81,
+            "seconds": 5.401830299990252
+          },
+          "record_keys": [
+            "09442a7161ef47c681a15de8164757dada8e216b66374d2dd5a698a60cdc116c__check",
+            "c58fafcf45a8b2507d69ac7a5a4643987d02c3cda70cf05cad728c10b39f94e3__answer"
+          ]
+        },
+        "critical": {
+          "answer": "The Go-Go's",
+          "valid": true,
+          "source_ids": [
+            15,
+            19,
+            20,
+            60
+          ],
+          "source_tokens": 178,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "UNKNOWN"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 992,
+            "output_tokens": 77,
+            "seconds": 5.090927599929273
+          },
+          "record_keys": [
+            "a96943ac88897fe19d1ad3bbec852384ff5dfdb67f25027095b07c74e11f4953__check",
+            "b807dda1d82e5a24bfb1c5d85e1b4668f0e9cf00142a7cba87ebaf28e030e371__answer"
+          ]
+        },
+        "sham": {
+          "answer": "The Go-Go's",
+          "valid": true,
+          "source_ids": [
+            9,
+            20,
+            59,
+            60
+          ],
+          "source_tokens": 178,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "The Go-Go's,"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 996,
+            "output_tokens": 81,
+            "seconds": 5.261512299999595
+          },
+          "record_keys": [
+            "b663896bf79ea0d194ada6aa7b9360642a8ec2c5f770b77f4925add451fc899a__check",
+            "734b6b6144eb71caa85f774f86a00b57533f98da1644f30d58438ebfaba25c28__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "dad6a4cd18e6b9cb42317754",
+      "group": "side",
+      "source_id": "90ca26a1589e40a08937b918038547cb",
+      "analysis_cluster": "f0a5792ab95a05c17dc82b58",
+      "pre_output_review_reason": "Ornella Fiorentini出生地Ravenna与Venice；移除Venice出生句后，Venice城市介绍不再证明她在那里出生。",
+      "edits": {
+        "remove": [
+          10
+        ],
+        "sham_remove": [
+          13
+        ],
+        "add": [
+          11
+        ],
+        "sham_add": [
+          3
+        ],
+        "tokens": [
+          249,
+          244,
+          244
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "Ravenna",
+          "valid": true,
+          "source_ids": [
+            1,
+            4,
+            8,
+            10,
+            12,
+            13
+          ],
+          "source_tokens": 249,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "CONFLICT"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1182,
+            "output_tokens": 111,
+            "seconds": 6.839140799944289
+          },
+          "record_keys": [
+            "8e607d307a413a14fab461b13f1fc8d4cbcc9f103e4d61ca97cabf6f95872059__check",
+            "bb5f39d8a230dd50d72b92b9bf6e6958cb7745d7562fbc6b9be0df8dd70f37c1__answer"
+          ]
+        },
+        "critical": {
+          "answer": "Ravenna",
+          "valid": true,
+          "source_ids": [
+            1,
+            4,
+            8,
+            11,
+            12,
+            13
+          ],
+          "source_tokens": 244,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "Ravenna"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1172,
+            "output_tokens": 111,
+            "seconds": 6.569160599960014
+          },
+          "record_keys": [
+            "eafc77e334449aba0b4bacd69c387617c5f170ba7b94642c0e6945c7034e4b97__check",
+            "3a5dd341706dec1fd75d8b6801574ccd8e73361134f2a7cf05f1bbbc6ff2ed4c__answer"
+          ]
+        },
+        "sham": {
+          "answer": "Ravenna",
+          "valid": true,
+          "source_ids": [
+            1,
+            3,
+            4,
+            8,
+            10,
+            12
+          ],
+          "source_tokens": 244,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "CONFLICT"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1180,
+            "output_tokens": 119,
+            "seconds": 7.057443799683824
+          },
+          "record_keys": [
+            "b308c55b0f8711357d45a122a4b1e527a8c336870c6dff5fb50b449367f02c58__check",
+            "1b980c8a15dafefbceca7a66472f84b81f6603e92050dabe080c94c1a0e25a51__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "dbf6f2bf05731f21e67c9b16",
+      "group": "bridge",
+      "source_id": "5ae180d855429901ffe4aecc",
+      "analysis_cluster": "9858212e492468a8d0d7135c",
+      "pre_output_review_reason": "去除The Bet与编剧Gavin O’Connor的连接，保留编剧出生年。",
+      "edits": {
+        "remove": [
+          5
+        ],
+        "sham_remove": [
+          6
+        ],
+        "add": [
+          32
+        ],
+        "sham_add": [
+          10
+        ],
+        "tokens": [
+          205,
+          205,
+          205
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "1964",
+          "valid": true,
+          "source_ids": [
+            5,
+            6,
+            16,
+            17,
+            18
+          ],
+          "source_tokens": 205,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "1964"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1030,
+            "output_tokens": 68,
+            "seconds": 6.6746819000691175
+          },
+          "record_keys": [
+            "7a39b9e384b1162267fa1ad7eae81c30b3514d2688b7fdfeadad7b5184216bd5__check",
+            "63d78d3fb76b7e871f08c6bf4f96738f595752d552b7315d17b6e4e6e24a647c__answer"
+          ]
+        },
+        "critical": {
+          "answer": "UNKNOWN",
+          "valid": true,
+          "source_ids": [
+            6,
+            16,
+            17,
+            18,
+            32
+          ],
+          "source_tokens": 205,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "UNKNOWN"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": true,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1076,
+            "output_tokens": 111,
+            "seconds": 8.412288499996066
+          },
+          "record_keys": [
+            "65b9ded48fd8742297aab32942606b5f2451f8b4c2b5b555d24dcf20185f7e69__check",
+            "bfd1006c0c2c72311f925882081e70a493fe69ac615e64d25d6d5d51f64140c7__answer"
+          ]
+        },
+        "sham": {
+          "answer": "1964",
+          "valid": true,
+          "source_ids": [
+            5,
+            10,
+            16,
+            17,
+            18
+          ],
+          "source_tokens": 205,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "1964"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1028,
+            "output_tokens": 66,
+            "seconds": 6.462642400059849
+          },
+          "record_keys": [
+            "b79fa478100430d57b54b689f9524f45fc8226f005682d6c82e427dc50de0eb0__check",
+            "1b4cfff693490e0748a525fc646f7ef65ccc33c6b86a1e7d734d01ddbc4e5cf8__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "f31ea157ef0499f913b5e8e0",
+      "group": "side",
+      "source_id": "1576d380c7ce4ecab1278022d6bd9c22",
+      "analysis_cluster": "7a4b7d2e3f5376046023fdcb",
+      "pre_output_review_reason": "同一场UFC Fight Night 65的举办城市Adelaide与Kangaroo City；移除Adelaide赛事句，保留对方赛事及州府关系。",
+      "edits": {
+        "remove": [
+          3
+        ],
+        "sham_remove": [
+          1
+        ],
+        "add": [
+          15
+        ],
+        "sham_add": [
+          10
+        ],
+        "tokens": [
+          245,
+          242,
+          241
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "Adelaide",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            3,
+            4,
+            9,
+            11,
+            12
+          ],
+          "source_tokens": 245,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "CONFLICT"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1212,
+            "output_tokens": 154,
+            "seconds": 8.567647999851033
+          },
+          "record_keys": [
+            "9121697080688c63cc8a90d7d599b04c4c99637ea9abfba11d38a41eb6194ba1__check",
+            "49c4f286329a8e5dc14d5c73356a0955c0157b7659e206e1e25fceae0fd46822__answer"
+          ]
+        },
+        "critical": {
+          "answer": "Kangaroo City",
+          "valid": true,
+          "source_ids": [
+            1,
+            2,
+            4,
+            9,
+            11,
+            12,
+            15
+          ],
+          "source_tokens": 242,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "Kangaroo City"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1163,
+            "output_tokens": 113,
+            "seconds": 6.769300200045109
+          },
+          "record_keys": [
+            "f23433cfe535a73c6d2bef55dca0c2295cfcd62dcc9532da4542a658259a09d0__check",
+            "881e5cf3204c8080fbafa5d2c870e4b064f58692bcb13bac7a8db9b6fbd2fea2__answer"
+          ]
+        },
+        "sham": {
+          "answer": "Adelaide",
+          "valid": true,
+          "source_ids": [
+            2,
+            3,
+            4,
+            9,
+            10,
+            11,
+            12
+          ],
+          "source_tokens": 241,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "CONFLICT"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1189,
+            "output_tokens": 139,
+            "seconds": 8.200823400169611
+          },
+          "record_keys": [
+            "5038e61f09002f6359440dff34e973b73b1d376a38fa400e6089c7f89a7d9d63__check",
+            "320866980f0e290276c3b2b81da76dc7ac744bc63a28711b3f7d932d21c5a023__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "f44471c6c09d934af437f45c",
+      "group": "bridge",
+      "source_id": "5a89432b554299669944a519",
+      "analysis_cluster": "2aa6ff7d9379440c674aa01f",
+      "pre_output_review_reason": "去除Joe Foss获荣誉勋章与Guadalcanal战役的连接，保留战役代号。",
+      "edits": {
+        "remove": [
+          16
+        ],
+        "sham_remove": [
+          15
+        ],
+        "add": [
+          5
+        ],
+        "sham_add": [
+          10
+        ],
+        "tokens": [
+          192,
+          193,
+          193
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "Operation Watchtower",
+          "valid": true,
+          "source_ids": [
+            8,
+            9,
+            15,
+            16
+          ],
+          "source_tokens": 192,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "Operation Watchtower"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1017,
+            "output_tokens": 70,
+            "seconds": 6.754042099928483
+          },
+          "record_keys": [
+            "45a940a4b3733bd0c25a06e0b2395c4833829d5623ffd480efc733975761b834__check",
+            "7889e461fcbbe617f9be653204a240ac908d63463e997a558ba705a94262e794__answer"
+          ]
+        },
+        "critical": {
+          "answer": "UNKNOWN",
+          "valid": true,
+          "source_ids": [
+            5,
+            8,
+            9,
+            15
+          ],
+          "source_tokens": 193,
+          "original_response_em": 0.0,
+          "original_response_f1": 0.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "UNKNOWN"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": true,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1094,
+            "output_tokens": 143,
+            "seconds": 7.458126400131732
+          },
+          "record_keys": [
+            "a2d49f22fc78c8daf4bd40122b926ae1ae45987c4e6026197a3027672b98f08b__check",
+            "a7e5c987648442272ff9d26f0ee040566699d30b4ec106c74a0fcdce2c09fa76__answer"
+          ]
+        },
+        "sham": {
+          "answer": "Operation Watchtower",
+          "valid": true,
+          "source_ids": [
+            8,
+            9,
+            10,
+            16
+          ],
+          "source_tokens": 193,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "Operation Watchtower"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 1020,
+            "output_tokens": 71,
+            "seconds": 4.781616900116205
+          },
+          "record_keys": [
+            "34f5c231264197d44b23d904ec1e68045df88e3f1641d7ea80614ac50865cea8__check",
+            "debd6d471d4195c23e4d38c444663b924871921d7556de5ec2368e51a0bbf6cc__answer"
+          ]
+        }
+      }
+    },
+    {
+      "qid": "f715e9a7bb2a618d80af60e6",
+      "group": "bridge",
+      "source_id": "5ac1a3665542994ab5c67daf",
+      "analysis_cluster": "86f01fc9315274f0c90f3004",
+      "pre_output_review_reason": "去除Prince Andrew与Duke of York的身份连接，保留1990–2001年任职信息。",
+      "edits": {
+        "remove": [
+          21
+        ],
+        "sham_remove": [
+          22
+        ],
+        "add": [
+          24
+        ],
+        "sham_add": [
+          29
+        ],
+        "tokens": [
+          156,
+          154,
+          156
+        ]
+      },
+      "arms": {
+        "intact": {
+          "answer": "Private Secretary and Treasurer",
+          "valid": true,
+          "source_ids": [
+            21,
+            22,
+            23
+          ],
+          "source_tokens": 156,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "Private Secretary and Treasurer"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 967,
+            "output_tokens": 83,
+            "seconds": 3.9603501001838595
+          },
+          "record_keys": [
+            "5536f8725097e51027c28f0ea0e4e864f7fb2d335dcc3e7f8a011e0654346c92__check",
+            "95e4506e3c315bc69f92a6b4a7957aa79ed233d27268b5bdd57dbb64b9bfd839__answer"
+          ]
+        },
+        "critical": {
+          "answer": "Private Secretary and Treasurer",
+          "valid": true,
+          "source_ids": [
+            22,
+            23,
+            24
+          ],
+          "source_tokens": 154,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 0.0,
+          "context_appropriate_f1": 0.0,
+          "context_expected_aliases": [
+            "UNKNOWN"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 980,
+            "output_tokens": 100,
+            "seconds": 5.878783099818975
+          },
+          "record_keys": [
+            "cf8966bad2d7bae4777752f287e336d32666ffc6c284f3df26d8ad5074400822__check",
+            "2adfab6028a2917063b87aa658464707e4c01f0da6aaceed19e4497749489023__answer"
+          ]
+        },
+        "sham": {
+          "answer": "Private Secretary and Treasurer",
+          "valid": true,
+          "source_ids": [
+            21,
+            23,
+            29
+          ],
+          "source_tokens": 156,
+          "original_response_em": 1.0,
+          "original_response_f1": 1.0,
+          "context_appropriate_em": 1.0,
+          "context_appropriate_f1": 1.0,
+          "context_expected_aliases": [
+            "Private Secretary and Treasurer"
+          ],
+          "predicted_conflict": false,
+          "predicted_unknown": false,
+          "reader_cost": {
+            "calls": 2,
+            "input_tokens": 965,
+            "output_tokens": 81,
+            "seconds": 4.474147999892011
+          },
+          "record_keys": [
+            "c7c6c288ff34c4e4a9041a0ef0efd8e2d22167f124f1c620c4f0621a8234ffa0__check",
+            "51d7dffc24d7818830ca2a5256d4b449622681ae89fe42439f687d8e43f3fdec__answer"
+          ]
+        }
+      }
+    }
+  ],
+  "launches": [
+    {
+      "launch_utc": "20261020_162456_115546",
+      "status": "complete",
+      "wall_seconds": 401.125,
+      "new_calls": 96,
+      "reused_calls": 54
+    }
+  ]
+}

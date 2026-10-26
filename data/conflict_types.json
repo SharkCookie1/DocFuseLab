@@ -1,0 +1,255 @@
+{
+  "scope": "Post hoc descriptive analysis of the existing 150-question development cohort, not an untouched confirmation. Full150 remains the primary denominator.",
+  "label_sha256": "dbcce90b81f8f7fa00a83200540d97b1bb8278ecc786f4d332fbe2b44339c0e4",
+  "bootstrap_reps": 20000,
+  "bootstrap_seed": 106231,
+  "no_new_model_calls": true,
+  "groups": {
+    "all150": {
+      "n": 150,
+      "readers": {
+        "8B": {
+          "correct": {
+            "plain_set": 21.0,
+            "set_graph": 14.0,
+            "strong_chain": 36.0,
+            "joint": 36.0,
+            "setr_iri_budget": 18.0,
+            "mmr": 9.0
+          },
+          "delta_joint_plain": 0.1,
+          "wins": 25,
+          "losses": 10,
+          "ties": 115,
+          "descriptive_bootstrap95": [
+            0.02666666666666667,
+            0.17333333333333334
+          ],
+          "unadjusted_exact_p": 0.01667384780012071
+        },
+        "4B": {
+          "correct": {
+            "plain_set": 45.0,
+            "set_graph": 31.0,
+            "strong_chain": 61.0,
+            "joint": 62.0
+          },
+          "delta_joint_plain": 0.11333333333333333,
+          "wins": 29,
+          "losses": 12,
+          "ties": 109,
+          "descriptive_bootstrap95": [
+            0.03333333333333333,
+            0.19333333333333333
+          ],
+          "unadjusted_exact_p": 0.011507789735333063
+        }
+      }
+    },
+    "all_non_temporal": {
+      "n": 131,
+      "readers": {
+        "8B": {
+          "correct": {
+            "plain_set": 18.0,
+            "set_graph": 14.0,
+            "strong_chain": 32.0,
+            "joint": 32.0,
+            "setr_iri_budget": 17.0,
+            "mmr": 9.0
+          },
+          "delta_joint_plain": 0.10687022900763359,
+          "wins": 22,
+          "losses": 8,
+          "ties": 101,
+          "descriptive_bootstrap95": [
+            0.030534351145038167,
+            0.19083969465648856
+          ],
+          "unadjusted_exact_p": 0.016124801710247993
+        },
+        "4B": {
+          "correct": {
+            "plain_set": 38.0,
+            "set_graph": 28.0,
+            "strong_chain": 53.0,
+            "joint": 54.0
+          },
+          "delta_joint_plain": 0.12213740458015267,
+          "wins": 25,
+          "losses": 9,
+          "ties": 97,
+          "descriptive_bootstrap95": [
+            0.03816793893129771,
+            0.20610687022900764
+          ],
+          "unadjusted_exact_p": 0.00904118549078703
+        }
+      }
+    },
+    "entity_category_relation": {
+      "n": 117,
+      "readers": {
+        "8B": {
+          "correct": {
+            "plain_set": 14.0,
+            "set_graph": 12.0,
+            "strong_chain": 26.0,
+            "joint": 26.0,
+            "setr_iri_budget": 15.0,
+            "mmr": 7.0
+          },
+          "delta_joint_plain": 0.10256410256410256,
+          "wins": 18,
+          "losses": 6,
+          "ties": 93,
+          "descriptive_bootstrap95": [
+            0.02564102564102564,
+            0.1794871794871795
+          ],
+          "unadjusted_exact_p": 0.022655844688415527
+        },
+        "4B": {
+          "correct": {
+            "plain_set": 32.0,
+            "set_graph": 25.0,
+            "strong_chain": 46.0,
+            "joint": 46.0
+          },
+          "delta_joint_plain": 0.11965811965811966,
+          "wins": 21,
+          "losses": 7,
+          "ties": 89,
+          "descriptive_bootstrap95": [
+            0.03418803418803419,
+            0.20512820512820512
+          ],
+          "unadjusted_exact_p": 0.012540951371192932
+        }
+      }
+    },
+    "non_temporal_quantity_or_rank": {
+      "n": 14,
+      "readers": {
+        "8B": {
+          "correct": {
+            "plain_set": 4.0,
+            "set_graph": 2.0,
+            "strong_chain": 6.0,
+            "joint": 6.0,
+            "setr_iri_budget": 2.0,
+            "mmr": 2.0
+          },
+          "delta_joint_plain": 0.14285714285714285,
+          "wins": 4,
+          "losses": 2,
+          "ties": 8,
+          "descriptive_bootstrap95": [
+            -0.21428571428571427,
+            0.5
+          ],
+          "unadjusted_exact_p": 0.6875
+        },
+        "4B": {
+          "correct": {
+            "plain_set": 6.0,
+            "set_graph": 3.0,
+            "strong_chain": 7.0,
+            "joint": 8.0
+          },
+          "delta_joint_plain": 0.14285714285714285,
+          "wins": 4,
+          "losses": 2,
+          "ties": 8,
+          "descriptive_bootstrap95": [
+            -0.21428571428571427,
+            0.5
+          ],
+          "unadjusted_exact_p": 0.6875
+        }
+      }
+    },
+    "all_temporal": {
+      "n": 18,
+      "readers": {
+        "8B": {
+          "correct": {
+            "plain_set": 2.0,
+            "set_graph": 0.0,
+            "strong_chain": 4.0,
+            "joint": 4.0,
+            "setr_iri_budget": 1.0,
+            "mmr": 0.0
+          },
+          "delta_joint_plain": 0.1111111111111111,
+          "wins": 3,
+          "losses": 1,
+          "ties": 14,
+          "descriptive_bootstrap95": [
+            -0.1111111111111111,
+            0.3333333333333333
+          ],
+          "unadjusted_exact_p": 0.625
+        },
+        "4B": {
+          "correct": {
+            "plain_set": 6.0,
+            "set_graph": 3.0,
+            "strong_chain": 8.0,
+            "joint": 8.0
+          },
+          "delta_joint_plain": 0.1111111111111111,
+          "wins": 4,
+          "losses": 2,
+          "ties": 12,
+          "descriptive_bootstrap95": [
+            -0.16666666666666666,
+            0.3888888888888889
+          ],
+          "unadjusted_exact_p": 0.6875
+        }
+      }
+    },
+    "answer_type_unclear": {
+      "n": 1,
+      "readers": {
+        "8B": {
+          "correct": {
+            "plain_set": 1.0,
+            "set_graph": 0.0,
+            "strong_chain": 0.0,
+            "joint": 0.0,
+            "setr_iri_budget": 0.0,
+            "mmr": 0.0
+          },
+          "delta_joint_plain": -1.0,
+          "wins": 0,
+          "losses": 1,
+          "ties": 0,
+          "descriptive_bootstrap95": [
+            -1.0,
+            -1.0
+          ],
+          "unadjusted_exact_p": 1
+        },
+        "4B": {
+          "correct": {
+            "plain_set": 1.0,
+            "set_graph": 0.0,
+            "strong_chain": 0.0,
+            "joint": 0.0
+          },
+          "delta_joint_plain": -1.0,
+          "wins": 0,
+          "losses": 1,
+          "ties": 0,
+          "descriptive_bootstrap95": [
+            -1.0,
+            -1.0
+          ],
+          "unadjusted_exact_p": 1
+        }
+      }
+    }
+  }
+}

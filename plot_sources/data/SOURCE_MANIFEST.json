@@ -1,0 +1,31 @@
+{
+  "source_package": "IPM_DocFuseLab_Draft_v1.zip",
+  "source_version": "1",
+  "source_library_id": "libfile_59af2961b0c08191bd6f9bc8e77e5266",
+  "files": {
+    "summary104.json": {
+      "sha256": "dc5c4b644fcb2362ff3c85f9fbb57cc72428065c428174b26b6e42543040bed8",
+      "bytes": 97538
+    },
+    "baseline101.json": {
+      "sha256": "beba49151f5f6c90903aa3cacc94b103f2919862219a8ad3c58e0cd8328f152f",
+      "bytes": 2670928
+    },
+    "baseline102.json": {
+      "sha256": "a65758f6bc48cd7622230dd1c8ad7f11ecb6a65ca672f61a17e5a8a9e2cdbf3c",
+      "bytes": 3470212
+    },
+    "baseline103.json": {
+      "sha256": "13e3dbb3696e52f6fda31ec8346e9c60538fc82f85815753b3000a6ca5c553f6",
+      "bytes": 1934092
+    },
+    "summary105.json": {
+      "sha256": "2cc7e41ff6b76c8187e66067605e09cfe140dd6ed08c049dc04d7648c51f93cb",
+      "bytes": 1337756
+    },
+    "sensitivity105.json": {
+      "sha256": "9b9c5277df6ba3f2397957ca13a47268ac5ed3f97179acf6474d8b79ff92425c",
+      "bytes": 7160
+    }
+  }
+}

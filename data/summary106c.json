@@ -1,0 +1,91 @@
+{
+  "experiment": "step106c",
+  "status": "complete",
+  "complete": true,
+  "reviewed_questions": 60,
+  "planned_reader_packets": 55,
+  "completed_reader_packets": 55,
+  "original_primary_unchanged": true,
+  "groups": {
+    "conflict": {
+      "n": 32,
+      "reference_correct": 20.0,
+      "reference_false_conflicts": 0,
+      "reference_within256": 29,
+      "prior_correct_same_questions": {
+        "plain_set": 6.0,
+        "joint": 6.0,
+        "setr_iri_budget": 7.0,
+        "full_context": 6.0,
+        "annotation_reference": 20.0
+      },
+      "complete_packet_counts": {
+        "plain_set": 8,
+        "joint": 10
+      },
+      "uncertain_packet_counts": {
+        "plain_set": 0,
+        "joint": 0
+      },
+      "diagnostic_flags": {
+        "feasible_reference_but_joint_incomplete": 19,
+        "joint_complete_but_reader_missed": 4,
+        "reference_complete_but_reader_missed": 12
+      }
+    },
+    "clean": {
+      "n": 23,
+      "reference_correct": 19.0,
+      "reference_false_conflicts": 0,
+      "reference_within256": 23,
+      "prior_correct_same_questions": {
+        "plain_set": 11.0,
+        "joint": 17.0,
+        "setr_iri_budget": 16.0,
+        "full_context": 19.0,
+        "annotation_reference": 19.0
+      },
+      "complete_packet_counts": {
+        "plain_set": 17,
+        "joint": 17
+      },
+      "uncertain_packet_counts": {
+        "plain_set": 1,
+        "joint": 0
+      },
+      "diagnostic_flags": {
+        "feasible_reference_but_joint_incomplete": 6,
+        "joint_complete_but_reader_missed": 0,
+        "reference_complete_but_reader_missed": 0
+      }
+    }
+  },
+  "cost": {
+    "new_completed": {
+      "calls": 4,
+      "input_tokens": 2263,
+      "output_tokens": 263,
+      "seconds": 14.839909400325269
+    },
+    "historical_reused": {
+      "calls": 106,
+      "input_tokens": 54993,
+      "output_tokens": 6408,
+      "seconds": 255.4301485014148
+    },
+    "interrupted_attempts": {
+      "calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.0
+    },
+    "new_total": {
+      "calls": 4,
+      "input_tokens": 2263,
+      "output_tokens": 263,
+      "seconds": 14.839909400325269
+    }
+  },
+  "scope": "Descriptive evidence-check diagnostic on fixed60; unresolved entries retained. Original300 results and labels unchanged. Not a new independent confirmation or a human agreement study.",
+  "interpretation": "Completeness flags can overlap. Reference inputs use privileged selection. A packet above256 does not prove budget impossibility."
+}

@@ -1,0 +1,597 @@
+{
+  "experiment": "step106",
+  "status": "complete",
+  "complete": true,
+  "mode": "base",
+  "planned_questions": 300,
+  "completed_questions": 300,
+  "groups": {
+    "conflict": {
+      "completed": 200,
+      "planned": 200,
+      "arms": {
+        "plain_set": {
+          "n": 200,
+          "correct": 30.0,
+          "accuracy": 0.15,
+          "mean_f1": 0.15,
+          "false_conflicts": 0,
+          "invalid": 0,
+          "unknown": 35,
+          "mean_source_tokens": 252.415,
+          "packets_within256": 200,
+          "logical_pipeline_llm_cost": {
+            "calls": 600,
+            "input_tokens": 612907,
+            "output_tokens": 30075,
+            "seconds": 4965.756546697114
+          }
+        },
+        "set_graph": {
+          "n": 200,
+          "correct": 31.0,
+          "accuracy": 0.155,
+          "mean_f1": 0.155,
+          "false_conflicts": 0,
+          "invalid": 0,
+          "unknown": 44,
+          "mean_source_tokens": 252.4,
+          "packets_within256": 200,
+          "logical_pipeline_llm_cost": {
+            "calls": 1806,
+            "input_tokens": 1321378,
+            "output_tokens": 1312082,
+            "seconds": 72730.03262229986
+          }
+        },
+        "strong_chain": {
+          "n": 200,
+          "correct": 46.0,
+          "accuracy": 0.23,
+          "mean_f1": 0.23,
+          "false_conflicts": 0,
+          "invalid": 0,
+          "unknown": 45,
+          "mean_source_tokens": 252.35,
+          "packets_within256": 200,
+          "logical_pipeline_llm_cost": {
+            "calls": 1806,
+            "input_tokens": 1321997,
+            "output_tokens": 1312624,
+            "seconds": 72749.20872980147
+          }
+        },
+        "joint": {
+          "n": 200,
+          "correct": 46.0,
+          "accuracy": 0.23,
+          "mean_f1": 0.23,
+          "false_conflicts": 0,
+          "invalid": 0,
+          "unknown": 45,
+          "mean_source_tokens": 252.355,
+          "packets_within256": 200,
+          "logical_pipeline_llm_cost": {
+            "calls": 1806,
+            "input_tokens": 1322087,
+            "output_tokens": 1312712,
+            "seconds": 72752.32806580071
+          }
+        },
+        "mmr": {
+          "n": 200,
+          "correct": 0.0,
+          "accuracy": 0.0,
+          "mean_f1": 0.0,
+          "false_conflicts": 0,
+          "invalid": 0,
+          "unknown": 149,
+          "mean_source_tokens": 252.06,
+          "packets_within256": 200,
+          "logical_pipeline_llm_cost": {
+            "calls": 400,
+            "input_tokens": 236214,
+            "output_tokens": 23102,
+            "seconds": 940.3238286995329
+          }
+        },
+        "setr_iri_budget": {
+          "n": 200,
+          "correct": 30.0,
+          "accuracy": 0.15,
+          "mean_f1": 0.15,
+          "false_conflicts": 0,
+          "invalid": 0,
+          "unknown": 32,
+          "mean_source_tokens": 252.19,
+          "packets_within256": 200,
+          "logical_pipeline_llm_cost": {
+            "calls": 600,
+            "input_tokens": 653060,
+            "output_tokens": 216663,
+            "seconds": 16368.446754296077
+          }
+        },
+        "full_context": {
+          "n": 200,
+          "correct": 31.0,
+          "accuracy": 0.155,
+          "mean_f1": 0.155,
+          "false_conflicts": 0,
+          "invalid": 0,
+          "unknown": 14,
+          "mean_source_tokens": 1493.08,
+          "packets_within256": 0,
+          "logical_pipeline_llm_cost": {
+            "calls": 400,
+            "input_tokens": 734701,
+            "output_tokens": 25991,
+            "seconds": 7561.935693100793
+          }
+        },
+        "annotation_reference": {
+          "n": 200,
+          "correct": 113.0,
+          "accuracy": 0.565,
+          "mean_f1": 0.565,
+          "false_conflicts": 0,
+          "invalid": 0,
+          "unknown": 22,
+          "mean_source_tokens": 210.065,
+          "packets_within256": 161,
+          "logical_pipeline_llm_cost": {
+            "calls": 400,
+            "input_tokens": 222563,
+            "output_tokens": 26519,
+            "seconds": 1060.824570501456
+          }
+        }
+      },
+      "supplemental_joint_vs_setr": {
+        "left": "joint",
+        "right": "setr_iri_budget",
+        "n": 200,
+        "clusters": 200,
+        "difference": 0.08,
+        "wins": 22,
+        "losses": 6,
+        "ties": 172,
+        "bootstrap95": [
+          0.03,
+          0.13
+        ],
+        "two_sided_exact_mcnemar_p": 0.0037191659212112427,
+        "bootstrap_repetitions": 20000,
+        "bootstrap_seed": 106202610,
+        "scope": "Supplemental comparison on an already observed cohort; original Step105 primary unchanged."
+      }
+    },
+    "clean": {
+      "completed": 100,
+      "planned": 100,
+      "arms": {
+        "plain_set": {
+          "n": 100,
+          "correct": 58.0,
+          "accuracy": 0.58,
+          "mean_f1": 0.6533333333333333,
+          "false_conflicts": 0,
+          "invalid": 0,
+          "unknown": 21,
+          "mean_source_tokens": 252.24,
+          "packets_within256": 100,
+          "logical_pipeline_llm_cost": {
+            "calls": 300,
+            "input_tokens": 312933,
+            "output_tokens": 14385,
+            "seconds": 2787.4776077009737
+          }
+        },
+        "set_graph": {
+          "n": 100,
+          "correct": 63.0,
+          "accuracy": 0.63,
+          "mean_f1": 0.6816666666666668,
+          "false_conflicts": 0,
+          "invalid": 0,
+          "unknown": 25,
+          "mean_source_tokens": 252.28,
+          "packets_within256": 100,
+          "logical_pipeline_llm_cost": {
+            "calls": 887,
+            "input_tokens": 675462,
+            "output_tokens": 650581,
+            "seconds": 36713.613621898694
+          }
+        },
+        "strong_chain": {
+          "n": 100,
+          "correct": 65.0,
+          "accuracy": 0.65,
+          "mean_f1": 0.7016666666666667,
+          "false_conflicts": 0,
+          "invalid": 0,
+          "unknown": 19,
+          "mean_source_tokens": 251.52,
+          "packets_within256": 100,
+          "logical_pipeline_llm_cost": {
+            "calls": 887,
+            "input_tokens": 675129,
+            "output_tokens": 650439,
+            "seconds": 36708.457825698424
+          }
+        },
+        "joint": {
+          "n": 100,
+          "correct": 67.0,
+          "accuracy": 0.67,
+          "mean_f1": 0.7216666666666667,
+          "false_conflicts": 0,
+          "invalid": 0,
+          "unknown": 18,
+          "mean_source_tokens": 251.63,
+          "packets_within256": 100,
+          "logical_pipeline_llm_cost": {
+            "calls": 887,
+            "input_tokens": 675103,
+            "output_tokens": 650399,
+            "seconds": 36706.96024409891
+          }
+        },
+        "mmr": {
+          "n": 100,
+          "correct": 5.0,
+          "accuracy": 0.05,
+          "mean_f1": 0.06166666666666667,
+          "false_conflicts": 1,
+          "invalid": 0,
+          "unknown": 84,
+          "mean_source_tokens": 251.65,
+          "packets_within256": 100,
+          "logical_pipeline_llm_cost": {
+            "calls": 200,
+            "input_tokens": 117766,
+            "output_tokens": 11297,
+            "seconds": 460.4301253987942
+          }
+        },
+        "setr_iri_budget": {
+          "n": 100,
+          "correct": 64.0,
+          "accuracy": 0.64,
+          "mean_f1": 0.7016666666666667,
+          "false_conflicts": 0,
+          "invalid": 0,
+          "unknown": 19,
+          "mean_source_tokens": 252.15,
+          "packets_within256": 100,
+          "logical_pipeline_llm_cost": {
+            "calls": 300,
+            "input_tokens": 332873,
+            "output_tokens": 91636,
+            "seconds": 7146.382816199912
+          }
+        },
+        "full_context": {
+          "n": 100,
+          "correct": 77.0,
+          "accuracy": 0.77,
+          "mean_f1": 0.8366666666666667,
+          "false_conflicts": 0,
+          "invalid": 0,
+          "unknown": 8,
+          "mean_source_tokens": 1567.0,
+          "packets_within256": 0,
+          "logical_pipeline_llm_cost": {
+            "calls": 200,
+            "input_tokens": 380509,
+            "output_tokens": 11503,
+            "seconds": 3897.568534799386
+          }
+        },
+        "annotation_reference": {
+          "n": 100,
+          "correct": 79.0,
+          "accuracy": 0.79,
+          "mean_f1": 0.85,
+          "false_conflicts": 0,
+          "invalid": 0,
+          "unknown": 11,
+          "mean_source_tokens": 152.41,
+          "packets_within256": 99,
+          "logical_pipeline_llm_cost": {
+            "calls": 200,
+            "input_tokens": 96087,
+            "output_tokens": 9980,
+            "seconds": 405.1207996006124
+          }
+        }
+      },
+      "supplemental_joint_vs_setr": {
+        "left": "joint",
+        "right": "setr_iri_budget",
+        "n": 100,
+        "clusters": 100,
+        "difference": 0.03,
+        "wins": 9,
+        "losses": 6,
+        "ties": 85,
+        "bootstrap95": [
+          -0.05,
+          0.1
+        ],
+        "two_sided_exact_mcnemar_p": 0.60723876953125,
+        "bootstrap_repetitions": 20000,
+        "bootstrap_seed": 106202610,
+        "scope": "Supplemental comparison on an already observed cohort; original Step105 primary unchanged."
+      }
+    }
+  },
+  "original_step105_primary": {
+    "n": 200,
+    "clusters": 200,
+    "metric": "em",
+    "left": "joint",
+    "right": "plain_set",
+    "difference": 0.08,
+    "wins": 25,
+    "losses": 9,
+    "ties": 166,
+    "two_sided_exact_mcnemar_p": 0.00904118549078703,
+    "source_cluster_bootstrap95": [
+      0.025,
+      0.135
+    ],
+    "bootstrap_repetitions": 20000,
+    "bootstrap_seed": 105202610
+  },
+  "original_step105_primary_changed": false,
+  "human_diagnostic": {
+    "reviewed_entries_submitted": 0,
+    "verified_completed_packets": 0,
+    "verified_conflict_packets": 0,
+    "verified_conflict_reader_detected": 0,
+    "verified_packets_fit256": 0,
+    "verified_feasible_but_joint_packet_incomplete": 0,
+    "verified_joint_complete_but_reader_missed": 0,
+    "note": "Only author-reviewed, complete packets whose source judgement matches the frozen condition enter this diagnostic. Flags are not an exhaustive causal partition."
+  },
+  "diagnostic_views": [
+    {
+      "condition": "conflict",
+      "annotation_reference_fits256": true,
+      "n": 161,
+      "correct": {
+        "joint": 42.0,
+        "full_context": 30.0,
+        "annotation_reference": 95.0
+      },
+      "patterns": [
+        {
+          "joint_correct": 0,
+          "full_context_correct": 0,
+          "annotation_reference_correct": 0,
+          "n": 54
+        },
+        {
+          "joint_correct": 0,
+          "full_context_correct": 0,
+          "annotation_reference_correct": 1,
+          "n": 48
+        },
+        {
+          "joint_correct": 0,
+          "full_context_correct": 1,
+          "annotation_reference_correct": 0,
+          "n": 6
+        },
+        {
+          "joint_correct": 0,
+          "full_context_correct": 1,
+          "annotation_reference_correct": 1,
+          "n": 11
+        },
+        {
+          "joint_correct": 1,
+          "full_context_correct": 0,
+          "annotation_reference_correct": 0,
+          "n": 5
+        },
+        {
+          "joint_correct": 1,
+          "full_context_correct": 0,
+          "annotation_reference_correct": 1,
+          "n": 24
+        },
+        {
+          "joint_correct": 1,
+          "full_context_correct": 1,
+          "annotation_reference_correct": 0,
+          "n": 1
+        },
+        {
+          "joint_correct": 1,
+          "full_context_correct": 1,
+          "annotation_reference_correct": 1,
+          "n": 12
+        }
+      ],
+      "interpretation": "Descriptive cross-tabulation; unreviewed reference completeness and minimum feasible budget are not established."
+    },
+    {
+      "condition": "conflict",
+      "annotation_reference_fits256": false,
+      "n": 39,
+      "correct": {
+        "joint": 4.0,
+        "full_context": 1.0,
+        "annotation_reference": 18.0
+      },
+      "patterns": [
+        {
+          "joint_correct": 0,
+          "full_context_correct": 0,
+          "annotation_reference_correct": 0,
+          "n": 20
+        },
+        {
+          "joint_correct": 0,
+          "full_context_correct": 0,
+          "annotation_reference_correct": 1,
+          "n": 15
+        },
+        {
+          "joint_correct": 1,
+          "full_context_correct": 0,
+          "annotation_reference_correct": 1,
+          "n": 3
+        },
+        {
+          "joint_correct": 1,
+          "full_context_correct": 1,
+          "annotation_reference_correct": 0,
+          "n": 1
+        }
+      ],
+      "interpretation": "Descriptive cross-tabulation; unreviewed reference completeness and minimum feasible budget are not established."
+    },
+    {
+      "condition": "clean",
+      "annotation_reference_fits256": true,
+      "n": 99,
+      "correct": {
+        "joint": 67.0,
+        "full_context": 77.0,
+        "annotation_reference": 78.0
+      },
+      "patterns": [
+        {
+          "joint_correct": 0,
+          "full_context_correct": 0,
+          "annotation_reference_correct": 0,
+          "n": 17
+        },
+        {
+          "joint_correct": 0,
+          "full_context_correct": 0,
+          "annotation_reference_correct": 1,
+          "n": 3
+        },
+        {
+          "joint_correct": 0,
+          "full_context_correct": 1,
+          "annotation_reference_correct": 0,
+          "n": 3
+        },
+        {
+          "joint_correct": 0,
+          "full_context_correct": 1,
+          "annotation_reference_correct": 1,
+          "n": 9
+        },
+        {
+          "joint_correct": 1,
+          "full_context_correct": 0,
+          "annotation_reference_correct": 1,
+          "n": 2
+        },
+        {
+          "joint_correct": 1,
+          "full_context_correct": 1,
+          "annotation_reference_correct": 0,
+          "n": 1
+        },
+        {
+          "joint_correct": 1,
+          "full_context_correct": 1,
+          "annotation_reference_correct": 1,
+          "n": 64
+        }
+      ],
+      "interpretation": "Descriptive cross-tabulation; unreviewed reference completeness and minimum feasible budget are not established."
+    },
+    {
+      "condition": "clean",
+      "annotation_reference_fits256": false,
+      "n": 1,
+      "correct": {
+        "joint": 0.0,
+        "full_context": 0.0,
+        "annotation_reference": 1.0
+      },
+      "patterns": [
+        {
+          "joint_correct": 0,
+          "full_context_correct": 0,
+          "annotation_reference_correct": 1,
+          "n": 1
+        }
+      ],
+      "interpretation": "Descriptive cross-tabulation; unreviewed reference completeness and minimum feasible budget are not established."
+    }
+  ],
+  "human_review_status": "pending_author_review",
+  "cost": {
+    "new_completed_physical": {
+      "calls": 1800,
+      "input_tokens": 2244091,
+      "output_tokens": 365817,
+      "seconds": 35765.696595499525
+    },
+    "historical_reused": {
+      "calls": 298,
+      "input_tokens": 174528,
+      "output_tokens": 16371,
+      "seconds": 670.2942774987314
+    },
+    "interrupted_attempts": {
+      "calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.0
+    },
+    "new_total_physical": {
+      "calls": 1800,
+      "input_tokens": 2244091,
+      "output_tokens": 365817,
+      "seconds": 35765.696595499525
+    },
+    "new_by_stage": {
+      "setr": {
+        "calls": 300,
+        "input_tokens": 633712,
+        "output_tokens": 274664,
+        "seconds": 22140.127329197712
+      },
+      "check": {
+        "calls": 750,
+        "input_tokens": 771509,
+        "output_tokens": 83861,
+        "seconds": 8204.332795499358
+      },
+      "answer": {
+        "calls": 750,
+        "input_tokens": 838870,
+        "output_tokens": 7292,
+        "seconds": 5421.236470802454
+      }
+    },
+    "invalid_completed_by_stage": {
+      "setr": 15
+    },
+    "historical_step105_physical": {
+      "calls": 4107,
+      "input_tokens": 3226354,
+      "output_tokens": 2036950,
+      "seconds": 118408.96697539557
+    }
+  },
+  "scope": "Equal source-budget SetR supplement plus separate full-context and annotation/human-reference diagnostics. No new untouched confirmation claim.",
+  "interpretation": [
+    "Full context is not a guaranteed upper bound.",
+    "Annotation-derived packet is not human verified or proven minimal.",
+    "A packet over256 does not prove every complete packet exceeds256.",
+    "Diagnostic arms receive privileged context and are not ordinary256-token baselines.",
+    "Logical pipeline costs share physical calls; do not sum across methods. Human/reference preparation cost is unknown, not zero."
+  ]
+}

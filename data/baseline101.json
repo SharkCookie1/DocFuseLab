@@ -1,0 +1,3700 @@
+{
+  "experiment": "Step101 fixed350 packets, frozen original8B two-pass reader",
+  "status": "complete",
+  "complete": true,
+  "completed_questions": 350,
+  "planned_questions": 350,
+  "unique_packets": 513,
+  "completed_packets": 513,
+  "completed_calls": 1024,
+  "groups": {
+    "all350": {
+      "completed_n": 350,
+      "tables8b": {
+        "hotpot_conflict": {
+          "plain_set": {
+            "n": 150,
+            "correct": 21.0,
+            "em": 0.14,
+            "f1": 0.14,
+            "conflict_count": 21,
+            "invalid": 1,
+            "mean_source_tokens": 246.56,
+            "reader_cost": {
+              "calls": 299.0,
+              "input_tokens": 176379.0,
+              "output_tokens": 17745.0,
+              "seconds": 968.0603523959871
+            },
+            "construction_cost": {
+              "calls": 146.0,
+              "input_tokens": 135211.0,
+              "output_tokens": 5562.0,
+              "seconds": 1082.5567193015013
+            }
+          },
+          "set_graph": {
+            "n": 150,
+            "correct": 14.0,
+            "em": 0.09333333333333334,
+            "f1": 0.09333333333333334,
+            "conflict_count": 14,
+            "invalid": 0,
+            "mean_source_tokens": 246.76666666666668,
+            "reader_cost": {
+              "calls": 300.0,
+              "input_tokens": 176467.0,
+              "output_tokens": 16861.0,
+              "seconds": 932.5648474972695
+            },
+            "construction_cost": {
+              "calls": 1391.0,
+              "input_tokens": 721792.0,
+              "output_tokens": 1009059.0,
+              "seconds": 49588.10687050549
+            }
+          },
+          "strong_chain": {
+            "n": 150,
+            "correct": 36.0,
+            "em": 0.24,
+            "f1": 0.24,
+            "conflict_count": 36,
+            "invalid": 1,
+            "mean_source_tokens": 246.86,
+            "reader_cost": {
+              "calls": 299.0,
+              "input_tokens": 177069.0,
+              "output_tokens": 18327.0,
+              "seconds": 990.3857872979715
+            },
+            "construction_cost": {
+              "calls": 1391.0,
+              "input_tokens": 721792.0,
+              "output_tokens": 1009059.0,
+              "seconds": 49588.10687050549
+            }
+          },
+          "joint": {
+            "n": 150,
+            "correct": 36.0,
+            "em": 0.24,
+            "f1": 0.24,
+            "conflict_count": 36,
+            "invalid": 1,
+            "mean_source_tokens": 246.73333333333332,
+            "reader_cost": {
+              "calls": 299.0,
+              "input_tokens": 177072.0,
+              "output_tokens": 18345.0,
+              "seconds": 989.7005588975735
+            },
+            "construction_cost": {
+              "calls": 1391.0,
+              "input_tokens": 721792.0,
+              "output_tokens": 1009059.0,
+              "seconds": 49588.10687050549
+            }
+          }
+        },
+        "hotpot_clean": {
+          "plain_set": {
+            "n": 200,
+            "correct": 118.0,
+            "em": 0.59,
+            "f1": 0.7187142857142856,
+            "conflict_count": 4,
+            "invalid": 0,
+            "mean_source_tokens": 214.5,
+            "reader_cost": {
+              "calls": 400.0,
+              "input_tokens": 219493.0,
+              "output_tokens": 19632.0,
+              "seconds": 1338.0335138007067
+            },
+            "construction_cost": {
+              "calls": 104.0,
+              "input_tokens": 59580.0,
+              "output_tokens": 3949.0,
+              "seconds": 257.5760604995303
+            }
+          },
+          "set_graph": {
+            "n": 200,
+            "correct": 116.0,
+            "em": 0.58,
+            "f1": 0.7087142857142856,
+            "conflict_count": 4,
+            "invalid": 0,
+            "mean_source_tokens": 214.695,
+            "reader_cost": {
+              "calls": 400.0,
+              "input_tokens": 219687.0,
+              "output_tokens": 19742.0,
+              "seconds": 1338.4130555003649
+            },
+            "construction_cost": {
+              "calls": 817.0,
+              "input_tokens": 350931.0,
+              "output_tokens": 525123.0,
+              "seconds": 21946.56306220265
+            }
+          },
+          "strong_chain": {
+            "n": 200,
+            "correct": 115.0,
+            "em": 0.575,
+            "f1": 0.7070476190476191,
+            "conflict_count": 4,
+            "invalid": 0,
+            "mean_source_tokens": 215.03,
+            "reader_cost": {
+              "calls": 400.0,
+              "input_tokens": 219692.0,
+              "output_tokens": 19617.0,
+              "seconds": 1339.8434490006184
+            },
+            "construction_cost": {
+              "calls": 817.0,
+              "input_tokens": 350931.0,
+              "output_tokens": 525123.0,
+              "seconds": 21946.56306220265
+            }
+          },
+          "joint": {
+            "n": 200,
+            "correct": 115.0,
+            "em": 0.575,
+            "f1": 0.7070476190476191,
+            "conflict_count": 4,
+            "invalid": 0,
+            "mean_source_tokens": 215.03,
+            "reader_cost": {
+              "calls": 400.0,
+              "input_tokens": 219692.0,
+              "output_tokens": 19617.0,
+              "seconds": 1339.8434490006184
+            },
+            "construction_cost": {
+              "calls": 817.0,
+              "input_tokens": 350931.0,
+              "output_tokens": 525123.0,
+              "seconds": 21946.56306220265
+            }
+          }
+        }
+      },
+      "selector_comparisons8b": {
+        "hotpot_conflict": {
+          "joint_vs_plain_set": {
+            "n": 150,
+            "metric": "em",
+            "delta": 0.1,
+            "wins": 25,
+            "losses": 10,
+            "ties": 115,
+            "clusters": 150,
+            "seed": 1962947992,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.02666666666666667,
+              0.17333333333333334
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_set_graph": {
+            "n": 150,
+            "metric": "em",
+            "delta": 0.14666666666666667,
+            "wins": 25,
+            "losses": 3,
+            "ties": 122,
+            "clusters": 150,
+            "seed": 1327552096,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.08666666666666667,
+              0.21333333333333335
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_strong_chain": {
+            "n": 150,
+            "metric": "em",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 150,
+            "clusters": 150,
+            "seed": 3615778150,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        },
+        "hotpot_clean": {
+          "joint_vs_plain_set": {
+            "n": 200,
+            "metric": "f1",
+            "delta": -0.011666666666666667,
+            "wins": 0,
+            "losses": 3,
+            "ties": 197,
+            "clusters": 197,
+            "seed": 1732625034,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.028333333333333335,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_set_graph": {
+            "n": 200,
+            "metric": "f1",
+            "delta": -0.0016666666666666668,
+            "wins": 0,
+            "losses": 1,
+            "ties": 199,
+            "clusters": 197,
+            "seed": 3408429501,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.005050505050505051,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_strong_chain": {
+            "n": 200,
+            "metric": "f1",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 200,
+            "clusters": 197,
+            "seed": 1091366841,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        }
+      },
+      "reader8b_minus4b": {
+        "hotpot_conflict": {
+          "plain_set": {
+            "n": 150,
+            "metric": "em",
+            "delta": -0.16,
+            "wins": 5,
+            "losses": 29,
+            "ties": 116,
+            "clusters": 150,
+            "seed": 1817936663,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.23333333333333334,
+              -0.08666666666666667
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "set_graph": {
+            "n": 150,
+            "metric": "em",
+            "delta": -0.11333333333333333,
+            "wins": 4,
+            "losses": 21,
+            "ties": 125,
+            "clusters": 150,
+            "seed": 4068788477,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.18,
+              -0.05333333333333334
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "strong_chain": {
+            "n": 150,
+            "metric": "em",
+            "delta": -0.16666666666666666,
+            "wins": 13,
+            "losses": 38,
+            "ties": 99,
+            "clusters": 150,
+            "seed": 442476830,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.25333333333333335,
+              -0.08
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint": {
+            "n": 150,
+            "metric": "em",
+            "delta": -0.17333333333333334,
+            "wins": 12,
+            "losses": 38,
+            "ties": 100,
+            "clusters": 150,
+            "seed": 1178998816,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.26,
+              -0.08666666666666667
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        },
+        "hotpot_clean": {
+          "plain_set": {
+            "n": 200,
+            "metric": "f1",
+            "delta": -0.009362914862914865,
+            "wins": 24,
+            "losses": 20,
+            "ties": 156,
+            "clusters": 197,
+            "seed": 3587612049,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.05955615232372152,
+              0.04126233319072514
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "set_graph": {
+            "n": 200,
+            "metric": "f1",
+            "delta": -0.009640692640692642,
+            "wins": 25,
+            "losses": 19,
+            "ties": 156,
+            "clusters": 197,
+            "seed": 1653436172,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.06114298636686697,
+              0.04137532902608277
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "strong_chain": {
+            "n": 200,
+            "metric": "f1",
+            "delta": -0.015386724386724388,
+            "wins": 23,
+            "losses": 21,
+            "ties": 156,
+            "clusters": 197,
+            "seed": 3128930289,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.06623422601363778,
+              0.035349936823817416
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint": {
+            "n": 200,
+            "metric": "f1",
+            "delta": -0.015386724386724388,
+            "wins": 23,
+            "losses": 21,
+            "ties": 156,
+            "clusters": 197,
+            "seed": 719305328,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.06672194223280907,
+              0.03581649314971339
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        }
+      }
+    },
+    "additional302": {
+      "completed_n": 302,
+      "tables8b": {
+        "hotpot_conflict": {
+          "plain_set": {
+            "n": 134,
+            "correct": 20.0,
+            "em": 0.14925373134328357,
+            "f1": 0.14925373134328357,
+            "conflict_count": 20,
+            "invalid": 1,
+            "mean_source_tokens": 246.17164179104478,
+            "reader_cost": {
+              "calls": 267.0,
+              "input_tokens": 157531.0,
+              "output_tokens": 16002.0,
+              "seconds": 874.8125319965184
+            },
+            "construction_cost": {
+              "calls": 130.0,
+              "input_tokens": 120194.0,
+              "output_tokens": 4968.0,
+              "seconds": 896.472926601069
+            }
+          },
+          "set_graph": {
+            "n": 134,
+            "correct": 13.0,
+            "em": 0.09701492537313433,
+            "f1": 0.09701492537313433,
+            "conflict_count": 13,
+            "invalid": 0,
+            "mean_source_tokens": 246.46268656716418,
+            "reader_cost": {
+              "calls": 268.0,
+              "input_tokens": 157714.0,
+              "output_tokens": 15195.0,
+              "seconds": 847.2033646970522
+            },
+            "construction_cost": {
+              "calls": 1235.0,
+              "input_tokens": 641250.0,
+              "output_tokens": 901558.0,
+              "seconds": 44181.659476605244
+            }
+          },
+          "strong_chain": {
+            "n": 134,
+            "correct": 30.0,
+            "em": 0.22388059701492538,
+            "f1": 0.22388059701492538,
+            "conflict_count": 30,
+            "invalid": 1,
+            "mean_source_tokens": 246.52985074626866,
+            "reader_cost": {
+              "calls": 267.0,
+              "input_tokens": 158057.0,
+              "output_tokens": 16426.0,
+              "seconds": 896.6842725977767
+            },
+            "construction_cost": {
+              "calls": 1235.0,
+              "input_tokens": 641250.0,
+              "output_tokens": 901558.0,
+              "seconds": 44181.659476605244
+            }
+          },
+          "joint": {
+            "n": 134,
+            "correct": 30.0,
+            "em": 0.22388059701492538,
+            "f1": 0.22388059701492538,
+            "conflict_count": 30,
+            "invalid": 1,
+            "mean_source_tokens": 246.38805970149255,
+            "reader_cost": {
+              "calls": 267.0,
+              "input_tokens": 158060.0,
+              "output_tokens": 16444.0,
+              "seconds": 895.9990441973787
+            },
+            "construction_cost": {
+              "calls": 1235.0,
+              "input_tokens": 641250.0,
+              "output_tokens": 901558.0,
+              "seconds": 44181.659476605244
+            }
+          }
+        },
+        "hotpot_clean": {
+          "plain_set": {
+            "n": 168,
+            "correct": 100.0,
+            "em": 0.5952380952380952,
+            "f1": 0.7383503401360544,
+            "conflict_count": 3,
+            "invalid": 0,
+            "mean_source_tokens": 215.91071428571428,
+            "reader_cost": {
+              "calls": 336.0,
+              "input_tokens": 185041.0,
+              "output_tokens": 16666.0,
+              "seconds": 1138.7051270016236
+            },
+            "construction_cost": {
+              "calls": 91.0,
+              "input_tokens": 52079.0,
+              "output_tokens": 3465.0,
+              "seconds": 198.97844599932432
+            }
+          },
+          "set_graph": {
+            "n": 168,
+            "correct": 98.0,
+            "em": 0.5833333333333334,
+            "f1": 0.7264455782312925,
+            "conflict_count": 3,
+            "invalid": 0,
+            "mean_source_tokens": 216.2797619047619,
+            "reader_cost": {
+              "calls": 336.0,
+              "input_tokens": 185285.0,
+              "output_tokens": 16780.0,
+              "seconds": 1139.4481733012944
+            },
+            "construction_cost": {
+              "calls": 711.0,
+              "input_tokens": 304418.0,
+              "output_tokens": 456744.0,
+              "seconds": 19008.178350402042
+            }
+          },
+          "strong_chain": {
+            "n": 168,
+            "correct": 97.0,
+            "em": 0.5773809523809523,
+            "f1": 0.7244614512471655,
+            "conflict_count": 3,
+            "invalid": 0,
+            "mean_source_tokens": 216.54761904761904,
+            "reader_cost": {
+              "calls": 336.0,
+              "input_tokens": 185274.0,
+              "output_tokens": 16683.0,
+              "seconds": 1142.2042666017078
+            },
+            "construction_cost": {
+              "calls": 711.0,
+              "input_tokens": 304418.0,
+              "output_tokens": 456744.0,
+              "seconds": 19008.178350402042
+            }
+          },
+          "joint": {
+            "n": 168,
+            "correct": 97.0,
+            "em": 0.5773809523809523,
+            "f1": 0.7244614512471655,
+            "conflict_count": 3,
+            "invalid": 0,
+            "mean_source_tokens": 216.54761904761904,
+            "reader_cost": {
+              "calls": 336.0,
+              "input_tokens": 185274.0,
+              "output_tokens": 16683.0,
+              "seconds": 1142.2042666017078
+            },
+            "construction_cost": {
+              "calls": 711.0,
+              "input_tokens": 304418.0,
+              "output_tokens": 456744.0,
+              "seconds": 19008.178350402042
+            }
+          }
+        }
+      },
+      "selector_comparisons8b": {
+        "hotpot_conflict": {
+          "joint_vs_plain_set": {
+            "n": 134,
+            "metric": "em",
+            "delta": 0.07462686567164178,
+            "wins": 20,
+            "losses": 10,
+            "ties": 104,
+            "clusters": 134,
+            "seed": 1962947992,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.007462686567164179,
+              0.15671641791044777
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_set_graph": {
+            "n": 134,
+            "metric": "em",
+            "delta": 0.12686567164179105,
+            "wins": 20,
+            "losses": 3,
+            "ties": 111,
+            "clusters": 134,
+            "seed": 1327552096,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.05970149253731343,
+              0.19402985074626866
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_strong_chain": {
+            "n": 134,
+            "metric": "em",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 134,
+            "clusters": 134,
+            "seed": 3615778150,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        },
+        "hotpot_clean": {
+          "joint_vs_plain_set": {
+            "n": 168,
+            "metric": "f1",
+            "delta": -0.01388888888888889,
+            "wins": 0,
+            "losses": 3,
+            "ties": 165,
+            "clusters": 167,
+            "seed": 1732625034,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.03353057199211046,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_set_graph": {
+            "n": 168,
+            "metric": "f1",
+            "delta": -0.0019841269841269845,
+            "wins": 0,
+            "losses": 1,
+            "ties": 167,
+            "clusters": 167,
+            "seed": 3408429501,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.005988023952095809,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_strong_chain": {
+            "n": 168,
+            "metric": "f1",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 168,
+            "clusters": 167,
+            "seed": 1091366841,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        }
+      },
+      "reader8b_minus4b": {
+        "hotpot_conflict": {
+          "plain_set": {
+            "n": 134,
+            "metric": "em",
+            "delta": -0.15671641791044777,
+            "wins": 5,
+            "losses": 26,
+            "ties": 103,
+            "clusters": 134,
+            "seed": 1817936663,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.23880597014925373,
+              -0.08208955223880597
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "set_graph": {
+            "n": 134,
+            "metric": "em",
+            "delta": -0.11940298507462686,
+            "wins": 4,
+            "losses": 20,
+            "ties": 110,
+            "clusters": 134,
+            "seed": 4068788477,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.19402985074626866,
+              -0.05223880597014925
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "strong_chain": {
+            "n": 134,
+            "metric": "em",
+            "delta": -0.17164179104477612,
+            "wins": 12,
+            "losses": 35,
+            "ties": 87,
+            "clusters": 134,
+            "seed": 442476830,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.26865671641791045,
+              -0.07462686567164178
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint": {
+            "n": 134,
+            "metric": "em",
+            "delta": -0.1791044776119403,
+            "wins": 11,
+            "losses": 35,
+            "ties": 88,
+            "clusters": 134,
+            "seed": 1178998816,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.27611940298507465,
+              -0.08208955223880597
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        },
+        "hotpot_clean": {
+          "plain_set": {
+            "n": 168,
+            "metric": "f1",
+            "delta": -0.008963787535216108,
+            "wins": 22,
+            "losses": 17,
+            "ties": 129,
+            "clusters": 167,
+            "seed": 3587612049,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.06723500858116242,
+              0.047355678253881844
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "set_graph": {
+            "n": 168,
+            "metric": "f1",
+            "delta": -0.012270665842094413,
+            "wins": 23,
+            "losses": 17,
+            "ties": 128,
+            "clusters": 167,
+            "seed": 1653436172,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.07100637990634469,
+              0.046719045674883976
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "strong_chain": {
+            "n": 168,
+            "metric": "f1",
+            "delta": -0.015709819281247855,
+            "wins": 21,
+            "losses": 18,
+            "ties": 129,
+            "clusters": 167,
+            "seed": 3128930289,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.07443284889713463,
+              0.04229149488078057
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint": {
+            "n": 168,
+            "metric": "f1",
+            "delta": -0.015709819281247855,
+            "wins": 21,
+            "losses": 18,
+            "ties": 129,
+            "clusters": 167,
+            "seed": 719305328,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.07484770718303652,
+              0.041951144094001226
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        }
+      }
+    },
+    "historical48": {
+      "completed_n": 48,
+      "tables8b": {
+        "hotpot_conflict": {
+          "plain_set": {
+            "n": 16,
+            "correct": 1.0,
+            "em": 0.0625,
+            "f1": 0.0625,
+            "conflict_count": 1,
+            "invalid": 0,
+            "mean_source_tokens": 249.8125,
+            "reader_cost": {
+              "calls": 32.0,
+              "input_tokens": 18848.0,
+              "output_tokens": 1743.0,
+              "seconds": 93.24782039946876
+            },
+            "construction_cost": {
+              "calls": 16.0,
+              "input_tokens": 15017.0,
+              "output_tokens": 594.0,
+              "seconds": 186.08379270043224
+            }
+          },
+          "set_graph": {
+            "n": 16,
+            "correct": 1.0,
+            "em": 0.0625,
+            "f1": 0.0625,
+            "conflict_count": 1,
+            "invalid": 0,
+            "mean_source_tokens": 249.3125,
+            "reader_cost": {
+              "calls": 32.0,
+              "input_tokens": 18753.0,
+              "output_tokens": 1666.0,
+              "seconds": 85.36148280021735
+            },
+            "construction_cost": {
+              "calls": 156.0,
+              "input_tokens": 80542.0,
+              "output_tokens": 107501.0,
+              "seconds": 5406.447393900249
+            }
+          },
+          "strong_chain": {
+            "n": 16,
+            "correct": 6.0,
+            "em": 0.375,
+            "f1": 0.375,
+            "conflict_count": 6,
+            "invalid": 0,
+            "mean_source_tokens": 249.625,
+            "reader_cost": {
+              "calls": 32.0,
+              "input_tokens": 19012.0,
+              "output_tokens": 1901.0,
+              "seconds": 93.70151470019482
+            },
+            "construction_cost": {
+              "calls": 156.0,
+              "input_tokens": 80542.0,
+              "output_tokens": 107501.0,
+              "seconds": 5406.447393900249
+            }
+          },
+          "joint": {
+            "n": 16,
+            "correct": 6.0,
+            "em": 0.375,
+            "f1": 0.375,
+            "conflict_count": 6,
+            "invalid": 0,
+            "mean_source_tokens": 249.625,
+            "reader_cost": {
+              "calls": 32.0,
+              "input_tokens": 19012.0,
+              "output_tokens": 1901.0,
+              "seconds": 93.70151470019482
+            },
+            "construction_cost": {
+              "calls": 156.0,
+              "input_tokens": 80542.0,
+              "output_tokens": 107501.0,
+              "seconds": 5406.447393900249
+            }
+          }
+        },
+        "hotpot_clean": {
+          "plain_set": {
+            "n": 32,
+            "correct": 18.0,
+            "em": 0.5625,
+            "f1": 0.615625,
+            "conflict_count": 1,
+            "invalid": 0,
+            "mean_source_tokens": 207.09375,
+            "reader_cost": {
+              "calls": 64.0,
+              "input_tokens": 34452.0,
+              "output_tokens": 2966.0,
+              "seconds": 199.3283867990831
+            },
+            "construction_cost": {
+              "calls": 13.0,
+              "input_tokens": 7501.0,
+              "output_tokens": 484.0,
+              "seconds": 58.597614500205964
+            }
+          },
+          "set_graph": {
+            "n": 32,
+            "correct": 18.0,
+            "em": 0.5625,
+            "f1": 0.615625,
+            "conflict_count": 1,
+            "invalid": 0,
+            "mean_source_tokens": 206.375,
+            "reader_cost": {
+              "calls": 64.0,
+              "input_tokens": 34402.0,
+              "output_tokens": 2962.0,
+              "seconds": 198.96488219907042
+            },
+            "construction_cost": {
+              "calls": 106.0,
+              "input_tokens": 46513.0,
+              "output_tokens": 68379.0,
+              "seconds": 2938.384711800609
+            }
+          },
+          "strong_chain": {
+            "n": 32,
+            "correct": 18.0,
+            "em": 0.5625,
+            "f1": 0.615625,
+            "conflict_count": 1,
+            "invalid": 0,
+            "mean_source_tokens": 207.0625,
+            "reader_cost": {
+              "calls": 64.0,
+              "input_tokens": 34418.0,
+              "output_tokens": 2934.0,
+              "seconds": 197.63918239891063
+            },
+            "construction_cost": {
+              "calls": 106.0,
+              "input_tokens": 46513.0,
+              "output_tokens": 68379.0,
+              "seconds": 2938.384711800609
+            }
+          },
+          "joint": {
+            "n": 32,
+            "correct": 18.0,
+            "em": 0.5625,
+            "f1": 0.615625,
+            "conflict_count": 1,
+            "invalid": 0,
+            "mean_source_tokens": 207.0625,
+            "reader_cost": {
+              "calls": 64.0,
+              "input_tokens": 34418.0,
+              "output_tokens": 2934.0,
+              "seconds": 197.63918239891063
+            },
+            "construction_cost": {
+              "calls": 106.0,
+              "input_tokens": 46513.0,
+              "output_tokens": 68379.0,
+              "seconds": 2938.384711800609
+            }
+          }
+        }
+      },
+      "selector_comparisons8b": {
+        "hotpot_conflict": {
+          "joint_vs_plain_set": {
+            "n": 16,
+            "metric": "em",
+            "delta": 0.3125,
+            "wins": 5,
+            "losses": 0,
+            "ties": 11,
+            "clusters": 16,
+            "seed": 1962947992,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.125,
+              0.5625
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_set_graph": {
+            "n": 16,
+            "metric": "em",
+            "delta": 0.3125,
+            "wins": 5,
+            "losses": 0,
+            "ties": 11,
+            "clusters": 16,
+            "seed": 1327552096,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.125,
+              0.5625
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_strong_chain": {
+            "n": 16,
+            "metric": "em",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 16,
+            "clusters": 16,
+            "seed": 3615778150,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        },
+        "hotpot_clean": {
+          "joint_vs_plain_set": {
+            "n": 32,
+            "metric": "f1",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 32,
+            "clusters": 31,
+            "seed": 1732625034,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_set_graph": {
+            "n": 32,
+            "metric": "f1",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 32,
+            "clusters": 31,
+            "seed": 3408429501,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_strong_chain": {
+            "n": 32,
+            "metric": "f1",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 32,
+            "clusters": 31,
+            "seed": 1091366841,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        }
+      },
+      "reader8b_minus4b": {
+        "hotpot_conflict": {
+          "plain_set": {
+            "n": 16,
+            "metric": "em",
+            "delta": -0.1875,
+            "wins": 0,
+            "losses": 3,
+            "ties": 13,
+            "clusters": 16,
+            "seed": 1817936663,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.375,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "set_graph": {
+            "n": 16,
+            "metric": "em",
+            "delta": -0.0625,
+            "wins": 0,
+            "losses": 1,
+            "ties": 15,
+            "clusters": 16,
+            "seed": 4068788477,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.1875,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "strong_chain": {
+            "n": 16,
+            "metric": "em",
+            "delta": -0.125,
+            "wins": 1,
+            "losses": 3,
+            "ties": 12,
+            "clusters": 16,
+            "seed": 442476830,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.375,
+              0.125
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint": {
+            "n": 16,
+            "metric": "em",
+            "delta": -0.125,
+            "wins": 1,
+            "losses": 3,
+            "ties": 12,
+            "clusters": 16,
+            "seed": 1178998816,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.375,
+              0.125
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        },
+        "hotpot_clean": {
+          "plain_set": {
+            "n": 32,
+            "metric": "f1",
+            "delta": -0.011458333333333334,
+            "wins": 2,
+            "losses": 3,
+            "ties": 27,
+            "clusters": 31,
+            "seed": 3587612049,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.1086021505376344,
+              0.0849462365591398
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "set_graph": {
+            "n": 32,
+            "metric": "f1",
+            "delta": 0.004166666666666667,
+            "wins": 2,
+            "losses": 2,
+            "ties": 28,
+            "clusters": 31,
+            "seed": 1653436172,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.08686868686868687,
+              0.09494949494949496
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "strong_chain": {
+            "n": 32,
+            "metric": "f1",
+            "delta": -0.01369047619047619,
+            "wins": 2,
+            "losses": 3,
+            "ties": 27,
+            "clusters": 31,
+            "seed": 3128930289,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.11122335829493087,
+              0.08484848484848484
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint": {
+            "n": 32,
+            "metric": "f1",
+            "delta": -0.01369047619047619,
+            "wins": 2,
+            "losses": 3,
+            "ties": 27,
+            "clusters": 31,
+            "seed": 719305328,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.10968101958525348,
+              0.08333333333333334
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        }
+      }
+    },
+    "compression_required": {
+      "completed_n": 250,
+      "tables8b": {
+        "hotpot_conflict": {
+          "plain_set": {
+            "n": 146,
+            "correct": 21.0,
+            "em": 0.14383561643835616,
+            "f1": 0.14383561643835616,
+            "conflict_count": 21,
+            "invalid": 1,
+            "mean_source_tokens": 247.3013698630137,
+            "reader_cost": {
+              "calls": 291.0,
+              "input_tokens": 171997.0,
+              "output_tokens": 17367.0,
+              "seconds": 946.4313280959614
+            },
+            "construction_cost": {
+              "calls": 146.0,
+              "input_tokens": 135211.0,
+              "output_tokens": 5562.0,
+              "seconds": 1082.5567193015013
+            }
+          },
+          "set_graph": {
+            "n": 146,
+            "correct": 14.0,
+            "em": 0.0958904109589041,
+            "f1": 0.0958904109589041,
+            "conflict_count": 14,
+            "invalid": 0,
+            "mean_source_tokens": 247.513698630137,
+            "reader_cost": {
+              "calls": 292.0,
+              "input_tokens": 172085.0,
+              "output_tokens": 16483.0,
+              "seconds": 910.9358231972437
+            },
+            "construction_cost": {
+              "calls": 1391.0,
+              "input_tokens": 721792.0,
+              "output_tokens": 1009059.0,
+              "seconds": 49588.10687050549
+            }
+          },
+          "strong_chain": {
+            "n": 146,
+            "correct": 36.0,
+            "em": 0.2465753424657534,
+            "f1": 0.2465753424657534,
+            "conflict_count": 36,
+            "invalid": 1,
+            "mean_source_tokens": 247.6095890410959,
+            "reader_cost": {
+              "calls": 291.0,
+              "input_tokens": 172687.0,
+              "output_tokens": 17949.0,
+              "seconds": 968.7567629979458
+            },
+            "construction_cost": {
+              "calls": 1391.0,
+              "input_tokens": 721792.0,
+              "output_tokens": 1009059.0,
+              "seconds": 49588.10687050549
+            }
+          },
+          "joint": {
+            "n": 146,
+            "correct": 36.0,
+            "em": 0.2465753424657534,
+            "f1": 0.2465753424657534,
+            "conflict_count": 36,
+            "invalid": 1,
+            "mean_source_tokens": 247.4794520547945,
+            "reader_cost": {
+              "calls": 291.0,
+              "input_tokens": 172690.0,
+              "output_tokens": 17967.0,
+              "seconds": 968.0715345975477
+            },
+            "construction_cost": {
+              "calls": 1391.0,
+              "input_tokens": 721792.0,
+              "output_tokens": 1009059.0,
+              "seconds": 49588.10687050549
+            }
+          }
+        },
+        "hotpot_clean": {
+          "plain_set": {
+            "n": 104,
+            "correct": 61.0,
+            "em": 0.5865384615384616,
+            "f1": 0.7520604395604396,
+            "conflict_count": 2,
+            "invalid": 0,
+            "mean_source_tokens": 236.0096153846154,
+            "reader_cost": {
+              "calls": 208.0,
+              "input_tokens": 118891.0,
+              "output_tokens": 10308.0,
+              "seconds": 745.7567493006354
+            },
+            "construction_cost": {
+              "calls": 104.0,
+              "input_tokens": 59580.0,
+              "output_tokens": 3949.0,
+              "seconds": 257.5760604995303
+            }
+          },
+          "set_graph": {
+            "n": 104,
+            "correct": 59.0,
+            "em": 0.5673076923076923,
+            "f1": 0.7328296703296703,
+            "conflict_count": 2,
+            "invalid": 0,
+            "mean_source_tokens": 236.3846153846154,
+            "reader_cost": {
+              "calls": 208.0,
+              "input_tokens": 119085.0,
+              "output_tokens": 10418.0,
+              "seconds": 746.1362910002936
+            },
+            "construction_cost": {
+              "calls": 817.0,
+              "input_tokens": 350931.0,
+              "output_tokens": 525123.0,
+              "seconds": 21946.56306220265
+            }
+          },
+          "strong_chain": {
+            "n": 104,
+            "correct": 58.0,
+            "em": 0.5576923076923077,
+            "f1": 0.7296245421245421,
+            "conflict_count": 2,
+            "invalid": 0,
+            "mean_source_tokens": 237.02884615384616,
+            "reader_cost": {
+              "calls": 208.0,
+              "input_tokens": 119090.0,
+              "output_tokens": 10293.0,
+              "seconds": 747.5666845005471
+            },
+            "construction_cost": {
+              "calls": 817.0,
+              "input_tokens": 350931.0,
+              "output_tokens": 525123.0,
+              "seconds": 21946.56306220265
+            }
+          },
+          "joint": {
+            "n": 104,
+            "correct": 58.0,
+            "em": 0.5576923076923077,
+            "f1": 0.7296245421245421,
+            "conflict_count": 2,
+            "invalid": 0,
+            "mean_source_tokens": 237.02884615384616,
+            "reader_cost": {
+              "calls": 208.0,
+              "input_tokens": 119090.0,
+              "output_tokens": 10293.0,
+              "seconds": 747.5666845005471
+            },
+            "construction_cost": {
+              "calls": 817.0,
+              "input_tokens": 350931.0,
+              "output_tokens": 525123.0,
+              "seconds": 21946.56306220265
+            }
+          }
+        }
+      },
+      "selector_comparisons8b": {
+        "hotpot_conflict": {
+          "joint_vs_plain_set": {
+            "n": 146,
+            "metric": "em",
+            "delta": 0.10273972602739725,
+            "wins": 25,
+            "losses": 10,
+            "ties": 111,
+            "clusters": 146,
+            "seed": 1962947992,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0273972602739726,
+              0.18493150684931506
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_set_graph": {
+            "n": 146,
+            "metric": "em",
+            "delta": 0.1506849315068493,
+            "wins": 25,
+            "losses": 3,
+            "ties": 118,
+            "clusters": 146,
+            "seed": 1327552096,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.08904109589041095,
+              0.2191780821917808
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_strong_chain": {
+            "n": 146,
+            "metric": "em",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 146,
+            "clusters": 146,
+            "seed": 3615778150,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        },
+        "hotpot_clean": {
+          "joint_vs_plain_set": {
+            "n": 104,
+            "metric": "f1",
+            "delta": -0.022435897435897436,
+            "wins": 0,
+            "losses": 3,
+            "ties": 101,
+            "clusters": 103,
+            "seed": 1732625034,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.05177993527508091,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_set_graph": {
+            "n": 104,
+            "metric": "f1",
+            "delta": -0.0032051282051282055,
+            "wins": 0,
+            "losses": 1,
+            "ties": 103,
+            "clusters": 103,
+            "seed": 3408429501,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.009708737864077669,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_strong_chain": {
+            "n": 104,
+            "metric": "f1",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 104,
+            "clusters": 103,
+            "seed": 1091366841,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        }
+      },
+      "reader8b_minus4b": {
+        "hotpot_conflict": {
+          "plain_set": {
+            "n": 146,
+            "metric": "em",
+            "delta": -0.14383561643835616,
+            "wins": 5,
+            "losses": 26,
+            "ties": 115,
+            "clusters": 146,
+            "seed": 1817936663,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.21232876712328766,
+              -0.07534246575342465
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "set_graph": {
+            "n": 146,
+            "metric": "em",
+            "delta": -0.0958904109589041,
+            "wins": 4,
+            "losses": 18,
+            "ties": 124,
+            "clusters": 146,
+            "seed": 4068788477,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.15753424657534246,
+              -0.03424657534246575
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "strong_chain": {
+            "n": 146,
+            "metric": "em",
+            "delta": -0.1506849315068493,
+            "wins": 13,
+            "losses": 35,
+            "ties": 98,
+            "clusters": 146,
+            "seed": 442476830,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.23972602739726026,
+              -0.06164383561643835
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint": {
+            "n": 146,
+            "metric": "em",
+            "delta": -0.15753424657534246,
+            "wins": 12,
+            "losses": 35,
+            "ties": 99,
+            "clusters": 146,
+            "seed": 1178998816,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.2465753424657534,
+              -0.0684931506849315
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        },
+        "hotpot_clean": {
+          "plain_set": {
+            "n": 104,
+            "metric": "f1",
+            "delta": 0.03469585969585969,
+            "wins": 15,
+            "losses": 9,
+            "ties": 80,
+            "clusters": 103,
+            "seed": 3587612049,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.03708808552558552,
+              0.10533348966297992
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "set_graph": {
+            "n": 104,
+            "metric": "f1",
+            "delta": 0.03416167166167166,
+            "wins": 16,
+            "losses": 8,
+            "ties": 80,
+            "clusters": 103,
+            "seed": 1653436172,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.03892089302283477,
+              0.10792162698412701
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "strong_chain": {
+            "n": 104,
+            "metric": "f1",
+            "delta": 0.023111610611610607,
+            "wins": 14,
+            "losses": 10,
+            "ties": 80,
+            "clusters": 103,
+            "seed": 3128930289,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.049305189700236875,
+              0.09681598095745113
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint": {
+            "n": 104,
+            "metric": "f1",
+            "delta": 0.023111610611610607,
+            "wins": 14,
+            "losses": 10,
+            "ties": 80,
+            "clusters": 103,
+            "seed": 719305328,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.04907779196694291,
+              0.09593283738914803
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        }
+      }
+    },
+    "all_candidates_fit": {
+      "completed_n": 100,
+      "tables8b": {
+        "hotpot_conflict": {
+          "plain_set": {
+            "n": 4,
+            "correct": 0.0,
+            "em": 0.0,
+            "f1": 0.0,
+            "conflict_count": 0,
+            "invalid": 0,
+            "mean_source_tokens": 219.5,
+            "reader_cost": {
+              "calls": 8.0,
+              "input_tokens": 4382.0,
+              "output_tokens": 378.0,
+              "seconds": 21.629024300025776
+            },
+            "construction_cost": {
+              "calls": 0.0,
+              "input_tokens": 0.0,
+              "output_tokens": 0.0,
+              "seconds": 0.0
+            }
+          },
+          "set_graph": {
+            "n": 4,
+            "correct": 0.0,
+            "em": 0.0,
+            "f1": 0.0,
+            "conflict_count": 0,
+            "invalid": 0,
+            "mean_source_tokens": 219.5,
+            "reader_cost": {
+              "calls": 8.0,
+              "input_tokens": 4382.0,
+              "output_tokens": 378.0,
+              "seconds": 21.629024300025776
+            },
+            "construction_cost": {
+              "calls": 0.0,
+              "input_tokens": 0.0,
+              "output_tokens": 0.0,
+              "seconds": 0.0
+            }
+          },
+          "strong_chain": {
+            "n": 4,
+            "correct": 0.0,
+            "em": 0.0,
+            "f1": 0.0,
+            "conflict_count": 0,
+            "invalid": 0,
+            "mean_source_tokens": 219.5,
+            "reader_cost": {
+              "calls": 8.0,
+              "input_tokens": 4382.0,
+              "output_tokens": 378.0,
+              "seconds": 21.629024300025776
+            },
+            "construction_cost": {
+              "calls": 0.0,
+              "input_tokens": 0.0,
+              "output_tokens": 0.0,
+              "seconds": 0.0
+            }
+          },
+          "joint": {
+            "n": 4,
+            "correct": 0.0,
+            "em": 0.0,
+            "f1": 0.0,
+            "conflict_count": 0,
+            "invalid": 0,
+            "mean_source_tokens": 219.5,
+            "reader_cost": {
+              "calls": 8.0,
+              "input_tokens": 4382.0,
+              "output_tokens": 378.0,
+              "seconds": 21.629024300025776
+            },
+            "construction_cost": {
+              "calls": 0.0,
+              "input_tokens": 0.0,
+              "output_tokens": 0.0,
+              "seconds": 0.0
+            }
+          }
+        },
+        "hotpot_clean": {
+          "plain_set": {
+            "n": 96,
+            "correct": 57.0,
+            "em": 0.59375,
+            "f1": 0.6825892857142857,
+            "conflict_count": 2,
+            "invalid": 0,
+            "mean_source_tokens": 191.19791666666666,
+            "reader_cost": {
+              "calls": 192.0,
+              "input_tokens": 100602.0,
+              "output_tokens": 9324.0,
+              "seconds": 592.2767645000713
+            },
+            "construction_cost": {
+              "calls": 0.0,
+              "input_tokens": 0.0,
+              "output_tokens": 0.0,
+              "seconds": 0.0
+            }
+          },
+          "set_graph": {
+            "n": 96,
+            "correct": 57.0,
+            "em": 0.59375,
+            "f1": 0.6825892857142857,
+            "conflict_count": 2,
+            "invalid": 0,
+            "mean_source_tokens": 191.19791666666666,
+            "reader_cost": {
+              "calls": 192.0,
+              "input_tokens": 100602.0,
+              "output_tokens": 9324.0,
+              "seconds": 592.2767645000713
+            },
+            "construction_cost": {
+              "calls": 0.0,
+              "input_tokens": 0.0,
+              "output_tokens": 0.0,
+              "seconds": 0.0
+            }
+          },
+          "strong_chain": {
+            "n": 96,
+            "correct": 57.0,
+            "em": 0.59375,
+            "f1": 0.6825892857142857,
+            "conflict_count": 2,
+            "invalid": 0,
+            "mean_source_tokens": 191.19791666666666,
+            "reader_cost": {
+              "calls": 192.0,
+              "input_tokens": 100602.0,
+              "output_tokens": 9324.0,
+              "seconds": 592.2767645000713
+            },
+            "construction_cost": {
+              "calls": 0.0,
+              "input_tokens": 0.0,
+              "output_tokens": 0.0,
+              "seconds": 0.0
+            }
+          },
+          "joint": {
+            "n": 96,
+            "correct": 57.0,
+            "em": 0.59375,
+            "f1": 0.6825892857142857,
+            "conflict_count": 2,
+            "invalid": 0,
+            "mean_source_tokens": 191.19791666666666,
+            "reader_cost": {
+              "calls": 192.0,
+              "input_tokens": 100602.0,
+              "output_tokens": 9324.0,
+              "seconds": 592.2767645000713
+            },
+            "construction_cost": {
+              "calls": 0.0,
+              "input_tokens": 0.0,
+              "output_tokens": 0.0,
+              "seconds": 0.0
+            }
+          }
+        }
+      },
+      "selector_comparisons8b": {
+        "hotpot_conflict": {
+          "joint_vs_plain_set": {
+            "n": 4,
+            "metric": "em",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 4,
+            "clusters": 4,
+            "seed": 1962947992,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_set_graph": {
+            "n": 4,
+            "metric": "em",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 4,
+            "clusters": 4,
+            "seed": 1327552096,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_strong_chain": {
+            "n": 4,
+            "metric": "em",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 4,
+            "clusters": 4,
+            "seed": 3615778150,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        },
+        "hotpot_clean": {
+          "joint_vs_plain_set": {
+            "n": 96,
+            "metric": "f1",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 96,
+            "clusters": 95,
+            "seed": 1732625034,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_set_graph": {
+            "n": 96,
+            "metric": "f1",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 96,
+            "clusters": 95,
+            "seed": 3408429501,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint_vs_strong_chain": {
+            "n": 96,
+            "metric": "f1",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 96,
+            "clusters": 95,
+            "seed": 1091366841,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        }
+      },
+      "reader8b_minus4b": {
+        "hotpot_conflict": {
+          "plain_set": {
+            "n": 4,
+            "metric": "em",
+            "delta": -0.75,
+            "wins": 0,
+            "losses": 3,
+            "ties": 1,
+            "clusters": 4,
+            "seed": 1817936663,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -1.0,
+              -0.25
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "set_graph": {
+            "n": 4,
+            "metric": "em",
+            "delta": -0.75,
+            "wins": 0,
+            "losses": 3,
+            "ties": 1,
+            "clusters": 4,
+            "seed": 4068788477,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -1.0,
+              -0.25
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "strong_chain": {
+            "n": 4,
+            "metric": "em",
+            "delta": -0.75,
+            "wins": 0,
+            "losses": 3,
+            "ties": 1,
+            "clusters": 4,
+            "seed": 442476830,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -1.0,
+              -0.25
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint": {
+            "n": 4,
+            "metric": "em",
+            "delta": -0.75,
+            "wins": 0,
+            "losses": 3,
+            "ties": 1,
+            "clusters": 4,
+            "seed": 1178998816,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -1.0,
+              -0.25
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        },
+        "hotpot_clean": {
+          "plain_set": {
+            "n": 96,
+            "metric": "f1",
+            "delta": -0.05709325396825397,
+            "wins": 9,
+            "losses": 11,
+            "ties": 76,
+            "clusters": 95,
+            "seed": 3587612049,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.1284722222222222,
+              0.010016239051236317
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "set_graph": {
+            "n": 96,
+            "metric": "f1",
+            "delta": -0.05709325396825397,
+            "wins": 9,
+            "losses": 11,
+            "ties": 76,
+            "clusters": 95,
+            "seed": 1653436172,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.12828002270495828,
+              0.010882205513784382
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "strong_chain": {
+            "n": 96,
+            "metric": "f1",
+            "delta": -0.05709325396825397,
+            "wins": 9,
+            "losses": 11,
+            "ties": 76,
+            "clusters": 95,
+            "seed": 3128930289,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.12882060781786941,
+              0.010025062656641603
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          },
+          "joint": {
+            "n": 96,
+            "metric": "f1",
+            "delta": -0.05709325396825397,
+            "wins": 9,
+            "losses": 11,
+            "ties": 76,
+            "clusters": 95,
+            "seed": 719305328,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.12737218045112783,
+              0.009923245614035053
+            ],
+            "scope": "Known development questions; descriptive uncertainty only."
+          }
+        }
+      }
+    }
+  },
+  "baseline4b_groups": {
+    "all350": {
+      "tables": {
+        "hotpot_clean": {
+          "plain_set": {
+            "n": 200,
+            "correct": 118.0,
+            "em": 0.59,
+            "f1": 0.7280772005772006,
+            "invalid": 1,
+            "conflict_count": 0,
+            "mean_source_tokens": 214.5,
+            "reader_cost": {
+              "calls": 200.0,
+              "input_tokens": 99712.0,
+              "output_tokens": 580901.0,
+              "seconds": 20957.244651400484
+            },
+            "construction_cost": {
+              "calls": 104.0,
+              "input_tokens": 59580.0,
+              "output_tokens": 3949.0,
+              "seconds": 257.5760604995303
+            },
+            "official_support_all_retained": 175
+          },
+          "set_graph": {
+            "n": 200,
+            "correct": 117.0,
+            "em": 0.585,
+            "f1": 0.7183549783549783,
+            "invalid": 1,
+            "conflict_count": 0,
+            "mean_source_tokens": 214.695,
+            "reader_cost": {
+              "calls": 200.0,
+              "input_tokens": 99751.0,
+              "output_tokens": 579325.0,
+              "seconds": 20848.7576926006
+            },
+            "construction_cost": {
+              "calls": 817.0,
+              "input_tokens": 350931.0,
+              "output_tokens": 525123.0,
+              "seconds": 21946.56306220265
+            },
+            "official_support_all_retained": 175
+          },
+          "strong_chain": {
+            "n": 200,
+            "correct": 116.0,
+            "em": 0.58,
+            "f1": 0.7224343434343434,
+            "invalid": 1,
+            "conflict_count": 0,
+            "mean_source_tokens": 215.03,
+            "reader_cost": {
+              "calls": 200.0,
+              "input_tokens": 99818.0,
+              "output_tokens": 580955.0,
+              "seconds": 20924.519096200587
+            },
+            "construction_cost": {
+              "calls": 817.0,
+              "input_tokens": 350931.0,
+              "output_tokens": 525123.0,
+              "seconds": 21946.56306220265
+            },
+            "official_support_all_retained": 173
+          },
+          "joint": {
+            "n": 200,
+            "correct": 116.0,
+            "em": 0.58,
+            "f1": 0.7224343434343434,
+            "invalid": 1,
+            "conflict_count": 0,
+            "mean_source_tokens": 215.03,
+            "reader_cost": {
+              "calls": 200.0,
+              "input_tokens": 99818.0,
+              "output_tokens": 580955.0,
+              "seconds": 20924.519096200587
+            },
+            "construction_cost": {
+              "calls": 817.0,
+              "input_tokens": 350931.0,
+              "output_tokens": 525123.0,
+              "seconds": 21946.56306220265
+            },
+            "official_support_all_retained": 173
+          }
+        },
+        "hotpot_conflict": {
+          "plain_set": {
+            "n": 150,
+            "correct": 45.0,
+            "em": 0.3,
+            "f1": 0.3,
+            "invalid": 3,
+            "conflict_count": 45,
+            "mean_source_tokens": 246.56,
+            "reader_cost": {
+              "calls": 150.0,
+              "input_tokens": 79595.0,
+              "output_tokens": 616693.0,
+              "seconds": 24230.673087899107
+            },
+            "construction_cost": {
+              "calls": 146.0,
+              "input_tokens": 135211.0,
+              "output_tokens": 5562.0,
+              "seconds": 1082.5567193015013
+            },
+            "official_support_all_retained": null
+          },
+          "set_graph": {
+            "n": 150,
+            "correct": 31.0,
+            "em": 0.20666666666666667,
+            "f1": 0.20666666666666667,
+            "invalid": 6,
+            "conflict_count": 31,
+            "mean_source_tokens": 246.76666666666668,
+            "reader_cost": {
+              "calls": 150.0,
+              "input_tokens": 79626.0,
+              "output_tokens": 595009.0,
+              "seconds": 23332.392105700448
+            },
+            "construction_cost": {
+              "calls": 1391.0,
+              "input_tokens": 721792.0,
+              "output_tokens": 1009059.0,
+              "seconds": 49588.10687050549
+            },
+            "official_support_all_retained": null
+          },
+          "strong_chain": {
+            "n": 150,
+            "correct": 61.0,
+            "em": 0.4066666666666667,
+            "f1": 0.4066666666666667,
+            "invalid": 8,
+            "conflict_count": 61,
+            "mean_source_tokens": 246.86,
+            "reader_cost": {
+              "calls": 150.0,
+              "input_tokens": 79640.0,
+              "output_tokens": 645100.0,
+              "seconds": 25738.461825900013
+            },
+            "construction_cost": {
+              "calls": 1391.0,
+              "input_tokens": 721792.0,
+              "output_tokens": 1009059.0,
+              "seconds": 49588.10687050549
+            },
+            "official_support_all_retained": null
+          },
+          "joint": {
+            "n": 150,
+            "correct": 62.0,
+            "em": 0.41333333333333333,
+            "f1": 0.41333333333333333,
+            "invalid": 8,
+            "conflict_count": 62,
+            "mean_source_tokens": 246.73333333333332,
+            "reader_cost": {
+              "calls": 150.0,
+              "input_tokens": 79621.0,
+              "output_tokens": 642698.0,
+              "seconds": 25618.510244999314
+            },
+            "construction_cost": {
+              "calls": 1391.0,
+              "input_tokens": 721792.0,
+              "output_tokens": 1009059.0,
+              "seconds": 49588.10687050549
+            },
+            "official_support_all_retained": null
+          }
+        }
+      },
+      "paired_comparisons": {
+        "hotpot_clean": {
+          "joint_vs_set_graph": {
+            "n": 200,
+            "metric": "f1",
+            "delta": 0.004079365079365079,
+            "wins": 2,
+            "losses": 1,
+            "ties": 197,
+            "clusters": 197,
+            "seed": 3408429501,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.0019999999999999996,
+              0.012347808063888459
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          },
+          "joint_vs_plain_set": {
+            "n": 200,
+            "metric": "f1",
+            "delta": -0.005642857142857143,
+            "wins": 1,
+            "losses": 2,
+            "ties": 197,
+            "clusters": 197,
+            "seed": 1732625034,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.016831683168316833,
+              0.000714285714285714
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          },
+          "joint_vs_strong_chain": {
+            "n": 200,
+            "metric": "f1",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 200,
+            "clusters": 197,
+            "seed": 1091366841,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          }
+        },
+        "hotpot_conflict": {
+          "joint_vs_set_graph": {
+            "n": 150,
+            "metric": "em",
+            "delta": 0.20666666666666667,
+            "wins": 31,
+            "losses": 0,
+            "ties": 119,
+            "clusters": 150,
+            "seed": 1327552096,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.14,
+              0.2733333333333333
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          },
+          "joint_vs_plain_set": {
+            "n": 150,
+            "metric": "em",
+            "delta": 0.11333333333333333,
+            "wins": 29,
+            "losses": 12,
+            "ties": 109,
+            "clusters": 150,
+            "seed": 1962947992,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.03333333333333333,
+              0.19333333333333333
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          },
+          "joint_vs_strong_chain": {
+            "n": 150,
+            "metric": "em",
+            "delta": 0.006666666666666667,
+            "wins": 1,
+            "losses": 0,
+            "ties": 149,
+            "clusters": 150,
+            "seed": 3615778150,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.02
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          }
+        }
+      },
+      "packet_identity": {
+        "hotpot_clean": {
+          "joint_vs_set_graph": {
+            "same_packets": 185,
+            "n": 200
+          },
+          "joint_vs_plain_set": {
+            "same_packets": 184,
+            "n": 200
+          },
+          "joint_vs_strong_chain": {
+            "same_packets": 200,
+            "n": 200
+          }
+        },
+        "hotpot_conflict": {
+          "joint_vs_set_graph": {
+            "same_packets": 83,
+            "n": 150
+          },
+          "joint_vs_plain_set": {
+            "same_packets": 55,
+            "n": 150
+          },
+          "joint_vs_strong_chain": {
+            "same_packets": 143,
+            "n": 150
+          }
+        }
+      },
+      "completed_n": 350
+    },
+    "additional302": {
+      "tables": {
+        "hotpot_clean": {
+          "plain_set": {
+            "n": 168,
+            "correct": 101.0,
+            "em": 0.6011904761904762,
+            "f1": 0.7473141276712705,
+            "invalid": 1,
+            "conflict_count": 0,
+            "mean_source_tokens": 215.91071428571428,
+            "reader_cost": {
+              "calls": 168.0,
+              "input_tokens": 84005.0,
+              "output_tokens": 494423.0,
+              "seconds": 17834.26057810057
+            },
+            "construction_cost": {
+              "calls": 91.0,
+              "input_tokens": 52079.0,
+              "output_tokens": 3465.0,
+              "seconds": 198.97844599932432
+            },
+            "official_support_all_retained": 147
+          },
+          "set_graph": {
+            "n": 168,
+            "correct": 100.0,
+            "em": 0.5952380952380952,
+            "f1": 0.7387162440733869,
+            "invalid": 1,
+            "conflict_count": 0,
+            "mean_source_tokens": 216.2797619047619,
+            "reader_cost": {
+              "calls": 168.0,
+              "input_tokens": 84067.0,
+              "output_tokens": 494028.0,
+              "seconds": 17820.789616500726
+            },
+            "construction_cost": {
+              "calls": 711.0,
+              "input_tokens": 304418.0,
+              "output_tokens": 456744.0,
+              "seconds": 19008.178350402042
+            },
+            "official_support_all_retained": 146
+          },
+          "strong_chain": {
+            "n": 168,
+            "correct": 99.0,
+            "em": 0.5892857142857143,
+            "f1": 0.7401712705284134,
+            "invalid": 1,
+            "conflict_count": 0,
+            "mean_source_tokens": 216.54761904761904,
+            "reader_cost": {
+              "calls": 168.0,
+              "input_tokens": 84112.0,
+              "output_tokens": 495351.0,
+              "seconds": 17870.228085000534
+            },
+            "construction_cost": {
+              "calls": 711.0,
+              "input_tokens": 304418.0,
+              "output_tokens": 456744.0,
+              "seconds": 19008.178350402042
+            },
+            "official_support_all_retained": 144
+          },
+          "joint": {
+            "n": 168,
+            "correct": 99.0,
+            "em": 0.5892857142857143,
+            "f1": 0.7401712705284134,
+            "invalid": 1,
+            "conflict_count": 0,
+            "mean_source_tokens": 216.54761904761904,
+            "reader_cost": {
+              "calls": 168.0,
+              "input_tokens": 84112.0,
+              "output_tokens": 495351.0,
+              "seconds": 17870.228085000534
+            },
+            "construction_cost": {
+              "calls": 711.0,
+              "input_tokens": 304418.0,
+              "output_tokens": 456744.0,
+              "seconds": 19008.178350402042
+            },
+            "official_support_all_retained": 144
+          }
+        },
+        "hotpot_conflict": {
+          "plain_set": {
+            "n": 134,
+            "correct": 41.0,
+            "em": 0.30597014925373134,
+            "f1": 0.30597014925373134,
+            "invalid": 2,
+            "conflict_count": 41,
+            "mean_source_tokens": 246.17164179104478,
+            "reader_cost": {
+              "calls": 134.0,
+              "input_tokens": 71057.0,
+              "output_tokens": 551696.0,
+              "seconds": 21648.743390799267
+            },
+            "construction_cost": {
+              "calls": 130.0,
+              "input_tokens": 120194.0,
+              "output_tokens": 4968.0,
+              "seconds": 896.472926601069
+            },
+            "official_support_all_retained": null
+          },
+          "set_graph": {
+            "n": 134,
+            "correct": 29.0,
+            "em": 0.21641791044776118,
+            "f1": 0.21641791044776118,
+            "invalid": 5,
+            "conflict_count": 29,
+            "mean_source_tokens": 246.46268656716418,
+            "reader_cost": {
+              "calls": 134.0,
+              "input_tokens": 71096.0,
+              "output_tokens": 533682.0,
+              "seconds": 20928.177602199838
+            },
+            "construction_cost": {
+              "calls": 1235.0,
+              "input_tokens": 641250.0,
+              "output_tokens": 901558.0,
+              "seconds": 44181.659476605244
+            },
+            "official_support_all_retained": null
+          },
+          "strong_chain": {
+            "n": 134,
+            "correct": 53.0,
+            "em": 0.39552238805970147,
+            "f1": 0.39552238805970147,
+            "invalid": 7,
+            "conflict_count": 53,
+            "mean_source_tokens": 246.52985074626866,
+            "reader_cost": {
+              "calls": 134.0,
+              "input_tokens": 71105.0,
+              "output_tokens": 577229.0,
+              "seconds": 23055.544796599774
+            },
+            "construction_cost": {
+              "calls": 1235.0,
+              "input_tokens": 641250.0,
+              "output_tokens": 901558.0,
+              "seconds": 44181.659476605244
+            },
+            "official_support_all_retained": null
+          },
+          "joint": {
+            "n": 134,
+            "correct": 54.0,
+            "em": 0.40298507462686567,
+            "f1": 0.40298507462686567,
+            "invalid": 7,
+            "conflict_count": 54,
+            "mean_source_tokens": 246.38805970149255,
+            "reader_cost": {
+              "calls": 134.0,
+              "input_tokens": 71086.0,
+              "output_tokens": 574827.0,
+              "seconds": 22935.593215699075
+            },
+            "construction_cost": {
+              "calls": 1235.0,
+              "input_tokens": 641250.0,
+              "output_tokens": 901558.0,
+              "seconds": 44181.659476605244
+            },
+            "official_support_all_retained": null
+          }
+        }
+      },
+      "paired_comparisons": {
+        "hotpot_clean": {
+          "joint_vs_set_graph": {
+            "n": 168,
+            "metric": "f1",
+            "delta": 0.0014550264550264554,
+            "wins": 1,
+            "losses": 1,
+            "ties": 166,
+            "clusters": 167,
+            "seed": 3408429501,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.0035714285714285704,
+              0.007936507936507938
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          },
+          "joint_vs_plain_set": {
+            "n": 168,
+            "metric": "f1",
+            "delta": -0.007142857142857143,
+            "wins": 0,
+            "losses": 2,
+            "ties": 166,
+            "clusters": 167,
+            "seed": 1732625034,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.020359281437125752,
+              0.0
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          },
+          "joint_vs_strong_chain": {
+            "n": 168,
+            "metric": "f1",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 168,
+            "clusters": 167,
+            "seed": 1091366841,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          }
+        },
+        "hotpot_conflict": {
+          "joint_vs_set_graph": {
+            "n": 134,
+            "metric": "em",
+            "delta": 0.1865671641791045,
+            "wins": 25,
+            "losses": 0,
+            "ties": 109,
+            "clusters": 134,
+            "seed": 1327552096,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.11940298507462686,
+              0.2537313432835821
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          },
+          "joint_vs_plain_set": {
+            "n": 134,
+            "metric": "em",
+            "delta": 0.09701492537313433,
+            "wins": 23,
+            "losses": 10,
+            "ties": 101,
+            "clusters": 134,
+            "seed": 1962947992,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.014925373134328358,
+              0.1791044776119403
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          },
+          "joint_vs_strong_chain": {
+            "n": 134,
+            "metric": "em",
+            "delta": 0.007462686567164179,
+            "wins": 1,
+            "losses": 0,
+            "ties": 133,
+            "clusters": 134,
+            "seed": 3615778150,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.022388059701492536
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          }
+        }
+      },
+      "packet_identity": {
+        "hotpot_clean": {
+          "joint_vs_set_graph": {
+            "same_packets": 155,
+            "n": 168
+          },
+          "joint_vs_plain_set": {
+            "same_packets": 155,
+            "n": 168
+          },
+          "joint_vs_strong_chain": {
+            "same_packets": 168,
+            "n": 168
+          }
+        },
+        "hotpot_conflict": {
+          "joint_vs_set_graph": {
+            "same_packets": 75,
+            "n": 134
+          },
+          "joint_vs_plain_set": {
+            "same_packets": 48,
+            "n": 134
+          },
+          "joint_vs_strong_chain": {
+            "same_packets": 127,
+            "n": 134
+          }
+        }
+      },
+      "completed_n": 302
+    },
+    "historical48": {
+      "tables": {
+        "hotpot_clean": {
+          "plain_set": {
+            "n": 32,
+            "correct": 17.0,
+            "em": 0.53125,
+            "f1": 0.6270833333333333,
+            "invalid": 0,
+            "conflict_count": 0,
+            "mean_source_tokens": 207.09375,
+            "reader_cost": {
+              "calls": 32.0,
+              "input_tokens": 15707.0,
+              "output_tokens": 86478.0,
+              "seconds": 3122.9840732999146
+            },
+            "construction_cost": {
+              "calls": 13.0,
+              "input_tokens": 7501.0,
+              "output_tokens": 484.0,
+              "seconds": 58.597614500205964
+            },
+            "official_support_all_retained": 28
+          },
+          "set_graph": {
+            "n": 32,
+            "correct": 17.0,
+            "em": 0.53125,
+            "f1": 0.6114583333333333,
+            "invalid": 0,
+            "conflict_count": 0,
+            "mean_source_tokens": 206.375,
+            "reader_cost": {
+              "calls": 32.0,
+              "input_tokens": 15684.0,
+              "output_tokens": 85297.0,
+              "seconds": 3027.9680760998745
+            },
+            "construction_cost": {
+              "calls": 106.0,
+              "input_tokens": 46513.0,
+              "output_tokens": 68379.0,
+              "seconds": 2938.384711800609
+            },
+            "official_support_all_retained": 29
+          },
+          "strong_chain": {
+            "n": 32,
+            "correct": 17.0,
+            "em": 0.53125,
+            "f1": 0.6293154761904762,
+            "invalid": 0,
+            "conflict_count": 0,
+            "mean_source_tokens": 207.0625,
+            "reader_cost": {
+              "calls": 32.0,
+              "input_tokens": 15706.0,
+              "output_tokens": 85604.0,
+              "seconds": 3054.2910112000536
+            },
+            "construction_cost": {
+              "calls": 106.0,
+              "input_tokens": 46513.0,
+              "output_tokens": 68379.0,
+              "seconds": 2938.384711800609
+            },
+            "official_support_all_retained": 29
+          },
+          "joint": {
+            "n": 32,
+            "correct": 17.0,
+            "em": 0.53125,
+            "f1": 0.6293154761904762,
+            "invalid": 0,
+            "conflict_count": 0,
+            "mean_source_tokens": 207.0625,
+            "reader_cost": {
+              "calls": 32.0,
+              "input_tokens": 15706.0,
+              "output_tokens": 85604.0,
+              "seconds": 3054.2910112000536
+            },
+            "construction_cost": {
+              "calls": 106.0,
+              "input_tokens": 46513.0,
+              "output_tokens": 68379.0,
+              "seconds": 2938.384711800609
+            },
+            "official_support_all_retained": 29
+          }
+        },
+        "hotpot_conflict": {
+          "plain_set": {
+            "n": 16,
+            "correct": 4.0,
+            "em": 0.25,
+            "f1": 0.25,
+            "invalid": 1,
+            "conflict_count": 4,
+            "mean_source_tokens": 249.8125,
+            "reader_cost": {
+              "calls": 16.0,
+              "input_tokens": 8538.0,
+              "output_tokens": 64997.0,
+              "seconds": 2581.9296970998403
+            },
+            "construction_cost": {
+              "calls": 16.0,
+              "input_tokens": 15017.0,
+              "output_tokens": 594.0,
+              "seconds": 186.08379270043224
+            },
+            "official_support_all_retained": null
+          },
+          "set_graph": {
+            "n": 16,
+            "correct": 2.0,
+            "em": 0.125,
+            "f1": 0.125,
+            "invalid": 1,
+            "conflict_count": 2,
+            "mean_source_tokens": 249.3125,
+            "reader_cost": {
+              "calls": 16.0,
+              "input_tokens": 8530.0,
+              "output_tokens": 61327.0,
+              "seconds": 2404.2145035006106
+            },
+            "construction_cost": {
+              "calls": 156.0,
+              "input_tokens": 80542.0,
+              "output_tokens": 107501.0,
+              "seconds": 5406.447393900249
+            },
+            "official_support_all_retained": null
+          },
+          "strong_chain": {
+            "n": 16,
+            "correct": 8.0,
+            "em": 0.5,
+            "f1": 0.5,
+            "invalid": 1,
+            "conflict_count": 8,
+            "mean_source_tokens": 249.625,
+            "reader_cost": {
+              "calls": 16.0,
+              "input_tokens": 8535.0,
+              "output_tokens": 67871.0,
+              "seconds": 2682.917029300239
+            },
+            "construction_cost": {
+              "calls": 156.0,
+              "input_tokens": 80542.0,
+              "output_tokens": 107501.0,
+              "seconds": 5406.447393900249
+            },
+            "official_support_all_retained": null
+          },
+          "joint": {
+            "n": 16,
+            "correct": 8.0,
+            "em": 0.5,
+            "f1": 0.5,
+            "invalid": 1,
+            "conflict_count": 8,
+            "mean_source_tokens": 249.625,
+            "reader_cost": {
+              "calls": 16.0,
+              "input_tokens": 8535.0,
+              "output_tokens": 67871.0,
+              "seconds": 2682.917029300239
+            },
+            "construction_cost": {
+              "calls": 156.0,
+              "input_tokens": 80542.0,
+              "output_tokens": 107501.0,
+              "seconds": 5406.447393900249
+            },
+            "official_support_all_retained": null
+          }
+        }
+      },
+      "paired_comparisons": {
+        "hotpot_clean": {
+          "joint_vs_set_graph": {
+            "n": 32,
+            "metric": "f1",
+            "delta": 0.017857142857142856,
+            "wins": 1,
+            "losses": 0,
+            "ties": 31,
+            "clusters": 31,
+            "seed": 3408429501,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.05529953917050691
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          },
+          "joint_vs_plain_set": {
+            "n": 32,
+            "metric": "f1",
+            "delta": 0.002232142857142856,
+            "wins": 1,
+            "losses": 0,
+            "ties": 31,
+            "clusters": 31,
+            "seed": 1732625034,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.006912442396313361
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          },
+          "joint_vs_strong_chain": {
+            "n": 32,
+            "metric": "f1",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 32,
+            "clusters": 31,
+            "seed": 1091366841,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          }
+        },
+        "hotpot_conflict": {
+          "joint_vs_set_graph": {
+            "n": 16,
+            "metric": "em",
+            "delta": 0.375,
+            "wins": 6,
+            "losses": 0,
+            "ties": 10,
+            "clusters": 16,
+            "seed": 1327552096,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.125,
+              0.625
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          },
+          "joint_vs_plain_set": {
+            "n": 16,
+            "metric": "em",
+            "delta": 0.25,
+            "wins": 6,
+            "losses": 2,
+            "ties": 8,
+            "clusters": 16,
+            "seed": 1962947992,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.0625,
+              0.5625
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          },
+          "joint_vs_strong_chain": {
+            "n": 16,
+            "metric": "em",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 16,
+            "clusters": 16,
+            "seed": 3615778150,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          }
+        }
+      },
+      "packet_identity": {
+        "hotpot_clean": {
+          "joint_vs_set_graph": {
+            "same_packets": 30,
+            "n": 32
+          },
+          "joint_vs_plain_set": {
+            "same_packets": 29,
+            "n": 32
+          },
+          "joint_vs_strong_chain": {
+            "same_packets": 32,
+            "n": 32
+          }
+        },
+        "hotpot_conflict": {
+          "joint_vs_set_graph": {
+            "same_packets": 8,
+            "n": 16
+          },
+          "joint_vs_plain_set": {
+            "same_packets": 7,
+            "n": 16
+          },
+          "joint_vs_strong_chain": {
+            "same_packets": 16,
+            "n": 16
+          }
+        }
+      },
+      "completed_n": 48
+    },
+    "compression_required": {
+      "tables": {
+        "hotpot_clean": {
+          "plain_set": {
+            "n": 104,
+            "correct": 58.0,
+            "em": 0.5576923076923077,
+            "f1": 0.7173645798645799,
+            "invalid": 1,
+            "conflict_count": 0,
+            "mean_source_tokens": 236.0096153846154,
+            "reader_cost": {
+              "calls": 104.0,
+              "input_tokens": 54177.0,
+              "output_tokens": 317803.0,
+              "seconds": 11620.405784000643
+            },
+            "construction_cost": {
+              "calls": 104.0,
+              "input_tokens": 59580.0,
+              "output_tokens": 3949.0,
+              "seconds": 257.5760604995303
+            },
+            "official_support_all_retained": 82
+          },
+          "set_graph": {
+            "n": 104,
+            "correct": 57.0,
+            "em": 0.5480769230769231,
+            "f1": 0.6986679986679987,
+            "invalid": 1,
+            "conflict_count": 0,
+            "mean_source_tokens": 236.3846153846154,
+            "reader_cost": {
+              "calls": 104.0,
+              "input_tokens": 54216.0,
+              "output_tokens": 316227.0,
+              "seconds": 11511.918825200759
+            },
+            "construction_cost": {
+              "calls": 817.0,
+              "input_tokens": 350931.0,
+              "output_tokens": 525123.0,
+              "seconds": 21946.56306220265
+            },
+            "official_support_all_retained": 82
+          },
+          "strong_chain": {
+            "n": 104,
+            "correct": 56.0,
+            "em": 0.5384615384615384,
+            "f1": 0.7065129315129315,
+            "invalid": 1,
+            "conflict_count": 0,
+            "mean_source_tokens": 237.02884615384616,
+            "reader_cost": {
+              "calls": 104.0,
+              "input_tokens": 54283.0,
+              "output_tokens": 317857.0,
+              "seconds": 11587.680228800746
+            },
+            "construction_cost": {
+              "calls": 817.0,
+              "input_tokens": 350931.0,
+              "output_tokens": 525123.0,
+              "seconds": 21946.56306220265
+            },
+            "official_support_all_retained": 80
+          },
+          "joint": {
+            "n": 104,
+            "correct": 56.0,
+            "em": 0.5384615384615384,
+            "f1": 0.7065129315129315,
+            "invalid": 1,
+            "conflict_count": 0,
+            "mean_source_tokens": 237.02884615384616,
+            "reader_cost": {
+              "calls": 104.0,
+              "input_tokens": 54283.0,
+              "output_tokens": 317857.0,
+              "seconds": 11587.680228800746
+            },
+            "construction_cost": {
+              "calls": 817.0,
+              "input_tokens": 350931.0,
+              "output_tokens": 525123.0,
+              "seconds": 21946.56306220265
+            },
+            "official_support_all_retained": 80
+          }
+        },
+        "hotpot_conflict": {
+          "plain_set": {
+            "n": 146,
+            "correct": 42.0,
+            "em": 0.2876712328767123,
+            "f1": 0.2876712328767123,
+            "invalid": 3,
+            "conflict_count": 42,
+            "mean_source_tokens": 247.3013698630137,
+            "reader_cost": {
+              "calls": 146.0,
+              "input_tokens": 77596.0,
+              "output_tokens": 601764.0,
+              "seconds": 23671.81246389891
+            },
+            "construction_cost": {
+              "calls": 146.0,
+              "input_tokens": 135211.0,
+              "output_tokens": 5562.0,
+              "seconds": 1082.5567193015013
+            },
+            "official_support_all_retained": null
+          },
+          "set_graph": {
+            "n": 146,
+            "correct": 28.0,
+            "em": 0.1917808219178082,
+            "f1": 0.1917808219178082,
+            "invalid": 6,
+            "conflict_count": 28,
+            "mean_source_tokens": 247.513698630137,
+            "reader_cost": {
+              "calls": 146.0,
+              "input_tokens": 77627.0,
+              "output_tokens": 580080.0,
+              "seconds": 22773.53148170025
+            },
+            "construction_cost": {
+              "calls": 1391.0,
+              "input_tokens": 721792.0,
+              "output_tokens": 1009059.0,
+              "seconds": 49588.10687050549
+            },
+            "official_support_all_retained": null
+          },
+          "strong_chain": {
+            "n": 146,
+            "correct": 58.0,
+            "em": 0.3972602739726027,
+            "f1": 0.3972602739726027,
+            "invalid": 8,
+            "conflict_count": 58,
+            "mean_source_tokens": 247.6095890410959,
+            "reader_cost": {
+              "calls": 146.0,
+              "input_tokens": 77641.0,
+              "output_tokens": 630171.0,
+              "seconds": 25179.601201899815
+            },
+            "construction_cost": {
+              "calls": 1391.0,
+              "input_tokens": 721792.0,
+              "output_tokens": 1009059.0,
+              "seconds": 49588.10687050549
+            },
+            "official_support_all_retained": null
+          },
+          "joint": {
+            "n": 146,
+            "correct": 59.0,
+            "em": 0.4041095890410959,
+            "f1": 0.4041095890410959,
+            "invalid": 8,
+            "conflict_count": 59,
+            "mean_source_tokens": 247.4794520547945,
+            "reader_cost": {
+              "calls": 146.0,
+              "input_tokens": 77622.0,
+              "output_tokens": 627769.0,
+              "seconds": 25059.649620999116
+            },
+            "construction_cost": {
+              "calls": 1391.0,
+              "input_tokens": 721792.0,
+              "output_tokens": 1009059.0,
+              "seconds": 49588.10687050549
+            },
+            "official_support_all_retained": null
+          }
+        }
+      },
+      "paired_comparisons": {
+        "hotpot_clean": {
+          "joint_vs_set_graph": {
+            "n": 104,
+            "metric": "f1",
+            "delta": 0.007844932844932845,
+            "wins": 2,
+            "losses": 1,
+            "ties": 101,
+            "clusters": 103,
+            "seed": 3408429501,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.0038461538461538455,
+              0.023949665734686525
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          },
+          "joint_vs_plain_set": {
+            "n": 104,
+            "metric": "f1",
+            "delta": -0.010851648351648351,
+            "wins": 1,
+            "losses": 2,
+            "ties": 101,
+            "clusters": 103,
+            "seed": 1732625034,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              -0.03231622746185853,
+              0.001373626373626373
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          },
+          "joint_vs_strong_chain": {
+            "n": 104,
+            "metric": "f1",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 104,
+            "clusters": 103,
+            "seed": 1091366841,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          }
+        },
+        "hotpot_conflict": {
+          "joint_vs_set_graph": {
+            "n": 146,
+            "metric": "em",
+            "delta": 0.21232876712328766,
+            "wins": 31,
+            "losses": 0,
+            "ties": 115,
+            "clusters": 146,
+            "seed": 1327552096,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.1506849315068493,
+              0.2808219178082192
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          },
+          "joint_vs_plain_set": {
+            "n": 146,
+            "metric": "em",
+            "delta": 0.11643835616438356,
+            "wins": 29,
+            "losses": 12,
+            "ties": 105,
+            "clusters": 146,
+            "seed": 1962947992,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.03424657534246575,
+              0.2054794520547945
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          },
+          "joint_vs_strong_chain": {
+            "n": 146,
+            "metric": "em",
+            "delta": 0.00684931506849315,
+            "wins": 1,
+            "losses": 0,
+            "ties": 145,
+            "clusters": 146,
+            "seed": 3615778150,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.02054794520547945
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          }
+        }
+      },
+      "packet_identity": {
+        "hotpot_clean": {
+          "joint_vs_set_graph": {
+            "same_packets": 89,
+            "n": 104
+          },
+          "joint_vs_plain_set": {
+            "same_packets": 88,
+            "n": 104
+          },
+          "joint_vs_strong_chain": {
+            "same_packets": 104,
+            "n": 104
+          }
+        },
+        "hotpot_conflict": {
+          "joint_vs_set_graph": {
+            "same_packets": 79,
+            "n": 146
+          },
+          "joint_vs_plain_set": {
+            "same_packets": 51,
+            "n": 146
+          },
+          "joint_vs_strong_chain": {
+            "same_packets": 139,
+            "n": 146
+          }
+        }
+      },
+      "completed_n": 250
+    },
+    "all_candidates_fit": {
+      "tables": {
+        "hotpot_clean": {
+          "plain_set": {
+            "n": 96,
+            "correct": 60.0,
+            "em": 0.625,
+            "f1": 0.7396825396825397,
+            "invalid": 0,
+            "conflict_count": 0,
+            "mean_source_tokens": 191.19791666666666,
+            "reader_cost": {
+              "calls": 96.0,
+              "input_tokens": 45535.0,
+              "output_tokens": 263098.0,
+              "seconds": 9336.838867399842
+            },
+            "construction_cost": {
+              "calls": 0.0,
+              "input_tokens": 0.0,
+              "output_tokens": 0.0,
+              "seconds": 0.0
+            },
+            "official_support_all_retained": 93
+          },
+          "set_graph": {
+            "n": 96,
+            "correct": 60.0,
+            "em": 0.625,
+            "f1": 0.7396825396825397,
+            "invalid": 0,
+            "conflict_count": 0,
+            "mean_source_tokens": 191.19791666666666,
+            "reader_cost": {
+              "calls": 96.0,
+              "input_tokens": 45535.0,
+              "output_tokens": 263098.0,
+              "seconds": 9336.838867399842
+            },
+            "construction_cost": {
+              "calls": 0.0,
+              "input_tokens": 0.0,
+              "output_tokens": 0.0,
+              "seconds": 0.0
+            },
+            "official_support_all_retained": 93
+          },
+          "strong_chain": {
+            "n": 96,
+            "correct": 60.0,
+            "em": 0.625,
+            "f1": 0.7396825396825397,
+            "invalid": 0,
+            "conflict_count": 0,
+            "mean_source_tokens": 191.19791666666666,
+            "reader_cost": {
+              "calls": 96.0,
+              "input_tokens": 45535.0,
+              "output_tokens": 263098.0,
+              "seconds": 9336.838867399842
+            },
+            "construction_cost": {
+              "calls": 0.0,
+              "input_tokens": 0.0,
+              "output_tokens": 0.0,
+              "seconds": 0.0
+            },
+            "official_support_all_retained": 93
+          },
+          "joint": {
+            "n": 96,
+            "correct": 60.0,
+            "em": 0.625,
+            "f1": 0.7396825396825397,
+            "invalid": 0,
+            "conflict_count": 0,
+            "mean_source_tokens": 191.19791666666666,
+            "reader_cost": {
+              "calls": 96.0,
+              "input_tokens": 45535.0,
+              "output_tokens": 263098.0,
+              "seconds": 9336.838867399842
+            },
+            "construction_cost": {
+              "calls": 0.0,
+              "input_tokens": 0.0,
+              "output_tokens": 0.0,
+              "seconds": 0.0
+            },
+            "official_support_all_retained": 93
+          }
+        },
+        "hotpot_conflict": {
+          "plain_set": {
+            "n": 4,
+            "correct": 3.0,
+            "em": 0.75,
+            "f1": 0.75,
+            "invalid": 0,
+            "conflict_count": 3,
+            "mean_source_tokens": 219.5,
+            "reader_cost": {
+              "calls": 4.0,
+              "input_tokens": 1999.0,
+              "output_tokens": 14929.0,
+              "seconds": 558.8606240001973
+            },
+            "construction_cost": {
+              "calls": 0.0,
+              "input_tokens": 0.0,
+              "output_tokens": 0.0,
+              "seconds": 0.0
+            },
+            "official_support_all_retained": null
+          },
+          "set_graph": {
+            "n": 4,
+            "correct": 3.0,
+            "em": 0.75,
+            "f1": 0.75,
+            "invalid": 0,
+            "conflict_count": 3,
+            "mean_source_tokens": 219.5,
+            "reader_cost": {
+              "calls": 4.0,
+              "input_tokens": 1999.0,
+              "output_tokens": 14929.0,
+              "seconds": 558.8606240001973
+            },
+            "construction_cost": {
+              "calls": 0.0,
+              "input_tokens": 0.0,
+              "output_tokens": 0.0,
+              "seconds": 0.0
+            },
+            "official_support_all_retained": null
+          },
+          "strong_chain": {
+            "n": 4,
+            "correct": 3.0,
+            "em": 0.75,
+            "f1": 0.75,
+            "invalid": 0,
+            "conflict_count": 3,
+            "mean_source_tokens": 219.5,
+            "reader_cost": {
+              "calls": 4.0,
+              "input_tokens": 1999.0,
+              "output_tokens": 14929.0,
+              "seconds": 558.8606240001973
+            },
+            "construction_cost": {
+              "calls": 0.0,
+              "input_tokens": 0.0,
+              "output_tokens": 0.0,
+              "seconds": 0.0
+            },
+            "official_support_all_retained": null
+          },
+          "joint": {
+            "n": 4,
+            "correct": 3.0,
+            "em": 0.75,
+            "f1": 0.75,
+            "invalid": 0,
+            "conflict_count": 3,
+            "mean_source_tokens": 219.5,
+            "reader_cost": {
+              "calls": 4.0,
+              "input_tokens": 1999.0,
+              "output_tokens": 14929.0,
+              "seconds": 558.8606240001973
+            },
+            "construction_cost": {
+              "calls": 0.0,
+              "input_tokens": 0.0,
+              "output_tokens": 0.0,
+              "seconds": 0.0
+            },
+            "official_support_all_retained": null
+          }
+        }
+      },
+      "paired_comparisons": {
+        "hotpot_clean": {
+          "joint_vs_set_graph": {
+            "n": 96,
+            "metric": "f1",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 96,
+            "clusters": 95,
+            "seed": 3408429501,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          },
+          "joint_vs_plain_set": {
+            "n": 96,
+            "metric": "f1",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 96,
+            "clusters": 95,
+            "seed": 1732625034,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          },
+          "joint_vs_strong_chain": {
+            "n": 96,
+            "metric": "f1",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 96,
+            "clusters": 95,
+            "seed": 1091366841,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          }
+        },
+        "hotpot_conflict": {
+          "joint_vs_set_graph": {
+            "n": 4,
+            "metric": "em",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 4,
+            "clusters": 4,
+            "seed": 1327552096,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          },
+          "joint_vs_plain_set": {
+            "n": 4,
+            "metric": "em",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 4,
+            "clusters": 4,
+            "seed": 1962947992,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          },
+          "joint_vs_strong_chain": {
+            "n": 4,
+            "metric": "em",
+            "delta": 0.0,
+            "wins": 0,
+            "losses": 0,
+            "ties": 4,
+            "clusters": 4,
+            "seed": 3615778150,
+            "bootstrap_replicates": 10000,
+            "percentile95": [
+              0.0,
+              0.0
+            ],
+            "scope": "Expanded known benchmark cohort; interval is descriptive, not an untouched-source confirmation."
+          }
+        }
+      },
+      "packet_identity": {
+        "hotpot_clean": {
+          "joint_vs_set_graph": {
+            "same_packets": 96,
+            "n": 96
+          },
+          "joint_vs_plain_set": {
+            "same_packets": 96,
+            "n": 96
+          },
+          "joint_vs_strong_chain": {
+            "same_packets": 96,
+            "n": 96
+          }
+        },
+        "hotpot_conflict": {
+          "joint_vs_set_graph": {
+            "same_packets": 4,
+            "n": 4
+          },
+          "joint_vs_plain_set": {
+            "same_packets": 4,
+            "n": 4
+          },
+          "joint_vs_strong_chain": {
+            "same_packets": 4,
+            "n": 4
+          }
+        }
+      },
+      "completed_n": 100
+    }
+  },
+  "cost": {
+    "new_completed_reader_calls": {
+      "calls": 558,
+      "input_tokens": 330322,
+      "output_tokens": 33917,
+      "seconds": 1837.7276694932953
+    },
+    "new_partial_attempts": {
+      "calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.0
+    },
+    "new_all_attempts": {
+      "calls": 558,
+      "input_tokens": 330322,
+      "output_tokens": 33917,
+      "seconds": 1837.7276694932953
+    },
+    "historical_reader_calls_reused": {
+      "calls": 466,
+      "input_tokens": 257961,
+      "output_tokens": 23043,
+      "seconds": 1550.31451100111
+    },
+    "all_required_reader_calls_and_partials": {
+      "calls": 1024,
+      "input_tokens": 588283,
+      "output_tokens": 56960,
+      "seconds": 3388.0421804944053
+    }
+  },
+  "cost_notes": "No new construction calls. Per-arm construction cost remains the Step100 logical cost; do not treat it as zero or sum shared per-arm costs. This run adds only reader calls. The completed4B run is a separate experimental expense, not a required8B reading stage. Source cap256 does not cap cumulative tokens, generated notes, or compute. No total speedup claim against plain_set. Historical ranking/retrieval costs remain unknown.",
+  "scope": "Same350 known benchmark questions as Step100; neither new-source confirmation nor independent untouched test. No subset selected using 8B output outcomes.",
+  "interpretation": "Reader-stack robustness, not a weights-only ablation: model, native thinking regime and two-pass reading differ. All comparisons between selectors within a reader use the same reader settings. Source cap256 does not equalize cumulative compute.",
+  "decision": "Use as evidence about transfer of the selector benefit across two fixed reader stacks. Report positive, null or changed effects; do not retune model/prompt/seed/threshold or discard rows after this run."
+}

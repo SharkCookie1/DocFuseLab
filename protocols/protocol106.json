@@ -1,0 +1,41 @@
+{
+  "version": "step106-supplementary-controls-and-reader-diagnostics-v1",
+  "input_questions": 300,
+  "source_budget_tokens": 256,
+  "generation": {
+    "max_input_tokens": 6144,
+    "check_max_new_tokens": 384,
+    "answer_max_new_tokens": 192,
+    "max_seconds_per_call": 90,
+    "do_sample": false,
+    "use_cache": true,
+    "logits_to_keep": 1,
+    "set_graph_max_new_tokens": 384,
+    "set_plain_max_new_tokens": 384,
+    "setr_max_new_tokens": 4096
+  },
+  "setr_max_seconds_per_call": 600,
+  "setr_cache_implementation": "offloaded",
+  "frozen_before_new_gpu_outputs": true,
+  "new_arms": [
+    "setr_iri_budget",
+    "full_context",
+    "annotation_reference"
+  ],
+  "scope": "Supplementary comparison on the already observed Step105 cohort; not a new untouched confirmation.",
+  "original_primary": "Step105 joint-minus-plain over all 200 conflict cases remains unchanged.",
+  "setr_policy": "Official selection_IRI system/user core; replace unlimited passage-count sentence with256-source-token constraint and append exact per-unit source costs. Present every candidate in frozen retrieval order, renumber1..N and map back. Parse only terminal Final Selection numeric brackets. Selected sequence first, then frozen retrieval order, common budget packing. No truncation to20 candidates or10 selected units. Same8B greedy backbone; official4096 output cap. Not distilled SetR checkpoint reproduction.",
+  "setr_parser_policy": "Official converter convention: numeric bracket identifiers after the last ## Final marker; require marker, accept rationale/prose and idempotent duplicates, reject unknown IDs. Empty[] is valid. No JSON repair. Invalid complete calls retained with frozen-ranked fallback; no reruns.",
+  "setr_commit": "d1ac78b7e41f7c6a2cd8d582934fbba02893f343",
+  "reader_policy": "Exact original 8B check+answer prompts, native greedy decoding, cache policy, 384/192 output and 90-second per-call limits.",
+  "reference_policy": "Label-assisted diagnostic only. Support IDs and document starts are privileged annotation-derived information, never passed to SetR. Human review is a separate author step; initial packets are not certified complete or minimal.",
+  "full_context_policy": "All frozen candidate units, original order, no 256-token cap, no truncation; a reference condition, not a guaranteed upper bound.",
+  "comparison": "joint vs setr_iri_budget on all200conflicts; report clean100 EM/F1/false-conflict and invalid outputs. Supplemental paired cluster bootstrap and exact McNemar, no optional stopping.",
+  "diagnostic_policy": "Full context and annotation-reference results separately from equal-budget methods. A reference packet exceeding256 is not proof that no alternative complete packet fits.",
+  "manual_review_policy": "Blind to model answers and scores; reviewer identity, packet IDs, context judgement and semantic completeness are required. Only verified matching-label complete packets enter human-reviewed diagnostic results. No relabeling/deletion of original primary cohort.",
+  "no_total_wall_pause": true,
+  "max_wall_seconds_per_launch": null,
+  "cost_policy": "Preserve completed invalid calls and interrupted attempts. Reuse only identical prompt/model/generation calls. Show new physical computation separately from historical reused and per-arm logical full-pipeline costs; no claim of total-cost equality.",
+  "bootstrap_seed": 106202610,
+  "bootstrap_repetitions": 20000
+}

@@ -1,0 +1,17 @@
+\begin{table}[pos=H]
+\caption{Confirmation results at a 256-token source budget.}\label{tab:confirmation}
+\centering\small
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{lrrrrr}
+\toprule
+Selector & Correct conflicts & Conflict (\%) & EM (\%) & F1 (\%) & False conflicts \\
+\midrule
+Plain set & 30/200 & 15.0 & 58.0 & 65.3 & 0 \\
+SetR-IRI (adapted) & 30/200 & 15.0 & 64.0 & 70.2 & 0 \\
+MMR & 0/200 & 0.0 & 5.0 & 6.2 & 1 \\
+Same-graph set & 31/200 & 15.5 & 63.0 & 68.2 & 0 \\
+Chain closure & 46/200 & 23.0 & 65.0 & 70.2 & 0 \\
+Joint preservation & 46/200 & 23.0 & 67.0 & 72.2 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,17 @@
+\begin{table}[pos=H]
+\caption{Development results with two reader configurations.}\label{tab:development}
+\centering\small
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{lrrrrr}
+\toprule
+& \multicolumn{2}{c}{4B reader} & \multicolumn{3}{c}{8B reader} \\ \cmidrule(lr){2-3}\cmidrule(lr){4-6} Selector & Conflict (\%) & EM (\%) & Conflict (\%) & EM (\%) & F1 (\%) \\
+\midrule
+Plain set & 30.0 & 59.0 & 14.0 & 59.0 & 71.9 \\
+SetR-IRI (adapted) & -- & -- & 12.0 & 59.5 & 72.4 \\
+MMR & -- & -- & 6.0 & 55.5 & 68.0 \\
+Same-graph set & 20.7 & 58.5 & 9.3 & 58.0 & 70.9 \\
+Chain closure & 40.7 & 58.0 & 24.0 & 57.5 & 70.7 \\
+Joint preservation & 41.3 & 58.0 & 24.0 & 57.5 & 70.7 \\
+\bottomrule
+\end{tabular}
+\end{table}

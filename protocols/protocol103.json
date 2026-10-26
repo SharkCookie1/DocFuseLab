@@ -1,0 +1,45 @@
+{
+  "version": "step103-fixed-public-controls-v1",
+  "input_questions": 350,
+  "source_budget_tokens": 256,
+  "new_arms": [
+    "setr_iri_budget",
+    "mmr"
+  ],
+  "reference_arms": [
+    "plain_set",
+    "set_graph",
+    "strong_chain",
+    "joint"
+  ],
+  "generation": {
+    "max_input_tokens": 6144,
+    "check_max_new_tokens": 384,
+    "answer_max_new_tokens": 192,
+    "max_seconds_per_call": 90,
+    "do_sample": false,
+    "use_cache": true,
+    "logits_to_keep": 1,
+    "set_graph_max_new_tokens": 384,
+    "set_plain_max_new_tokens": 384,
+    "setr_max_new_tokens": 4096
+  },
+  "setr_max_seconds_per_call": 600,
+  "mmr_lambda": 0.5,
+  "source_step102_sha256": "fc97d74a6579c490a52df6aaa48070db2ceb0526ed487094df7d5adb6999b250",
+  "source_step102_manifest": "d033db3e7159f1439500c032d77bde9c6c2e19b5ce7fef5e6593f865f4aa7d4d",
+  "setr_commit": "d1ac78b7e41f7c6a2cd8d582934fbba02893f343",
+  "setr_policy": "Official selection_IRI system/user core; replace unlimited passage-count sentence with256-source-token constraint and append exact per-unit source costs. Present every candidate in frozen retrieval order, renumber1..N and map back. Parse only terminal Final Selection numeric brackets. Selected sequence first, then frozen retrieval order, common budget packing. No truncation to20 candidates or10 selected units. Same8B greedy backbone; official4096 output cap. Not distilled SetR checkpoint reproduction.",
+  "setr_parser_policy": "Official converter convention: numeric bracket identifiers after the last ## Final marker; require marker, accept rationale/prose and idempotent duplicates, reject unknown IDs. Empty[] is valid. No JSON repair. Invalid complete calls retained with frozen-ranked fallback; no reruns.",
+  "mmr_policy": "Canonical MMR relevance minus max similarity, lambda=.5 fixed without tuning. Sim1=existing frozen retrieval cosine score; Sim2=normalized all-MiniLM-L6-v2 unit cosine. Choose highest MMR among remaining units that fit; skipped oversized units never penalize selected ones. Tie by frozen retrieval rank then ID. Final packet in original source order; full-fit pools bypass selection.",
+  "primary": "Joint minus each of setr_iri_budget and mmr conflict EM on all150 predefined conflicts. Report both paired cluster bootstrap intervals, wins/losses/ties and all four existing arms. No best-baseline or best-subset selection.",
+  "secondary": "All200 clean questions: EM,F1,false-CONFLICT,invalid. Report all350 and predetermined250 compression-required subset separately. Actual source tokens, exact packet equality, selection format/fallback rate and complete costs accompany accuracy.",
+  "scope": "Same350 known benchmark questions as Step100/101; method-level budget-adapted public controls under the same8B reader. Not an untouched-source confirmation or a reproduction of published checkpoint scores.",
+  "decision": "Freeze rows,candidates,unitization,budget,reader,models,prompts,MMR lambda and packing before any new GPU output. No tuning, extra pruning, label-conditioned choice, output repair or rerun of completed valid/invalid calls.",
+  "cost_policy": "Reuse exact reader prompt/model/generation matches with historical costs. Historical four-arm construction remains charged in logical end-to-end comparisons. MMR embedding CPU cost reported separately; no LLM graph cost for MMR or SetR. Source evidence cap does not equalize total calls, prompt tokens, rationale tokens or compute. Unknown historical retrieval cost is not zero.",
+  "no_time_pause": true,
+  "max_total_inference_seconds": null,
+  "max_wall_seconds_per_launch": null,
+  "setr_cache_implementation": "offloaded",
+  "setr_cache_policy": "Fixed official Transformers5.17.0 offloaded DynamicCache for SetR selection only; preserve4096 output cap on8GB GPU. Frozen readers keep original cache/generation. CPU transfer time included; do not attribute unequal-cache timing entirely to selection algorithms."
+}

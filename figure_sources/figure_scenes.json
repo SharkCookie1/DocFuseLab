@@ -1,0 +1,9150 @@
+[
+  {
+    "stem": "Figure_1_Evidence_Selection",
+    "title": "Evidence paths exposed by two equal-budget selections",
+    "width": 468,
+    "height": 302,
+    "note": "Illustrative names and selections. Source blocks represent original text units, not neural feature tensors. Both displayed packets have three units of equal cost c. The paths show supported information, not observed model outputs.",
+    "items": [
+      {
+        "x": 5,
+        "y": 5,
+        "w": 458,
+        "h": 26,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 5,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-001"
+      },
+      {
+        "x": 14,
+        "y": 13.0,
+        "w": 445,
+        "h": 11.339999999999998,
+        "text": "Question: Where was the author of Riverbank born?",
+        "size": 8.1,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-002"
+      },
+      {
+        "x": 7,
+        "y": 42.0,
+        "w": 10,
+        "h": 12.32,
+        "text": "a",
+        "size": 8.8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-003"
+      },
+      {
+        "x": 20,
+        "y": 42.5,
+        "w": 134,
+        "h": 11.2,
+        "text": "Candidate sources",
+        "size": 8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-004"
+      },
+      {
+        "x": 5,
+        "y": 60,
+        "w": 147,
+        "h": 232,
+        "fill": "#F7EAE9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 6,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-005"
+      },
+      {
+        "x": 12,
+        "y": 73,
+        "w": 132,
+        "h": 33,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-006"
+      },
+      {
+        "x": 12,
+        "y": 73,
+        "w": 19,
+        "h": 33,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-007"
+      },
+      {
+        "x": 13,
+        "y": 85.5,
+        "w": 17,
+        "h": 9.94,
+        "text": "S1",
+        "size": 7.1,
+        "bold": true,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-008"
+      },
+      {
+        "x": 36,
+        "y": 79.0,
+        "w": 103,
+        "h": 9.799999999999999,
+        "text": "Riverbank was written",
+        "size": 7.0,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-009"
+      },
+      {
+        "x": 36,
+        "y": 87.96000000000001,
+        "w": 103,
+        "h": 9.799999999999999,
+        "text": "by Lin Zhou.",
+        "size": 7.0,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-010"
+      },
+      {
+        "x": 12,
+        "y": 113,
+        "w": 132,
+        "h": 33,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-011"
+      },
+      {
+        "x": 12,
+        "y": 113,
+        "w": 19,
+        "h": 33,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-012"
+      },
+      {
+        "x": 13,
+        "y": 125.5,
+        "w": 17,
+        "h": 9.94,
+        "text": "S2",
+        "size": 7.1,
+        "bold": true,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-013"
+      },
+      {
+        "x": 36,
+        "y": 119.0,
+        "w": 103,
+        "h": 9.799999999999999,
+        "text": "Lin Zhou was born",
+        "size": 7.0,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-014"
+      },
+      {
+        "x": 36,
+        "y": 127.96000000000001,
+        "w": 103,
+        "h": 9.799999999999999,
+        "text": "in Haicheng.",
+        "size": 7.0,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-015"
+      },
+      {
+        "x": 12,
+        "y": 153,
+        "w": 132,
+        "h": 33,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-016"
+      },
+      {
+        "x": 12,
+        "y": 153,
+        "w": 19,
+        "h": 33,
+        "fill": "#F5B7BE",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-017"
+      },
+      {
+        "x": 13,
+        "y": 165.5,
+        "w": 17,
+        "h": 9.94,
+        "text": "S3",
+        "size": 7.1,
+        "bold": true,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-018"
+      },
+      {
+        "x": 36,
+        "y": 159.0,
+        "w": 103,
+        "h": 9.799999999999999,
+        "text": "Lin Zhou was born",
+        "size": 7.0,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-019"
+      },
+      {
+        "x": 36,
+        "y": 167.96,
+        "w": 103,
+        "h": 9.799999999999999,
+        "text": "in Shancheng.",
+        "size": 7.0,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-020"
+      },
+      {
+        "x": 12,
+        "y": 193,
+        "w": 132,
+        "h": 33,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-021"
+      },
+      {
+        "x": 12,
+        "y": 193,
+        "w": 19,
+        "h": 33,
+        "fill": "#E7E6E6",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-022"
+      },
+      {
+        "x": 13,
+        "y": 205.5,
+        "w": 17,
+        "h": 9.94,
+        "text": "S4",
+        "size": 7.1,
+        "bold": true,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-023"
+      },
+      {
+        "x": 36,
+        "y": 199.0,
+        "w": 103,
+        "h": 9.799999999999999,
+        "text": "Riverbank is a novel.",
+        "size": 7.0,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-024"
+      },
+      {
+        "x": 12,
+        "y": 233,
+        "w": 132,
+        "h": 33,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-025"
+      },
+      {
+        "x": 12,
+        "y": 233,
+        "w": 19,
+        "h": 33,
+        "fill": "#E7E6E6",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-026"
+      },
+      {
+        "x": 13,
+        "y": 245.5,
+        "w": 17,
+        "h": 9.94,
+        "text": "S5",
+        "size": 7.1,
+        "bold": true,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-027"
+      },
+      {
+        "x": 36,
+        "y": 239.0,
+        "w": 103,
+        "h": 9.799999999999999,
+        "text": "Lin Zhou received",
+        "size": 7.0,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-028"
+      },
+      {
+        "x": 36,
+        "y": 247.96,
+        "w": 103,
+        "h": 9.799999999999999,
+        "text": "a literary award.",
+        "size": 7.0,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-029"
+      },
+      {
+        "x": 16,
+        "y": 276.0,
+        "w": 132,
+        "h": 9.799999999999999,
+        "text": "Original source units with IDs",
+        "size": 7,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-030"
+      },
+      {
+        "x": 170,
+        "y": 42.0,
+        "w": 10,
+        "h": 12.32,
+        "text": "b",
+        "size": 8.8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-031"
+      },
+      {
+        "x": 183,
+        "y": 42.5,
+        "w": 277,
+        "h": 11.2,
+        "text": "Budgeted packets and retained paths",
+        "size": 8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-032"
+      },
+      {
+        "x": 178,
+        "y": 60,
+        "w": 285,
+        "h": 103,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 6,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-033"
+      },
+      {
+        "x": 178,
+        "y": 179,
+        "w": 285,
+        "h": 113,
+        "fill": "#FAE4D5",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 6,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-034"
+      },
+      {
+        "points": [
+          [
+            154,
+            169
+          ],
+          [
+            165,
+            169
+          ]
+        ],
+        "width": 2,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-035"
+      },
+      {
+        "points": [
+          [
+            165,
+            110
+          ],
+          [
+            165,
+            234
+          ]
+        ],
+        "width": 2,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-036"
+      },
+      {
+        "points": [
+          [
+            165,
+            110
+          ],
+          [
+            177,
+            110
+          ]
+        ],
+        "width": 2,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-037"
+      },
+      {
+        "points": [
+          [
+            177,
+            110
+          ],
+          [
+            173.0,
+            108.24
+          ],
+          [
+            173.0,
+            111.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-038"
+      },
+      {
+        "points": [
+          [
+            165,
+            234
+          ],
+          [
+            177,
+            234
+          ]
+        ],
+        "width": 2,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-039"
+      },
+      {
+        "points": [
+          [
+            177,
+            234
+          ],
+          [
+            173.0,
+            232.24
+          ],
+          [
+            173.0,
+            235.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-040"
+      },
+      {
+        "x": 187,
+        "y": 69.0,
+        "w": 87,
+        "h": 11.06,
+        "text": "Plain set",
+        "size": 7.9,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-041"
+      },
+      {
+        "x": 370,
+        "y": 67,
+        "w": 82,
+        "h": 15,
+        "size": 9,
+        "latex": "B=3c",
+        "ast": [
+          {
+            "type": "run",
+            "text": "B",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "=",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "3",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "c",
+            "normal": false
+          }
+        ],
+        "align": "center",
+        "color": "#161616",
+        "kind": "math",
+        "id": "Figure_1_Evidence_Selection-042"
+      },
+      {
+        "points": [
+          [
+            188,
+            94
+          ],
+          [
+            190,
+            92
+          ],
+          [
+            214,
+            92
+          ],
+          [
+            212,
+            94
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-043"
+      },
+      {
+        "points": [
+          [
+            212,
+            94
+          ],
+          [
+            214,
+            92
+          ],
+          [
+            214,
+            112
+          ],
+          [
+            212,
+            114
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-044"
+      },
+      {
+        "x": 188,
+        "y": 94,
+        "w": 24,
+        "h": 20,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-045"
+      },
+      {
+        "x": 188,
+        "y": 100.3,
+        "w": 24,
+        "h": 9.94,
+        "text": "S1",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-046"
+      },
+      {
+        "points": [
+          [
+            215,
+            94
+          ],
+          [
+            217,
+            92
+          ],
+          [
+            241,
+            92
+          ],
+          [
+            239,
+            94
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-047"
+      },
+      {
+        "points": [
+          [
+            239,
+            94
+          ],
+          [
+            241,
+            92
+          ],
+          [
+            241,
+            112
+          ],
+          [
+            239,
+            114
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-048"
+      },
+      {
+        "x": 215,
+        "y": 94,
+        "w": 24,
+        "h": 20,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-049"
+      },
+      {
+        "x": 215,
+        "y": 100.3,
+        "w": 24,
+        "h": 9.94,
+        "text": "S2",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-050"
+      },
+      {
+        "points": [
+          [
+            242,
+            94
+          ],
+          [
+            244,
+            92
+          ],
+          [
+            268,
+            92
+          ],
+          [
+            266,
+            94
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-051"
+      },
+      {
+        "points": [
+          [
+            266,
+            94
+          ],
+          [
+            268,
+            92
+          ],
+          [
+            268,
+            112
+          ],
+          [
+            266,
+            114
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-052"
+      },
+      {
+        "x": 242,
+        "y": 94,
+        "w": 24,
+        "h": 20,
+        "fill": "#E7E6E6",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-053"
+      },
+      {
+        "x": 242,
+        "y": 100.3,
+        "w": 24,
+        "h": 9.94,
+        "text": "S4",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-054"
+      },
+      {
+        "points": [
+          [
+            270,
+            104
+          ],
+          [
+            286,
+            104
+          ]
+        ],
+        "width": 1.8,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-055"
+      },
+      {
+        "points": [
+          [
+            286,
+            104
+          ],
+          [
+            282.0,
+            102.24
+          ],
+          [
+            282.0,
+            105.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-056"
+      },
+      {
+        "x": 293,
+        "y": 94.0,
+        "w": 157,
+        "h": 10.219999999999999,
+        "text": "One complete path",
+        "size": 7.3,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-057"
+      },
+      {
+        "x": 188,
+        "y": 130,
+        "w": 70,
+        "h": 22,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-058"
+      },
+      {
+        "x": 191,
+        "y": 137.0,
+        "w": 64,
+        "h": 9.94,
+        "text": "Riverbank",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-059"
+      },
+      {
+        "points": [
+          [
+            259,
+            141
+          ],
+          [
+            278,
+            141
+          ]
+        ],
+        "width": 1.8,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-060"
+      },
+      {
+        "points": [
+          [
+            278,
+            141
+          ],
+          [
+            274.0,
+            139.24
+          ],
+          [
+            274.0,
+            142.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-061"
+      },
+      {
+        "x": 281,
+        "y": 130,
+        "w": 69,
+        "h": 22,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-062"
+      },
+      {
+        "x": 284,
+        "y": 137.0,
+        "w": 63,
+        "h": 9.94,
+        "text": "Lin Zhou",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-063"
+      },
+      {
+        "points": [
+          [
+            351,
+            141
+          ],
+          [
+            370,
+            141
+          ]
+        ],
+        "width": 1.8,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-064"
+      },
+      {
+        "points": [
+          [
+            370,
+            141
+          ],
+          [
+            366.0,
+            139.24
+          ],
+          [
+            366.0,
+            142.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-065"
+      },
+      {
+        "x": 373,
+        "y": 130,
+        "w": 80,
+        "h": 22,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-066"
+      },
+      {
+        "x": 376,
+        "y": 137.0,
+        "w": 74,
+        "h": 9.94,
+        "text": "Haicheng",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-067"
+      },
+      {
+        "x": 187,
+        "y": 188.0,
+        "w": 175,
+        "h": 11.06,
+        "text": "Joint preservation",
+        "size": 7.9,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-068"
+      },
+      {
+        "x": 370,
+        "y": 186,
+        "w": 82,
+        "h": 15,
+        "size": 9,
+        "latex": "B=3c",
+        "ast": [
+          {
+            "type": "run",
+            "text": "B",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "=",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "3",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "c",
+            "normal": false
+          }
+        ],
+        "align": "center",
+        "color": "#161616",
+        "kind": "math",
+        "id": "Figure_1_Evidence_Selection-069"
+      },
+      {
+        "points": [
+          [
+            188,
+            214
+          ],
+          [
+            190,
+            212
+          ],
+          [
+            214,
+            212
+          ],
+          [
+            212,
+            214
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-070"
+      },
+      {
+        "points": [
+          [
+            212,
+            214
+          ],
+          [
+            214,
+            212
+          ],
+          [
+            214,
+            232
+          ],
+          [
+            212,
+            234
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-071"
+      },
+      {
+        "x": 188,
+        "y": 214,
+        "w": 24,
+        "h": 20,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-072"
+      },
+      {
+        "x": 188,
+        "y": 220.3,
+        "w": 24,
+        "h": 9.94,
+        "text": "S1",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-073"
+      },
+      {
+        "points": [
+          [
+            215,
+            214
+          ],
+          [
+            217,
+            212
+          ],
+          [
+            241,
+            212
+          ],
+          [
+            239,
+            214
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-074"
+      },
+      {
+        "points": [
+          [
+            239,
+            214
+          ],
+          [
+            241,
+            212
+          ],
+          [
+            241,
+            232
+          ],
+          [
+            239,
+            234
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-075"
+      },
+      {
+        "x": 215,
+        "y": 214,
+        "w": 24,
+        "h": 20,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-076"
+      },
+      {
+        "x": 215,
+        "y": 220.3,
+        "w": 24,
+        "h": 9.94,
+        "text": "S2",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-077"
+      },
+      {
+        "points": [
+          [
+            242,
+            214
+          ],
+          [
+            244,
+            212
+          ],
+          [
+            268,
+            212
+          ],
+          [
+            266,
+            214
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-078"
+      },
+      {
+        "points": [
+          [
+            266,
+            214
+          ],
+          [
+            268,
+            212
+          ],
+          [
+            268,
+            232
+          ],
+          [
+            266,
+            234
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-079"
+      },
+      {
+        "x": 242,
+        "y": 214,
+        "w": 24,
+        "h": 20,
+        "fill": "#F5B7BE",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-080"
+      },
+      {
+        "x": 242,
+        "y": 220.3,
+        "w": 24,
+        "h": 9.94,
+        "text": "S3",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-081"
+      },
+      {
+        "points": [
+          [
+            270,
+            224
+          ],
+          [
+            286,
+            224
+          ]
+        ],
+        "width": 1.8,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-082"
+      },
+      {
+        "points": [
+          [
+            286,
+            224
+          ],
+          [
+            282.0,
+            222.24
+          ],
+          [
+            282.0,
+            225.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-083"
+      },
+      {
+        "x": 293,
+        "y": 214.0,
+        "w": 157,
+        "h": 9.94,
+        "text": "Two complete opposing paths",
+        "size": 7.1,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-084"
+      },
+      {
+        "x": 188,
+        "y": 257,
+        "w": 70,
+        "h": 22,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-085"
+      },
+      {
+        "x": 191,
+        "y": 264.0,
+        "w": 64,
+        "h": 9.94,
+        "text": "Riverbank",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-086"
+      },
+      {
+        "points": [
+          [
+            259,
+            268
+          ],
+          [
+            278,
+            268
+          ]
+        ],
+        "width": 1.8,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-087"
+      },
+      {
+        "points": [
+          [
+            278,
+            268
+          ],
+          [
+            274.0,
+            266.24
+          ],
+          [
+            274.0,
+            269.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-088"
+      },
+      {
+        "x": 281,
+        "y": 257,
+        "w": 69,
+        "h": 22,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-089"
+      },
+      {
+        "x": 284,
+        "y": 264.0,
+        "w": 63,
+        "h": 9.94,
+        "text": "Lin Zhou",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-090"
+      },
+      {
+        "points": [
+          [
+            351,
+            268
+          ],
+          [
+            361,
+            268
+          ]
+        ],
+        "width": 1.8,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-091"
+      },
+      {
+        "points": [
+          [
+            361,
+            247
+          ],
+          [
+            361,
+            278
+          ]
+        ],
+        "width": 1.8,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-092"
+      },
+      {
+        "points": [
+          [
+            361,
+            247
+          ],
+          [
+            370,
+            247
+          ]
+        ],
+        "width": 1.8,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-093"
+      },
+      {
+        "points": [
+          [
+            370,
+            247
+          ],
+          [
+            366.0,
+            245.24
+          ],
+          [
+            366.0,
+            248.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-094"
+      },
+      {
+        "points": [
+          [
+            361,
+            278
+          ],
+          [
+            370,
+            278
+          ]
+        ],
+        "width": 1.8,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-095"
+      },
+      {
+        "points": [
+          [
+            370,
+            278
+          ],
+          [
+            366.0,
+            276.24
+          ],
+          [
+            366.0,
+            279.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_1_Evidence_Selection-096"
+      },
+      {
+        "x": 373,
+        "y": 236,
+        "w": 80,
+        "h": 22,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-097"
+      },
+      {
+        "x": 376,
+        "y": 243.0,
+        "w": 74,
+        "h": 9.94,
+        "text": "Haicheng",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-098"
+      },
+      {
+        "x": 373,
+        "y": 267,
+        "w": 80,
+        "h": 22,
+        "fill": "#F5B7BE",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_1_Evidence_Selection-099"
+      },
+      {
+        "x": 376,
+        "y": 274.0,
+        "w": 74,
+        "h": 9.94,
+        "text": "Shancheng",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_1_Evidence_Selection-100"
+      }
+    ]
+  },
+  {
+    "stem": "Figure_2_Method",
+    "title": "Source-grounded construction and structural selection",
+    "width": 468,
+    "height": 330,
+    "note": "Architecture of the implemented selector. Proposal uses the full pool and up to two existing Document blocks. Accepted witnesses are checked for complete support and pairwise relations. The expanded module retains conservative family unions, enumerates up to 64 family-union seeds, applies budget and active balance constraints, fills by the common priority and ranks the constructed feasible packets. Only original selected source text reaches the reader.",
+    "items": [
+      {
+        "x": 7,
+        "y": 4.0,
+        "w": 10,
+        "h": 12.32,
+        "text": "a",
+        "size": 8.8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-001"
+      },
+      {
+        "x": 20,
+        "y": 4.5,
+        "w": 441,
+        "h": 11.2,
+        "text": "Source-grounded evidence construction",
+        "size": 8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-002"
+      },
+      {
+        "x": 5,
+        "y": 24,
+        "w": 458,
+        "h": 92,
+        "fill": "#F7EAE9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 6,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-003"
+      },
+      {
+        "x": 20,
+        "y": 45,
+        "w": 49,
+        "h": 34,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-004"
+      },
+      {
+        "x": 17,
+        "y": 48,
+        "w": 49,
+        "h": 34,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-005"
+      },
+      {
+        "x": 14,
+        "y": 51,
+        "w": 49,
+        "h": 34,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-006"
+      },
+      {
+        "x": 17,
+        "y": 64.0,
+        "w": 43,
+        "h": 10.08,
+        "text": "Sources",
+        "size": 7.2,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-007"
+      },
+      {
+        "x": 15,
+        "y": 92.0,
+        "w": 64,
+        "h": 10.08,
+        "text": "Question q",
+        "size": 7.2,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-008"
+      },
+      {
+        "points": [
+          [
+            69,
+            67
+          ],
+          [
+            84,
+            67
+          ]
+        ],
+        "width": 1.8,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_2_Method-009"
+      },
+      {
+        "points": [
+          [
+            84,
+            67
+          ],
+          [
+            80.0,
+            65.24
+          ],
+          [
+            80.0,
+            68.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_2_Method-010"
+      },
+      {
+        "x": 89,
+        "y": 34,
+        "w": 101,
+        "h": 71,
+        "fill": "#FAE4D5",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 5,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-011"
+      },
+      {
+        "x": 96,
+        "y": 41.0,
+        "w": 89,
+        "h": 10.36,
+        "text": "Witness proposals",
+        "size": 7.4,
+        "bold": true,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-012"
+      },
+      {
+        "x": 96,
+        "y": 57,
+        "w": 86,
+        "h": 18,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.7,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-013"
+      },
+      {
+        "x": 98,
+        "y": 62.0,
+        "w": 82,
+        "h": 9.66,
+        "text": "Whole pool: up to 4",
+        "size": 6.9,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-014"
+      },
+      {
+        "x": 96,
+        "y": 80,
+        "w": 86,
+        "h": 18,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.7,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-015"
+      },
+      {
+        "x": 98,
+        "y": 85.0,
+        "w": 82,
+        "h": 9.52,
+        "text": "Up to 2 source blocks",
+        "size": 6.8,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-016"
+      },
+      {
+        "points": [
+          [
+            192,
+            67
+          ],
+          [
+            205,
+            67
+          ]
+        ],
+        "width": 1.8,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_2_Method-017"
+      },
+      {
+        "points": [
+          [
+            205,
+            67
+          ],
+          [
+            201.0,
+            65.24
+          ],
+          [
+            201.0,
+            68.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_2_Method-018"
+      },
+      {
+        "x": 210,
+        "y": 34,
+        "w": 105,
+        "h": 71,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 5,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-019"
+      },
+      {
+        "x": 215,
+        "y": 41.0,
+        "w": 95,
+        "h": 10.36,
+        "text": "Source checks",
+        "size": 7.4,
+        "bold": true,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-020"
+      },
+      {
+        "x": 218,
+        "y": 59.0,
+        "w": 89,
+        "h": 9.799999999999999,
+        "text": "Complete support",
+        "size": 7.0,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-021"
+      },
+      {
+        "x": 218,
+        "y": 73.0,
+        "w": 89,
+        "h": 9.799999999999999,
+        "text": "Answer equivalence",
+        "size": 7.0,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-022"
+      },
+      {
+        "x": 218,
+        "y": 87.0,
+        "w": 89,
+        "h": 9.799999999999999,
+        "text": "Pairwise opposition",
+        "size": 7.0,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-023"
+      },
+      {
+        "points": [
+          [
+            317,
+            67
+          ],
+          [
+            332,
+            67
+          ]
+        ],
+        "width": 1.8,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_2_Method-024"
+      },
+      {
+        "points": [
+          [
+            332,
+            67
+          ],
+          [
+            328.0,
+            65.24
+          ],
+          [
+            328.0,
+            68.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_2_Method-025"
+      },
+      {
+        "x": 337,
+        "y": 34,
+        "w": 116,
+        "h": 71,
+        "fill": "#B1AFD4",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 5,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-026"
+      },
+      {
+        "x": 342,
+        "y": 41.0,
+        "w": 106,
+        "h": 10.219999999999999,
+        "text": "Accepted family graph",
+        "size": 7.3,
+        "bold": true,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-027"
+      },
+      {
+        "x": 355,
+        "y": 65,
+        "w": 22,
+        "h": 22,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.9,
+        "kind": "circle",
+        "id": "Figure_2_Method-028"
+      },
+      {
+        "x": 361,
+        "y": 72.0,
+        "w": 10,
+        "h": 11.2,
+        "text": "a",
+        "size": 8,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-029"
+      },
+      {
+        "x": 414,
+        "y": 65,
+        "w": 22,
+        "h": 22,
+        "fill": "#F5B7BE",
+        "color": "#161616",
+        "width": 0.9,
+        "kind": "circle",
+        "id": "Figure_2_Method-030"
+      },
+      {
+        "x": 420,
+        "y": 72.0,
+        "w": 10,
+        "h": 11.2,
+        "text": "b",
+        "size": 8,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-031"
+      },
+      {
+        "points": [
+          [
+            378,
+            76
+          ],
+          [
+            413,
+            76
+          ]
+        ],
+        "width": 1.7,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_2_Method-032"
+      },
+      {
+        "points": [
+          [
+            393,
+            72
+          ],
+          [
+            398,
+            80
+          ]
+        ],
+        "width": 1.1,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_2_Method-033"
+      },
+      {
+        "points": [
+          [
+            393,
+            80
+          ],
+          [
+            398,
+            72
+          ]
+        ],
+        "width": 1.1,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_2_Method-034"
+      },
+      {
+        "x": 349,
+        "y": 93.0,
+        "w": 94,
+        "h": 9.379999999999999,
+        "text": "Unresolved incompatibility",
+        "size": 6.7,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-035"
+      },
+      {
+        "points": [
+          [
+            395,
+            107
+          ],
+          [
+            395,
+            120
+          ],
+          [
+            459,
+            120
+          ],
+          [
+            459,
+            140
+          ],
+          [
+            81,
+            140
+          ],
+          [
+            81,
+            151
+          ]
+        ],
+        "width": 1.4,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_2_Method-036"
+      },
+      {
+        "points": [
+          [
+            81,
+            151
+          ],
+          [
+            82.76,
+            147.0
+          ],
+          [
+            79.24,
+            147.0
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_2_Method-037"
+      },
+      {
+        "x": 7,
+        "y": 126.0,
+        "w": 10,
+        "h": 12.32,
+        "text": "b",
+        "size": 8.8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-038"
+      },
+      {
+        "x": 20,
+        "y": 126.5,
+        "w": 419,
+        "h": 11.2,
+        "text": "Expanded structural selection",
+        "size": 8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-039"
+      },
+      {
+        "x": 5,
+        "y": 145,
+        "w": 458,
+        "h": 135,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 1,
+        "r": 5,
+        "dashed": true,
+        "kind": "rect",
+        "id": "Figure_2_Method-040"
+      },
+      {
+        "x": 12,
+        "y": 153,
+        "w": 145,
+        "h": 115,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-041"
+      },
+      {
+        "x": 19,
+        "y": 160.0,
+        "w": 131,
+        "h": 10.639999999999999,
+        "text": "Family closure",
+        "size": 7.6,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-042"
+      },
+      {
+        "x": 65,
+        "y": 179.0,
+        "w": 18,
+        "h": 9.52,
+        "text": "v1",
+        "size": 6.8,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-043"
+      },
+      {
+        "x": 85,
+        "y": 179.0,
+        "w": 18,
+        "h": 9.52,
+        "text": "v2",
+        "size": 6.8,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-044"
+      },
+      {
+        "x": 105,
+        "y": 179.0,
+        "w": 18,
+        "h": 9.52,
+        "text": "v3",
+        "size": 6.8,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-045"
+      },
+      {
+        "x": 125,
+        "y": 179.0,
+        "w": 18,
+        "h": 9.52,
+        "text": "v4",
+        "size": 6.8,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-046"
+      },
+      {
+        "x": 20,
+        "y": 199.0,
+        "w": 43,
+        "h": 9.66,
+        "text": "a: W1",
+        "size": 6.9,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-047"
+      },
+      {
+        "x": 68,
+        "y": 197,
+        "w": 11,
+        "h": 11,
+        "fill": "#B1AFD4",
+        "color": "#161616",
+        "width": 0.55,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-048"
+      },
+      {
+        "x": 88,
+        "y": 197,
+        "w": 11,
+        "h": 11,
+        "fill": "#B1AFD4",
+        "color": "#161616",
+        "width": 0.55,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-049"
+      },
+      {
+        "x": 108,
+        "y": 197,
+        "w": 11,
+        "h": 11,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.55,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-050"
+      },
+      {
+        "x": 128,
+        "y": 197,
+        "w": 11,
+        "h": 11,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.55,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-051"
+      },
+      {
+        "x": 20,
+        "y": 215.0,
+        "w": 43,
+        "h": 9.66,
+        "text": "a: W2",
+        "size": 6.9,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-052"
+      },
+      {
+        "x": 68,
+        "y": 213,
+        "w": 11,
+        "h": 11,
+        "fill": "#B1AFD4",
+        "color": "#161616",
+        "width": 0.55,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-053"
+      },
+      {
+        "x": 88,
+        "y": 213,
+        "w": 11,
+        "h": 11,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.55,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-054"
+      },
+      {
+        "x": 108,
+        "y": 213,
+        "w": 11,
+        "h": 11,
+        "fill": "#B1AFD4",
+        "color": "#161616",
+        "width": 0.55,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-055"
+      },
+      {
+        "x": 128,
+        "y": 213,
+        "w": 11,
+        "h": 11,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.55,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-056"
+      },
+      {
+        "x": 20,
+        "y": 231.0,
+        "w": 43,
+        "h": 9.66,
+        "text": "b: W3",
+        "size": 6.9,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-057"
+      },
+      {
+        "x": 68,
+        "y": 229,
+        "w": 11,
+        "h": 11,
+        "fill": "#F5B7BE",
+        "color": "#161616",
+        "width": 0.55,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-058"
+      },
+      {
+        "x": 88,
+        "y": 229,
+        "w": 11,
+        "h": 11,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.55,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-059"
+      },
+      {
+        "x": 108,
+        "y": 229,
+        "w": 11,
+        "h": 11,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.55,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-060"
+      },
+      {
+        "x": 128,
+        "y": 229,
+        "w": 11,
+        "h": 11,
+        "fill": "#F5B7BE",
+        "color": "#161616",
+        "width": 0.55,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-061"
+      },
+      {
+        "x": 21,
+        "y": 244,
+        "w": 126,
+        "h": 22,
+        "size": 8.6,
+        "latex": "U_a=\\bigcup_{W\\in\\mathcal{W}_a}W",
+        "ast": [
+          {
+            "type": "sub",
+            "base": {
+              "type": "run",
+              "text": "U",
+              "normal": false
+            },
+            "sub": {
+              "type": "run",
+              "text": "a",
+              "normal": false
+            }
+          },
+          {
+            "type": "run",
+            "text": "=",
+            "normal": false
+          },
+          {
+            "type": "nary",
+            "op": "⋃",
+            "sub": [
+              {
+                "type": "run",
+                "text": "W",
+                "normal": false
+              },
+              {
+                "type": "run",
+                "text": "∈",
+                "normal": false
+              },
+              {
+                "type": "sub",
+                "base": {
+                  "type": "run",
+                  "text": "𝒲",
+                  "normal": false
+                },
+                "sub": {
+                  "type": "run",
+                  "text": "a",
+                  "normal": false
+                }
+              }
+            ],
+            "body": {
+              "type": "run",
+              "text": "W",
+              "normal": false
+            }
+          }
+        ],
+        "align": "center",
+        "color": "#161616",
+        "kind": "math",
+        "id": "Figure_2_Method-062"
+      },
+      {
+        "points": [
+          [
+            159,
+            212
+          ],
+          [
+            170,
+            212
+          ]
+        ],
+        "width": 1.6,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_2_Method-063"
+      },
+      {
+        "points": [
+          [
+            170,
+            212
+          ],
+          [
+            166.0,
+            210.24
+          ],
+          [
+            166.0,
+            213.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_2_Method-064"
+      },
+      {
+        "x": 175,
+        "y": 153,
+        "w": 127,
+        "h": 115,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-065"
+      },
+      {
+        "x": 182,
+        "y": 160.0,
+        "w": 114,
+        "h": 10.36,
+        "text": "Feasible union seeds",
+        "size": 7.4,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-066"
+      },
+      {
+        "x": 182,
+        "y": 179.0,
+        "w": 114,
+        "h": 9.799999999999999,
+        "text": "At most 64 seed unions",
+        "size": 7,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-067"
+      },
+      {
+        "x": 186,
+        "y": 197,
+        "w": 105,
+        "h": 18,
+        "size": 9,
+        "latex": "C(S)\\leq B",
+        "ast": [
+          {
+            "type": "run",
+            "text": "C",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "(",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "S",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": ")",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "≤",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "B",
+            "normal": false
+          }
+        ],
+        "align": "center",
+        "color": "#161616",
+        "kind": "math",
+        "id": "Figure_2_Method-068"
+      },
+      {
+        "x": 180,
+        "y": 219,
+        "w": 117,
+        "h": 18,
+        "size": 8.7,
+        "latex": "z_a(S)=z_b(S)",
+        "ast": [
+          {
+            "type": "sub",
+            "base": {
+              "type": "run",
+              "text": "z",
+              "normal": false
+            },
+            "sub": {
+              "type": "run",
+              "text": "a",
+              "normal": false
+            }
+          },
+          {
+            "type": "run",
+            "text": "(S)=",
+            "normal": false
+          },
+          {
+            "type": "sub",
+            "base": {
+              "type": "run",
+              "text": "z",
+              "normal": false
+            },
+            "sub": {
+              "type": "run",
+              "text": "b",
+              "normal": false
+            }
+          },
+          {
+            "type": "run",
+            "text": "(S)",
+            "normal": false
+          }
+        ],
+        "align": "center",
+        "color": "#161616",
+        "kind": "math",
+        "id": "Figure_2_Method-069"
+      },
+      {
+        "x": 184,
+        "y": 246.0,
+        "w": 109,
+        "h": 9.799999999999999,
+        "text": "Balance when active",
+        "size": 7,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-070"
+      },
+      {
+        "points": [
+          [
+            304,
+            212
+          ],
+          [
+            315,
+            212
+          ]
+        ],
+        "width": 1.6,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_2_Method-071"
+      },
+      {
+        "points": [
+          [
+            315,
+            212
+          ],
+          [
+            311.0,
+            210.24
+          ],
+          [
+            311.0,
+            213.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_2_Method-072"
+      },
+      {
+        "x": 320,
+        "y": 153,
+        "w": 135,
+        "h": 115,
+        "fill": "#FDE694",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-073"
+      },
+      {
+        "x": 327,
+        "y": 160.0,
+        "w": 121,
+        "h": 10.08,
+        "text": "Priority fill and ranking",
+        "size": 7.2,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-074"
+      },
+      {
+        "x": 327,
+        "y": 180.0,
+        "w": 121,
+        "h": 9.66,
+        "text": "Scan the shared priority",
+        "size": 6.9,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-075"
+      },
+      {
+        "x": 329,
+        "y": 199,
+        "w": 25,
+        "h": 16,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-076"
+      },
+      {
+        "x": 329,
+        "y": 203.3,
+        "w": 25,
+        "h": 9.94,
+        "text": "i1",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-077"
+      },
+      {
+        "x": 357,
+        "y": 199,
+        "w": 25,
+        "h": 16,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-078"
+      },
+      {
+        "x": 357,
+        "y": 203.3,
+        "w": 25,
+        "h": 9.94,
+        "text": "i2",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-079"
+      },
+      {
+        "x": 385,
+        "y": 199,
+        "w": 25,
+        "h": 16,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-080"
+      },
+      {
+        "x": 385,
+        "y": 203.3,
+        "w": 25,
+        "h": 9.94,
+        "text": "…",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-081"
+      },
+      {
+        "x": 413,
+        "y": 199,
+        "w": 25,
+        "h": 16,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-082"
+      },
+      {
+        "x": 413,
+        "y": 203.3,
+        "w": 25,
+        "h": 9.94,
+        "text": "in",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-083"
+      },
+      {
+        "x": 327,
+        "y": 225.0,
+        "w": 121,
+        "h": 9.66,
+        "text": "Keep feasible additions",
+        "size": 6.9,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-084"
+      },
+      {
+        "x": 327,
+        "y": 241.0,
+        "w": 121,
+        "h": 9.52,
+        "text": "Select by lexicographic rank",
+        "size": 6.8,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-085"
+      },
+      {
+        "x": 327,
+        "y": 251,
+        "w": 121,
+        "h": 16,
+        "size": 8.5,
+        "latex": "(K,H,R_\\pi,-C)",
+        "ast": [
+          {
+            "type": "run",
+            "text": "(",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "K",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": ",",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "H",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": ",",
+            "normal": false
+          },
+          {
+            "type": "sub",
+            "base": {
+              "type": "run",
+              "text": "R",
+              "normal": false
+            },
+            "sub": {
+              "type": "run",
+              "text": "π",
+              "normal": false
+            }
+          },
+          {
+            "type": "run",
+            "text": ",",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "−",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "C",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": ")",
+            "normal": false
+          }
+        ],
+        "align": "center",
+        "color": "#161616",
+        "kind": "math",
+        "id": "Figure_2_Method-086"
+      },
+      {
+        "x": 7,
+        "y": 291.0,
+        "w": 10,
+        "h": 12.32,
+        "text": "c",
+        "size": 8.8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-087"
+      },
+      {
+        "x": 20,
+        "y": 291.5,
+        "w": 149,
+        "h": 11.2,
+        "text": "Source-only reading",
+        "size": 8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-088"
+      },
+      {
+        "x": 183,
+        "y": 289,
+        "w": 104,
+        "h": 26,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-089"
+      },
+      {
+        "x": 180,
+        "y": 292,
+        "w": 104,
+        "h": 26,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-090"
+      },
+      {
+        "x": 183,
+        "y": 301.0,
+        "w": 98,
+        "h": 10.08,
+        "text": "Selected original text",
+        "size": 7.2,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-091"
+      },
+      {
+        "points": [
+          [
+            290,
+            305
+          ],
+          [
+            305,
+            305
+          ]
+        ],
+        "width": 1.8,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_2_Method-092"
+      },
+      {
+        "points": [
+          [
+            305,
+            305
+          ],
+          [
+            301.0,
+            303.24
+          ],
+          [
+            301.0,
+            306.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_2_Method-093"
+      },
+      {
+        "x": 310,
+        "y": 292,
+        "w": 76,
+        "h": 26,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_2_Method-094"
+      },
+      {
+        "x": 313,
+        "y": 301.0,
+        "w": 70,
+        "h": 10.36,
+        "text": "Frozen reader",
+        "size": 7.4,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-095"
+      },
+      {
+        "points": [
+          [
+            388,
+            305
+          ],
+          [
+            402,
+            305
+          ]
+        ],
+        "width": 1.8,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_2_Method-096"
+      },
+      {
+        "points": [
+          [
+            402,
+            305
+          ],
+          [
+            398.0,
+            303.24
+          ],
+          [
+            398.0,
+            306.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_2_Method-097"
+      },
+      {
+        "x": 408,
+        "y": 288.0,
+        "w": 54,
+        "h": 9.52,
+        "text": "Answer /",
+        "size": 6.8,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-098"
+      },
+      {
+        "x": 408,
+        "y": 298.0,
+        "w": 54,
+        "h": 9.52,
+        "text": "CONFLICT /",
+        "size": 6.8,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-099"
+      },
+      {
+        "x": 408,
+        "y": 308.0,
+        "w": 54,
+        "h": 9.52,
+        "text": "UNKNOWN",
+        "size": 6.8,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_2_Method-100"
+      },
+      {
+        "points": [
+          [
+            440,
+            280
+          ],
+          [
+            440,
+            285
+          ],
+          [
+            234,
+            285
+          ],
+          [
+            234,
+            289
+          ]
+        ],
+        "width": 1.4,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_2_Method-101"
+      },
+      {
+        "points": [
+          [
+            234,
+            289
+          ],
+          [
+            235.32,
+            286.0
+          ],
+          [
+            232.68,
+            286.0
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_2_Method-102"
+      }
+    ]
+  },
+  {
+    "stem": "Figure_3_Controlled_Construction",
+    "title": "Source-level construction of the confirmation conditions",
+    "width": 468,
+    "height": 310,
+    "note": "Illustrative film, person and date. Eligibility uses connected official evidence triples and supporting facts in distinct documents. Original candidate documents remain in each pool. The conflict condition appends a terminal sentence with year shifted by seven; ordinary controls append an unchanged copy. Source titles and presentation status are matched. Conditions contain distinct assigned questions, not paired copies of every question.",
+    "items": [
+      {
+        "x": 7,
+        "y": 4.0,
+        "w": 10,
+        "h": 12.32,
+        "text": "a",
+        "size": 8.8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-001"
+      },
+      {
+        "x": 20,
+        "y": 4.5,
+        "w": 441,
+        "h": 11.2,
+        "text": "Frozen confirmation construction",
+        "size": 8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-002"
+      },
+      {
+        "x": 6,
+        "y": 23,
+        "w": 92,
+        "h": 33,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_3_Controlled_Construction-003"
+      },
+      {
+        "x": 12,
+        "y": 30.0,
+        "w": 80,
+        "h": 9.94,
+        "text": "2WikiMultihopQA",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-004"
+      },
+      {
+        "x": 12,
+        "y": 41.0,
+        "w": 80,
+        "h": 9.66,
+        "text": "unused questions",
+        "size": 6.9,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-005"
+      },
+      {
+        "points": [
+          [
+            100,
+            40
+          ],
+          [
+            113,
+            40
+          ]
+        ],
+        "width": 1.8,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_3_Controlled_Construction-006"
+      },
+      {
+        "points": [
+          [
+            113,
+            40
+          ],
+          [
+            109.0,
+            38.24
+          ],
+          [
+            109.0,
+            41.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_3_Controlled_Construction-007"
+      },
+      {
+        "x": 118,
+        "y": 23,
+        "w": 111,
+        "h": 33,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_3_Controlled_Construction-008"
+      },
+      {
+        "x": 122,
+        "y": 30.0,
+        "w": 103,
+        "h": 9.94,
+        "text": "Two connected hops",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-009"
+      },
+      {
+        "x": 122,
+        "y": 41.0,
+        "w": 103,
+        "h": 9.239999999999998,
+        "text": "Distinct support documents",
+        "size": 6.6,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-010"
+      },
+      {
+        "points": [
+          [
+            231,
+            40
+          ],
+          [
+            244,
+            40
+          ]
+        ],
+        "width": 1.8,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_3_Controlled_Construction-011"
+      },
+      {
+        "points": [
+          [
+            244,
+            40
+          ],
+          [
+            240.0,
+            38.24
+          ],
+          [
+            240.0,
+            41.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_3_Controlled_Construction-012"
+      },
+      {
+        "x": 249,
+        "y": 23,
+        "w": 112,
+        "h": 33,
+        "fill": "#FAE4D5",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_3_Controlled_Construction-013"
+      },
+      {
+        "x": 253,
+        "y": 30.0,
+        "w": 104,
+        "h": 9.94,
+        "text": "Fixed hash order",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-014"
+      },
+      {
+        "x": 253,
+        "y": 41.0,
+        "w": 104,
+        "h": 9.239999999999998,
+        "text": "Question and title exclusions",
+        "size": 6.6,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-015"
+      },
+      {
+        "points": [
+          [
+            363,
+            40
+          ],
+          [
+            376,
+            40
+          ]
+        ],
+        "width": 1.8,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_3_Controlled_Construction-016"
+      },
+      {
+        "points": [
+          [
+            376,
+            40
+          ],
+          [
+            372.0,
+            38.24
+          ],
+          [
+            372.0,
+            41.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_3_Controlled_Construction-017"
+      },
+      {
+        "x": 381,
+        "y": 23,
+        "w": 80,
+        "h": 33,
+        "fill": "#FDE694",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_3_Controlled_Construction-018"
+      },
+      {
+        "x": 385,
+        "y": 30.0,
+        "w": 72,
+        "h": 10.219999999999999,
+        "text": "300 questions",
+        "size": 7.3,
+        "bold": true,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-019"
+      },
+      {
+        "x": 385,
+        "y": 41.0,
+        "w": 72,
+        "h": 9.66,
+        "text": "Frozen cohort",
+        "size": 6.9,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-020"
+      },
+      {
+        "x": 6,
+        "y": 70,
+        "w": 455,
+        "h": 94,
+        "fill": "#F7EAE9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 5,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_3_Controlled_Construction-021"
+      },
+      {
+        "x": 14,
+        "y": 77.0,
+        "w": 439,
+        "h": 10.639999999999999,
+        "text": "Question: On what date was the director of Film A born?",
+        "size": 7.6,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-022"
+      },
+      {
+        "x": 14,
+        "y": 97,
+        "w": 178,
+        "h": 39,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_3_Controlled_Construction-023"
+      },
+      {
+        "x": 14,
+        "y": 97,
+        "w": 19,
+        "h": 39,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_3_Controlled_Construction-024"
+      },
+      {
+        "x": 15,
+        "y": 112.5,
+        "w": 17,
+        "h": 9.94,
+        "text": "S1",
+        "size": 7.1,
+        "bold": true,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-025"
+      },
+      {
+        "x": 38,
+        "y": 103.0,
+        "w": 149,
+        "h": 9.799999999999999,
+        "text": "Film A was directed",
+        "size": 7.0,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-026"
+      },
+      {
+        "x": 38,
+        "y": 111.96000000000001,
+        "w": 149,
+        "h": 9.799999999999999,
+        "text": "by Person B.",
+        "size": 7.0,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-027"
+      },
+      {
+        "points": [
+          [
+            195,
+            116
+          ],
+          [
+            212,
+            116
+          ]
+        ],
+        "width": 1.8,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_3_Controlled_Construction-028"
+      },
+      {
+        "points": [
+          [
+            212,
+            116
+          ],
+          [
+            208.0,
+            114.24
+          ],
+          [
+            208.0,
+            117.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_3_Controlled_Construction-029"
+      },
+      {
+        "x": 217,
+        "y": 97,
+        "w": 181,
+        "h": 39,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_3_Controlled_Construction-030"
+      },
+      {
+        "x": 217,
+        "y": 97,
+        "w": 19,
+        "h": 39,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_3_Controlled_Construction-031"
+      },
+      {
+        "x": 218,
+        "y": 112.5,
+        "w": 17,
+        "h": 9.94,
+        "text": "S2",
+        "size": 7.1,
+        "bold": true,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-032"
+      },
+      {
+        "x": 241,
+        "y": 103.0,
+        "w": 152,
+        "h": 9.799999999999999,
+        "text": "Person B was born on",
+        "size": 7.0,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-033"
+      },
+      {
+        "x": 239,
+        "y": 111,
+        "w": 59,
+        "h": 12,
+        "fill": "#FDE694",
+        "color": "#161616",
+        "width": 0.7,
+        "r": 2,
+        "dashed": true,
+        "kind": "rect",
+        "id": "Figure_3_Controlled_Construction-034"
+      },
+      {
+        "x": 241,
+        "y": 113.0,
+        "w": 55,
+        "h": 9.799999999999999,
+        "text": "12 May 1960.",
+        "size": 7,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-035"
+      },
+      {
+        "x": 415,
+        "y": 97,
+        "w": 39,
+        "h": 25,
+        "fill": "#E7E6E6",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_3_Controlled_Construction-036"
+      },
+      {
+        "x": 412,
+        "y": 100,
+        "w": 39,
+        "h": 25,
+        "fill": "#E7E6E6",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_3_Controlled_Construction-037"
+      },
+      {
+        "x": 409,
+        "y": 103,
+        "w": 39,
+        "h": 25,
+        "fill": "#E7E6E6",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_3_Controlled_Construction-038"
+      },
+      {
+        "x": 412,
+        "y": 111.5,
+        "w": 33,
+        "h": 10.08,
+        "text": "Other",
+        "size": 7.2,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-039"
+      },
+      {
+        "x": 14,
+        "y": 146.0,
+        "w": 270,
+        "h": 9.799999999999999,
+        "text": "All original candidate documents are retained",
+        "size": 7.0,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-040"
+      },
+      {
+        "points": [
+          [
+            269,
+            123
+          ],
+          [
+            269,
+            186
+          ]
+        ],
+        "width": 1.1,
+        "color": "#161616",
+        "dashed": true,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_3_Controlled_Construction-041"
+      },
+      {
+        "points": [
+          [
+            117,
+            186
+          ],
+          [
+            350,
+            186
+          ]
+        ],
+        "width": 1.1,
+        "color": "#161616",
+        "dashed": true,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_3_Controlled_Construction-042"
+      },
+      {
+        "points": [
+          [
+            117,
+            186
+          ],
+          [
+            117,
+            195
+          ]
+        ],
+        "width": 1.1,
+        "color": "#161616",
+        "dashed": true,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_3_Controlled_Construction-043"
+      },
+      {
+        "points": [
+          [
+            350,
+            186
+          ],
+          [
+            350,
+            195
+          ]
+        ],
+        "width": 1.1,
+        "color": "#161616",
+        "dashed": true,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_3_Controlled_Construction-044"
+      },
+      {
+        "points": [
+          [
+            117,
+            193
+          ],
+          [
+            117,
+            195
+          ]
+        ],
+        "width": 1.1,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_3_Controlled_Construction-045"
+      },
+      {
+        "points": [
+          [
+            350,
+            193
+          ],
+          [
+            350,
+            195
+          ]
+        ],
+        "width": 1.1,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_3_Controlled_Construction-046"
+      },
+      {
+        "x": 7,
+        "y": 174.0,
+        "w": 10,
+        "h": 12.32,
+        "text": "b",
+        "size": 8.8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-047"
+      },
+      {
+        "x": 20,
+        "y": 174.5,
+        "w": 440,
+        "h": 11.2,
+        "text": "Terminal-sentence detail",
+        "size": 8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-048"
+      },
+      {
+        "x": 6,
+        "y": 195,
+        "w": 222,
+        "h": 105,
+        "fill": "#FAE4D5",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 5,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_3_Controlled_Construction-049"
+      },
+      {
+        "x": 240,
+        "y": 195,
+        "w": 221,
+        "h": 105,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 5,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_3_Controlled_Construction-050"
+      },
+      {
+        "x": 14,
+        "y": 203.0,
+        "w": 205,
+        "h": 10.92,
+        "text": "Conflict condition (n = 200)",
+        "size": 7.8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-051"
+      },
+      {
+        "x": 249,
+        "y": 203.0,
+        "w": 203,
+        "h": 10.92,
+        "text": "Ordinary condition (n = 100)",
+        "size": 7.8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-052"
+      },
+      {
+        "x": 14,
+        "y": 221.0,
+        "w": 205,
+        "h": 9.799999999999999,
+        "text": "Original: Person B was born on",
+        "size": 7.0,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-053"
+      },
+      {
+        "x": 249,
+        "y": 221.0,
+        "w": 203,
+        "h": 9.799999999999999,
+        "text": "Original: Person B was born on",
+        "size": 7.0,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-054"
+      },
+      {
+        "x": 14,
+        "y": 235,
+        "w": 74,
+        "h": 18,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.7,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_3_Controlled_Construction-055"
+      },
+      {
+        "x": 16,
+        "y": 240.0,
+        "w": 70,
+        "h": 9.94,
+        "text": "12 May 1960",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-056"
+      },
+      {
+        "x": 249,
+        "y": 235,
+        "w": 74,
+        "h": 18,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.7,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_3_Controlled_Construction-057"
+      },
+      {
+        "x": 251,
+        "y": 240.0,
+        "w": 70,
+        "h": 9.94,
+        "text": "12 May 1960",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-058"
+      },
+      {
+        "points": [
+          [
+            91,
+            244
+          ],
+          [
+            110,
+            244
+          ]
+        ],
+        "width": 1.7,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_3_Controlled_Construction-059"
+      },
+      {
+        "points": [
+          [
+            110,
+            244
+          ],
+          [
+            106.0,
+            242.24
+          ],
+          [
+            106.0,
+            245.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_3_Controlled_Construction-060"
+      },
+      {
+        "points": [
+          [
+            326,
+            244
+          ],
+          [
+            345,
+            244
+          ]
+        ],
+        "width": 1.7,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_3_Controlled_Construction-061"
+      },
+      {
+        "points": [
+          [
+            345,
+            244
+          ],
+          [
+            341.0,
+            242.24
+          ],
+          [
+            341.0,
+            245.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_3_Controlled_Construction-062"
+      },
+      {
+        "x": 114,
+        "y": 235,
+        "w": 104,
+        "h": 18,
+        "fill": "#F5B7BE",
+        "color": "#161616",
+        "width": 0.7,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_3_Controlled_Construction-063"
+      },
+      {
+        "x": 117,
+        "y": 240.0,
+        "w": 98,
+        "h": 9.66,
+        "text": "Added: 12 May 1967",
+        "size": 6.9,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-064"
+      },
+      {
+        "x": 349,
+        "y": 235,
+        "w": 103,
+        "h": 18,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.7,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_3_Controlled_Construction-065"
+      },
+      {
+        "x": 351,
+        "y": 240.0,
+        "w": 99,
+        "h": 9.66,
+        "text": "Added: 12 May 1960",
+        "size": 6.9,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-066"
+      },
+      {
+        "x": 17,
+        "y": 261,
+        "w": 78,
+        "h": 18,
+        "size": 8.8,
+        "latex": "y^{\\prime}=y+7",
+        "ast": [
+          {
+            "type": "sup",
+            "base": {
+              "type": "run",
+              "text": "y",
+              "normal": false
+            },
+            "sup": {
+              "type": "run",
+              "text": "′",
+              "normal": false
+            }
+          },
+          {
+            "type": "run",
+            "text": "=",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "y",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "+",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "7",
+            "normal": false
+          }
+        ],
+        "align": "left",
+        "color": "#161616",
+        "kind": "math",
+        "id": "Figure_3_Controlled_Construction-067"
+      },
+      {
+        "x": 101,
+        "y": 264.0,
+        "w": 118,
+        "h": 9.66,
+        "text": "Answer year changed",
+        "size": 6.9,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-068"
+      },
+      {
+        "x": 252,
+        "y": 261,
+        "w": 76,
+        "h": 18,
+        "size": 8.8,
+        "latex": "d^{\\prime}=d",
+        "ast": [
+          {
+            "type": "sup",
+            "base": {
+              "type": "run",
+              "text": "d",
+              "normal": false
+            },
+            "sup": {
+              "type": "run",
+              "text": "′",
+              "normal": false
+            }
+          },
+          {
+            "type": "run",
+            "text": "=",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "d",
+            "normal": false
+          }
+        ],
+        "align": "left",
+        "color": "#161616",
+        "kind": "math",
+        "id": "Figure_3_Controlled_Construction-069"
+      },
+      {
+        "x": 336,
+        "y": 264.0,
+        "w": 116,
+        "h": 9.66,
+        "text": "Exact duplicate",
+        "size": 6.9,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-070"
+      },
+      {
+        "x": 14,
+        "y": 286.0,
+        "w": 205,
+        "h": 9.379999999999999,
+        "text": "Same source title and presentation status",
+        "size": 6.7,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-071"
+      },
+      {
+        "x": 249,
+        "y": 286.0,
+        "w": 203,
+        "h": 9.379999999999999,
+        "text": "Same source title and presentation status",
+        "size": 6.7,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_3_Controlled_Construction-072"
+      }
+    ]
+  },
+  {
+    "stem": "Figure_4_Paired_Comparison",
+    "title": "Controlled information paths in the selector comparison",
+    "width": 468,
+    "height": 300,
+    "note": "Each selector branch is a separate per-question run. Candidate sources and declared token costs are fixed. The three graph-informed controls share the accepted graph and priority. The main frozen comparison is joint preservation against plain set; adapted SetR is supplemental. The source cap excludes the question and fixed instructions.",
+    "items": [
+      {
+        "x": 7,
+        "y": 4.0,
+        "w": 10,
+        "h": 12.32,
+        "text": "a",
+        "size": 8.8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-001"
+      },
+      {
+        "x": 20,
+        "y": 4.5,
+        "w": 441,
+        "h": 11.2,
+        "text": "Matched selector inputs and source budgets",
+        "size": 8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-002"
+      },
+      {
+        "x": 6,
+        "y": 25,
+        "w": 111,
+        "h": 214,
+        "fill": "#F7EAE9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 5,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-003"
+      },
+      {
+        "x": 13,
+        "y": 34.0,
+        "w": 97,
+        "h": 9.799999999999999,
+        "text": "Fixed within a question",
+        "size": 7.0,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-004"
+      },
+      {
+        "x": 32,
+        "y": 60,
+        "w": 60,
+        "h": 39,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-005"
+      },
+      {
+        "x": 29,
+        "y": 63,
+        "w": 60,
+        "h": 39,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-006"
+      },
+      {
+        "x": 26,
+        "y": 66,
+        "w": 60,
+        "h": 39,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-007"
+      },
+      {
+        "x": 29,
+        "y": 81.5,
+        "w": 54,
+        "h": 10.08,
+        "text": "Sources V",
+        "size": 7.2,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-008"
+      },
+      {
+        "x": 20,
+        "y": 117.0,
+        "w": 85,
+        "h": 10.36,
+        "text": "Question q",
+        "size": 7.4,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-009"
+      },
+      {
+        "x": 20,
+        "y": 134.0,
+        "w": 85,
+        "h": 10.36,
+        "text": "Unit costs",
+        "size": 7.4,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-010"
+      },
+      {
+        "x": 17,
+        "y": 162,
+        "w": 88,
+        "h": 65,
+        "fill": "#B1AFD4",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-011"
+      },
+      {
+        "x": 22,
+        "y": 169.0,
+        "w": 78,
+        "h": 10.219999999999999,
+        "text": "Shared graph",
+        "size": 7.3,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-012"
+      },
+      {
+        "x": 29,
+        "y": 190,
+        "w": 18,
+        "h": 18,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.9,
+        "kind": "circle",
+        "id": "Figure_4_Paired_Comparison-013"
+      },
+      {
+        "x": 75,
+        "y": 190,
+        "w": 18,
+        "h": 18,
+        "fill": "#F5B7BE",
+        "color": "#161616",
+        "width": 0.9,
+        "kind": "circle",
+        "id": "Figure_4_Paired_Comparison-014"
+      },
+      {
+        "points": [
+          [
+            49,
+            199
+          ],
+          [
+            73,
+            199
+          ]
+        ],
+        "width": 1.5,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-015"
+      },
+      {
+        "x": 22,
+        "y": 214.0,
+        "w": 78,
+        "h": 9.379999999999999,
+        "text": "and common priority",
+        "size": 6.7,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-016"
+      },
+      {
+        "points": [
+          [
+            124,
+            50
+          ],
+          [
+            124,
+            226
+          ]
+        ],
+        "width": 1.5,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-017"
+      },
+      {
+        "points": [
+          [
+            110,
+            119
+          ],
+          [
+            124,
+            119
+          ]
+        ],
+        "width": 1.5,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-018"
+      },
+      {
+        "points": [
+          [
+            124,
+            119
+          ],
+          [
+            120.0,
+            117.24
+          ],
+          [
+            120.0,
+            120.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-019"
+      },
+      {
+        "x": 137,
+        "y": 145,
+        "w": 183,
+        "h": 96,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 5,
+        "dashed": true,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-020"
+      },
+      {
+        "points": [
+          [
+            124,
+            50
+          ],
+          [
+            140,
+            50
+          ]
+        ],
+        "width": 1.4,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-021"
+      },
+      {
+        "points": [
+          [
+            140,
+            50
+          ],
+          [
+            136.0,
+            48.24
+          ],
+          [
+            136.0,
+            51.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-022"
+      },
+      {
+        "x": 145,
+        "y": 41,
+        "w": 105,
+        "h": 21,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.7,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-023"
+      },
+      {
+        "x": 149,
+        "y": 47.0,
+        "w": 97,
+        "h": 9.799999999999999,
+        "text": "Plain set",
+        "size": 7.0,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-024"
+      },
+      {
+        "points": [
+          [
+            252,
+            51
+          ],
+          [
+            266,
+            51
+          ]
+        ],
+        "width": 1.4,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-025"
+      },
+      {
+        "points": [
+          [
+            266,
+            51
+          ],
+          [
+            262.0,
+            49.24
+          ],
+          [
+            262.0,
+            52.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-026"
+      },
+      {
+        "x": 275,
+        "y": 41,
+        "w": 35,
+        "h": 15,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-027"
+      },
+      {
+        "x": 272,
+        "y": 44,
+        "w": 35,
+        "h": 15,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-028"
+      },
+      {
+        "x": 275,
+        "y": 47.5,
+        "w": 29,
+        "h": 10.08,
+        "text": "S",
+        "size": 7.2,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-029"
+      },
+      {
+        "points": [
+          [
+            124,
+            82
+          ],
+          [
+            140,
+            82
+          ]
+        ],
+        "width": 1.4,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-030"
+      },
+      {
+        "points": [
+          [
+            140,
+            82
+          ],
+          [
+            136.0,
+            80.24
+          ],
+          [
+            136.0,
+            83.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-031"
+      },
+      {
+        "x": 145,
+        "y": 73,
+        "w": 105,
+        "h": 21,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.7,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-032"
+      },
+      {
+        "x": 149,
+        "y": 79.0,
+        "w": 97,
+        "h": 9.799999999999999,
+        "text": "SetR-IRI (adapted)",
+        "size": 7.0,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-033"
+      },
+      {
+        "points": [
+          [
+            252,
+            83
+          ],
+          [
+            266,
+            83
+          ]
+        ],
+        "width": 1.4,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-034"
+      },
+      {
+        "points": [
+          [
+            266,
+            83
+          ],
+          [
+            262.0,
+            81.24
+          ],
+          [
+            262.0,
+            84.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-035"
+      },
+      {
+        "x": 275,
+        "y": 73,
+        "w": 35,
+        "h": 15,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-036"
+      },
+      {
+        "x": 272,
+        "y": 76,
+        "w": 35,
+        "h": 15,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-037"
+      },
+      {
+        "x": 275,
+        "y": 79.5,
+        "w": 29,
+        "h": 10.08,
+        "text": "S",
+        "size": 7.2,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-038"
+      },
+      {
+        "points": [
+          [
+            124,
+            114
+          ],
+          [
+            140,
+            114
+          ]
+        ],
+        "width": 1.4,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-039"
+      },
+      {
+        "points": [
+          [
+            140,
+            114
+          ],
+          [
+            136.0,
+            112.24
+          ],
+          [
+            136.0,
+            115.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-040"
+      },
+      {
+        "x": 145,
+        "y": 105,
+        "w": 105,
+        "h": 21,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.7,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-041"
+      },
+      {
+        "x": 149,
+        "y": 111.0,
+        "w": 97,
+        "h": 9.799999999999999,
+        "text": "MMR",
+        "size": 7.0,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-042"
+      },
+      {
+        "points": [
+          [
+            252,
+            115
+          ],
+          [
+            266,
+            115
+          ]
+        ],
+        "width": 1.4,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-043"
+      },
+      {
+        "points": [
+          [
+            266,
+            115
+          ],
+          [
+            262.0,
+            113.24
+          ],
+          [
+            262.0,
+            116.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-044"
+      },
+      {
+        "x": 275,
+        "y": 105,
+        "w": 35,
+        "h": 15,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-045"
+      },
+      {
+        "x": 272,
+        "y": 108,
+        "w": 35,
+        "h": 15,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-046"
+      },
+      {
+        "x": 275,
+        "y": 111.5,
+        "w": 29,
+        "h": 10.08,
+        "text": "S",
+        "size": 7.2,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-047"
+      },
+      {
+        "points": [
+          [
+            124,
+            162
+          ],
+          [
+            140,
+            162
+          ]
+        ],
+        "width": 1.4,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-048"
+      },
+      {
+        "points": [
+          [
+            140,
+            162
+          ],
+          [
+            136.0,
+            160.24
+          ],
+          [
+            136.0,
+            163.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-049"
+      },
+      {
+        "x": 145,
+        "y": 153,
+        "w": 105,
+        "h": 21,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.7,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-050"
+      },
+      {
+        "x": 149,
+        "y": 159.0,
+        "w": 97,
+        "h": 9.799999999999999,
+        "text": "Same-graph set",
+        "size": 7.0,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-051"
+      },
+      {
+        "points": [
+          [
+            252,
+            163
+          ],
+          [
+            266,
+            163
+          ]
+        ],
+        "width": 1.4,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-052"
+      },
+      {
+        "points": [
+          [
+            266,
+            163
+          ],
+          [
+            262.0,
+            161.24
+          ],
+          [
+            262.0,
+            164.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-053"
+      },
+      {
+        "x": 275,
+        "y": 153,
+        "w": 35,
+        "h": 15,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-054"
+      },
+      {
+        "x": 272,
+        "y": 156,
+        "w": 35,
+        "h": 15,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-055"
+      },
+      {
+        "x": 275,
+        "y": 159.5,
+        "w": 29,
+        "h": 10.08,
+        "text": "S",
+        "size": 7.2,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-056"
+      },
+      {
+        "points": [
+          [
+            124,
+            194
+          ],
+          [
+            140,
+            194
+          ]
+        ],
+        "width": 1.4,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-057"
+      },
+      {
+        "points": [
+          [
+            140,
+            194
+          ],
+          [
+            136.0,
+            192.24
+          ],
+          [
+            136.0,
+            195.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-058"
+      },
+      {
+        "x": 145,
+        "y": 185,
+        "w": 105,
+        "h": 21,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.7,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-059"
+      },
+      {
+        "x": 149,
+        "y": 191.0,
+        "w": 97,
+        "h": 9.799999999999999,
+        "text": "Chain closure",
+        "size": 7.0,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-060"
+      },
+      {
+        "points": [
+          [
+            252,
+            195
+          ],
+          [
+            266,
+            195
+          ]
+        ],
+        "width": 1.4,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-061"
+      },
+      {
+        "points": [
+          [
+            266,
+            195
+          ],
+          [
+            262.0,
+            193.24
+          ],
+          [
+            262.0,
+            196.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-062"
+      },
+      {
+        "x": 275,
+        "y": 185,
+        "w": 35,
+        "h": 15,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-063"
+      },
+      {
+        "x": 272,
+        "y": 188,
+        "w": 35,
+        "h": 15,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-064"
+      },
+      {
+        "x": 275,
+        "y": 191.5,
+        "w": 29,
+        "h": 10.08,
+        "text": "S",
+        "size": 7.2,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-065"
+      },
+      {
+        "points": [
+          [
+            124,
+            226
+          ],
+          [
+            140,
+            226
+          ]
+        ],
+        "width": 1.4,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-066"
+      },
+      {
+        "points": [
+          [
+            140,
+            226
+          ],
+          [
+            136.0,
+            224.24
+          ],
+          [
+            136.0,
+            227.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-067"
+      },
+      {
+        "x": 145,
+        "y": 217,
+        "w": 105,
+        "h": 21,
+        "fill": "#FDE694",
+        "color": "#161616",
+        "width": 0.7,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-068"
+      },
+      {
+        "x": 149,
+        "y": 223.0,
+        "w": 97,
+        "h": 9.799999999999999,
+        "text": "Joint preservation",
+        "size": 7.0,
+        "bold": true,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-069"
+      },
+      {
+        "points": [
+          [
+            252,
+            227
+          ],
+          [
+            266,
+            227
+          ]
+        ],
+        "width": 1.4,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-070"
+      },
+      {
+        "points": [
+          [
+            266,
+            227
+          ],
+          [
+            262.0,
+            225.24
+          ],
+          [
+            262.0,
+            228.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-071"
+      },
+      {
+        "x": 275,
+        "y": 217,
+        "w": 35,
+        "h": 15,
+        "fill": "#FDE694",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-072"
+      },
+      {
+        "x": 272,
+        "y": 220,
+        "w": 35,
+        "h": 15,
+        "fill": "#FDE694",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-073"
+      },
+      {
+        "x": 275,
+        "y": 223.5,
+        "w": 29,
+        "h": 10.08,
+        "text": "S",
+        "size": 7.2,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-074"
+      },
+      {
+        "points": [
+          [
+            106,
+            222
+          ],
+          [
+            111,
+            222
+          ],
+          [
+            111,
+            249
+          ],
+          [
+            137,
+            249
+          ],
+          [
+            137,
+            241
+          ]
+        ],
+        "width": 1,
+        "color": "#161616",
+        "dashed": true,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-075"
+      },
+      {
+        "x": 271,
+        "y": 245.0,
+        "w": 61,
+        "h": 9.66,
+        "text": "Source cap",
+        "size": 6.9,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-076"
+      },
+      {
+        "x": 334,
+        "y": 31,
+        "w": 124,
+        "h": 19,
+        "size": 8.7,
+        "latex": "C(S_m)\\leq256",
+        "ast": [
+          {
+            "type": "run",
+            "text": "C",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "(",
+            "normal": false
+          },
+          {
+            "type": "sub",
+            "base": {
+              "type": "run",
+              "text": "S",
+              "normal": false
+            },
+            "sub": {
+              "type": "run",
+              "text": "m",
+              "normal": false
+            }
+          },
+          {
+            "type": "run",
+            "text": ")",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "≤",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "256",
+            "normal": false
+          }
+        ],
+        "align": "center",
+        "color": "#161616",
+        "kind": "math",
+        "id": "Figure_4_Paired_Comparison-077"
+      },
+      {
+        "points": [
+          [
+            326,
+            50
+          ],
+          [
+            326,
+            226
+          ]
+        ],
+        "width": 1.5,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-078"
+      },
+      {
+        "points": [
+          [
+            311,
+            51
+          ],
+          [
+            326,
+            51
+          ]
+        ],
+        "width": 1.3,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-079"
+      },
+      {
+        "points": [
+          [
+            311,
+            83
+          ],
+          [
+            326,
+            83
+          ]
+        ],
+        "width": 1.3,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-080"
+      },
+      {
+        "points": [
+          [
+            311,
+            115
+          ],
+          [
+            326,
+            115
+          ]
+        ],
+        "width": 1.3,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-081"
+      },
+      {
+        "points": [
+          [
+            311,
+            163
+          ],
+          [
+            326,
+            163
+          ]
+        ],
+        "width": 1.3,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-082"
+      },
+      {
+        "points": [
+          [
+            311,
+            195
+          ],
+          [
+            326,
+            195
+          ]
+        ],
+        "width": 1.3,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-083"
+      },
+      {
+        "points": [
+          [
+            311,
+            227
+          ],
+          [
+            326,
+            227
+          ]
+        ],
+        "width": 1.3,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-084"
+      },
+      {
+        "points": [
+          [
+            326,
+            132
+          ],
+          [
+            340,
+            132
+          ]
+        ],
+        "width": 1.8,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-085"
+      },
+      {
+        "points": [
+          [
+            340,
+            132
+          ],
+          [
+            336.0,
+            130.24
+          ],
+          [
+            336.0,
+            133.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_4_Paired_Comparison-086"
+      },
+      {
+        "x": 345,
+        "y": 93,
+        "w": 114,
+        "h": 74,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 5,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-087"
+      },
+      {
+        "x": 351,
+        "y": 102.0,
+        "w": 102,
+        "h": 10.78,
+        "text": "Fixed 8B reader",
+        "size": 7.7,
+        "bold": true,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-088"
+      },
+      {
+        "x": 351,
+        "y": 121.0,
+        "w": 102,
+        "h": 9.94,
+        "text": "Same prompt",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-089"
+      },
+      {
+        "x": 351,
+        "y": 134.0,
+        "w": 102,
+        "h": 9.94,
+        "text": "Same decoding",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-090"
+      },
+      {
+        "x": 351,
+        "y": 147.0,
+        "w": 102,
+        "h": 9.52,
+        "text": "One readout per packet",
+        "size": 6.8,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-091"
+      },
+      {
+        "x": 343,
+        "y": 187.0,
+        "w": 116,
+        "h": 9.94,
+        "text": "Original selected text",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-092"
+      },
+      {
+        "x": 343,
+        "y": 202.0,
+        "w": 116,
+        "h": 9.94,
+        "text": "and source identifiers",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-093"
+      },
+      {
+        "x": 7,
+        "y": 265.0,
+        "w": 10,
+        "h": 12.32,
+        "text": "b",
+        "size": 8.8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-094"
+      },
+      {
+        "x": 20,
+        "y": 265.5,
+        "w": 441,
+        "h": 11.2,
+        "text": "Paired evaluation with separate denominators",
+        "size": 8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-095"
+      },
+      {
+        "x": 6,
+        "y": 280,
+        "w": 222,
+        "h": 17,
+        "fill": "#FAE4D5",
+        "color": "#161616",
+        "width": 0.7,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-096"
+      },
+      {
+        "x": 10,
+        "y": 285.0,
+        "w": 214,
+        "h": 9.52,
+        "text": "Conflict identification: 200 assigned cases",
+        "size": 6.8,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-097"
+      },
+      {
+        "x": 240,
+        "y": 280,
+        "w": 221,
+        "h": 17,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.7,
+        "r": 3,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_4_Paired_Comparison-098"
+      },
+      {
+        "x": 244,
+        "y": 285.0,
+        "w": 213,
+        "h": 9.239999999999998,
+        "text": "Ordinary EM, F1 and false conflicts: 100 cases",
+        "size": 6.6,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_4_Paired_Comparison-099"
+      }
+    ]
+  },
+  {
+    "stem": "Figure_5_Source_Intervention_Design",
+    "title": "Matched perturbations of original source support",
+    "width": 468,
+    "height": 294,
+    "note": "Schematic unit roles: B bridge, A one answer side, O opposing side, N noncritical source, R replacement from the same candidate pool. Unit counts shown are illustrative; actual counts vary by question but are fixed within a matched triple. No reader output is implied by the schematic.",
+    "items": [
+      {
+        "x": 6,
+        "y": 5,
+        "w": 455,
+        "h": 31,
+        "fill": "#F7EAE9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 5,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-001"
+      },
+      {
+        "x": 14,
+        "y": 15.0,
+        "w": 439,
+        "h": 10.92,
+        "text": "Replacement text comes from the same original candidate pool",
+        "size": 7.8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-002"
+      },
+      {
+        "x": 7,
+        "y": 47.0,
+        "w": 10,
+        "h": 12.32,
+        "text": "a",
+        "size": 8.8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-003"
+      },
+      {
+        "x": 20,
+        "y": 47.5,
+        "w": 441,
+        "h": 11.2,
+        "text": "Bridge dependency: 16 matched questions",
+        "size": 8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-004"
+      },
+      {
+        "x": 13,
+        "y": 68.0,
+        "w": 135,
+        "h": 10.92,
+        "text": "Intact",
+        "size": 7.8,
+        "bold": true,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-005"
+      },
+      {
+        "x": 167,
+        "y": 68.0,
+        "w": 135,
+        "h": 10.92,
+        "text": "Sham",
+        "size": 7.8,
+        "bold": true,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-006"
+      },
+      {
+        "x": 321,
+        "y": 68.0,
+        "w": 135,
+        "h": 10.92,
+        "text": "Critical",
+        "size": 7.8,
+        "bold": true,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-007"
+      },
+      {
+        "x": 13,
+        "y": 83,
+        "w": 134,
+        "h": 62,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-008"
+      },
+      {
+        "points": [
+          [
+            28,
+            96
+          ],
+          [
+            31,
+            93
+          ],
+          [
+            61,
+            93
+          ],
+          [
+            58,
+            96
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-009"
+      },
+      {
+        "points": [
+          [
+            58,
+            96
+          ],
+          [
+            61,
+            93
+          ],
+          [
+            61,
+            114
+          ],
+          [
+            58,
+            117
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-010"
+      },
+      {
+        "x": 28,
+        "y": 96,
+        "w": 30,
+        "h": 21,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-011"
+      },
+      {
+        "x": 28,
+        "y": 102.8,
+        "w": 30,
+        "h": 9.94,
+        "text": "B",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-012"
+      },
+      {
+        "points": [
+          [
+            62,
+            96
+          ],
+          [
+            65,
+            93
+          ],
+          [
+            95,
+            93
+          ],
+          [
+            92,
+            96
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-013"
+      },
+      {
+        "points": [
+          [
+            92,
+            96
+          ],
+          [
+            95,
+            93
+          ],
+          [
+            95,
+            114
+          ],
+          [
+            92,
+            117
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-014"
+      },
+      {
+        "x": 62,
+        "y": 96,
+        "w": 30,
+        "h": 21,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-015"
+      },
+      {
+        "x": 62,
+        "y": 102.8,
+        "w": 30,
+        "h": 9.94,
+        "text": "A",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-016"
+      },
+      {
+        "points": [
+          [
+            96,
+            96
+          ],
+          [
+            99,
+            93
+          ],
+          [
+            129,
+            93
+          ],
+          [
+            126,
+            96
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-017"
+      },
+      {
+        "points": [
+          [
+            126,
+            96
+          ],
+          [
+            129,
+            93
+          ],
+          [
+            129,
+            114
+          ],
+          [
+            126,
+            117
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-018"
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 30,
+        "h": 21,
+        "fill": "#E7E6E6",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-019"
+      },
+      {
+        "x": 96,
+        "y": 102.8,
+        "w": 30,
+        "h": 9.94,
+        "text": "N",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-020"
+      },
+      {
+        "x": 167,
+        "y": 83,
+        "w": 134,
+        "h": 62,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-021"
+      },
+      {
+        "points": [
+          [
+            182,
+            96
+          ],
+          [
+            185,
+            93
+          ],
+          [
+            215,
+            93
+          ],
+          [
+            212,
+            96
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-022"
+      },
+      {
+        "points": [
+          [
+            212,
+            96
+          ],
+          [
+            215,
+            93
+          ],
+          [
+            215,
+            114
+          ],
+          [
+            212,
+            117
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-023"
+      },
+      {
+        "x": 182,
+        "y": 96,
+        "w": 30,
+        "h": 21,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-024"
+      },
+      {
+        "x": 182,
+        "y": 102.8,
+        "w": 30,
+        "h": 9.94,
+        "text": "B",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-025"
+      },
+      {
+        "points": [
+          [
+            216,
+            96
+          ],
+          [
+            219,
+            93
+          ],
+          [
+            249,
+            93
+          ],
+          [
+            246,
+            96
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-026"
+      },
+      {
+        "points": [
+          [
+            246,
+            96
+          ],
+          [
+            249,
+            93
+          ],
+          [
+            249,
+            114
+          ],
+          [
+            246,
+            117
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-027"
+      },
+      {
+        "x": 216,
+        "y": 96,
+        "w": 30,
+        "h": 21,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-028"
+      },
+      {
+        "x": 216,
+        "y": 102.8,
+        "w": 30,
+        "h": 9.94,
+        "text": "A",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-029"
+      },
+      {
+        "points": [
+          [
+            250,
+            96
+          ],
+          [
+            253,
+            93
+          ],
+          [
+            283,
+            93
+          ],
+          [
+            280,
+            96
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-030"
+      },
+      {
+        "points": [
+          [
+            280,
+            96
+          ],
+          [
+            283,
+            93
+          ],
+          [
+            283,
+            114
+          ],
+          [
+            280,
+            117
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-031"
+      },
+      {
+        "x": 250,
+        "y": 96,
+        "w": 30,
+        "h": 21,
+        "fill": "#B1AFD4",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-032"
+      },
+      {
+        "x": 250,
+        "y": 102.8,
+        "w": 30,
+        "h": 9.94,
+        "text": "R",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-033"
+      },
+      {
+        "x": 321,
+        "y": 83,
+        "w": 134,
+        "h": 62,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-034"
+      },
+      {
+        "points": [
+          [
+            336,
+            96
+          ],
+          [
+            339,
+            93
+          ],
+          [
+            369,
+            93
+          ],
+          [
+            366,
+            96
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-035"
+      },
+      {
+        "points": [
+          [
+            366,
+            96
+          ],
+          [
+            369,
+            93
+          ],
+          [
+            369,
+            114
+          ],
+          [
+            366,
+            117
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-036"
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 30,
+        "h": 21,
+        "fill": "#B1AFD4",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-037"
+      },
+      {
+        "x": 336,
+        "y": 102.8,
+        "w": 30,
+        "h": 9.94,
+        "text": "R",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-038"
+      },
+      {
+        "points": [
+          [
+            370,
+            96
+          ],
+          [
+            373,
+            93
+          ],
+          [
+            403,
+            93
+          ],
+          [
+            400,
+            96
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-039"
+      },
+      {
+        "points": [
+          [
+            400,
+            96
+          ],
+          [
+            403,
+            93
+          ],
+          [
+            403,
+            114
+          ],
+          [
+            400,
+            117
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-040"
+      },
+      {
+        "x": 370,
+        "y": 96,
+        "w": 30,
+        "h": 21,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-041"
+      },
+      {
+        "x": 370,
+        "y": 102.8,
+        "w": 30,
+        "h": 9.94,
+        "text": "A",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-042"
+      },
+      {
+        "points": [
+          [
+            404,
+            96
+          ],
+          [
+            407,
+            93
+          ],
+          [
+            437,
+            93
+          ],
+          [
+            434,
+            96
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-043"
+      },
+      {
+        "points": [
+          [
+            434,
+            96
+          ],
+          [
+            437,
+            93
+          ],
+          [
+            437,
+            114
+          ],
+          [
+            434,
+            117
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-044"
+      },
+      {
+        "x": 404,
+        "y": 96,
+        "w": 30,
+        "h": 21,
+        "fill": "#E7E6E6",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-045"
+      },
+      {
+        "x": 404,
+        "y": 102.8,
+        "w": 30,
+        "h": 9.94,
+        "text": "N",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-046"
+      },
+      {
+        "x": 21,
+        "y": 128.0,
+        "w": 118,
+        "h": 9.52,
+        "text": "Complete identifying bridge",
+        "size": 6.8,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-047"
+      },
+      {
+        "x": 175,
+        "y": 128.0,
+        "w": 118,
+        "h": 9.52,
+        "text": "Noncritical source replaced",
+        "size": 6.8,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-048"
+      },
+      {
+        "x": 329,
+        "y": 128.0,
+        "w": 118,
+        "h": 9.52,
+        "text": "Identifying bridge replaced",
+        "size": 6.8,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-049"
+      },
+      {
+        "x": 7,
+        "y": 159.0,
+        "w": 10,
+        "h": 12.32,
+        "text": "b",
+        "size": 8.8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-050"
+      },
+      {
+        "x": 20,
+        "y": 159.5,
+        "w": 441,
+        "h": 11.2,
+        "text": "Opposing support: 9 matched questions",
+        "size": 8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-051"
+      },
+      {
+        "x": 13,
+        "y": 179,
+        "w": 134,
+        "h": 62,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-052"
+      },
+      {
+        "points": [
+          [
+            23,
+            192
+          ],
+          [
+            26,
+            189
+          ],
+          [
+            51,
+            189
+          ],
+          [
+            48,
+            192
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-053"
+      },
+      {
+        "points": [
+          [
+            48,
+            192
+          ],
+          [
+            51,
+            189
+          ],
+          [
+            51,
+            210
+          ],
+          [
+            48,
+            213
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-054"
+      },
+      {
+        "x": 23,
+        "y": 192,
+        "w": 25,
+        "h": 21,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-055"
+      },
+      {
+        "x": 23,
+        "y": 198.8,
+        "w": 25,
+        "h": 9.94,
+        "text": "B",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-056"
+      },
+      {
+        "points": [
+          [
+            52,
+            192
+          ],
+          [
+            55,
+            189
+          ],
+          [
+            80,
+            189
+          ],
+          [
+            77,
+            192
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-057"
+      },
+      {
+        "points": [
+          [
+            77,
+            192
+          ],
+          [
+            80,
+            189
+          ],
+          [
+            80,
+            210
+          ],
+          [
+            77,
+            213
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-058"
+      },
+      {
+        "x": 52,
+        "y": 192,
+        "w": 25,
+        "h": 21,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-059"
+      },
+      {
+        "x": 52,
+        "y": 198.8,
+        "w": 25,
+        "h": 9.94,
+        "text": "A",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-060"
+      },
+      {
+        "points": [
+          [
+            81,
+            192
+          ],
+          [
+            84,
+            189
+          ],
+          [
+            109,
+            189
+          ],
+          [
+            106,
+            192
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-061"
+      },
+      {
+        "points": [
+          [
+            106,
+            192
+          ],
+          [
+            109,
+            189
+          ],
+          [
+            109,
+            210
+          ],
+          [
+            106,
+            213
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-062"
+      },
+      {
+        "x": 81,
+        "y": 192,
+        "w": 25,
+        "h": 21,
+        "fill": "#F5B7BE",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-063"
+      },
+      {
+        "x": 81,
+        "y": 198.8,
+        "w": 25,
+        "h": 9.94,
+        "text": "O",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-064"
+      },
+      {
+        "points": [
+          [
+            110,
+            192
+          ],
+          [
+            113,
+            189
+          ],
+          [
+            138,
+            189
+          ],
+          [
+            135,
+            192
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-065"
+      },
+      {
+        "points": [
+          [
+            135,
+            192
+          ],
+          [
+            138,
+            189
+          ],
+          [
+            138,
+            210
+          ],
+          [
+            135,
+            213
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-066"
+      },
+      {
+        "x": 110,
+        "y": 192,
+        "w": 25,
+        "h": 21,
+        "fill": "#E7E6E6",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-067"
+      },
+      {
+        "x": 110,
+        "y": 198.8,
+        "w": 25,
+        "h": 9.94,
+        "text": "N",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-068"
+      },
+      {
+        "x": 167,
+        "y": 179,
+        "w": 134,
+        "h": 62,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-069"
+      },
+      {
+        "points": [
+          [
+            177,
+            192
+          ],
+          [
+            180,
+            189
+          ],
+          [
+            205,
+            189
+          ],
+          [
+            202,
+            192
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-070"
+      },
+      {
+        "points": [
+          [
+            202,
+            192
+          ],
+          [
+            205,
+            189
+          ],
+          [
+            205,
+            210
+          ],
+          [
+            202,
+            213
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-071"
+      },
+      {
+        "x": 177,
+        "y": 192,
+        "w": 25,
+        "h": 21,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-072"
+      },
+      {
+        "x": 177,
+        "y": 198.8,
+        "w": 25,
+        "h": 9.94,
+        "text": "B",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-073"
+      },
+      {
+        "points": [
+          [
+            206,
+            192
+          ],
+          [
+            209,
+            189
+          ],
+          [
+            234,
+            189
+          ],
+          [
+            231,
+            192
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-074"
+      },
+      {
+        "points": [
+          [
+            231,
+            192
+          ],
+          [
+            234,
+            189
+          ],
+          [
+            234,
+            210
+          ],
+          [
+            231,
+            213
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-075"
+      },
+      {
+        "x": 206,
+        "y": 192,
+        "w": 25,
+        "h": 21,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-076"
+      },
+      {
+        "x": 206,
+        "y": 198.8,
+        "w": 25,
+        "h": 9.94,
+        "text": "A",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-077"
+      },
+      {
+        "points": [
+          [
+            235,
+            192
+          ],
+          [
+            238,
+            189
+          ],
+          [
+            263,
+            189
+          ],
+          [
+            260,
+            192
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-078"
+      },
+      {
+        "points": [
+          [
+            260,
+            192
+          ],
+          [
+            263,
+            189
+          ],
+          [
+            263,
+            210
+          ],
+          [
+            260,
+            213
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-079"
+      },
+      {
+        "x": 235,
+        "y": 192,
+        "w": 25,
+        "h": 21,
+        "fill": "#F5B7BE",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-080"
+      },
+      {
+        "x": 235,
+        "y": 198.8,
+        "w": 25,
+        "h": 9.94,
+        "text": "O",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-081"
+      },
+      {
+        "points": [
+          [
+            264,
+            192
+          ],
+          [
+            267,
+            189
+          ],
+          [
+            292,
+            189
+          ],
+          [
+            289,
+            192
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-082"
+      },
+      {
+        "points": [
+          [
+            289,
+            192
+          ],
+          [
+            292,
+            189
+          ],
+          [
+            292,
+            210
+          ],
+          [
+            289,
+            213
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-083"
+      },
+      {
+        "x": 264,
+        "y": 192,
+        "w": 25,
+        "h": 21,
+        "fill": "#B1AFD4",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-084"
+      },
+      {
+        "x": 264,
+        "y": 198.8,
+        "w": 25,
+        "h": 9.94,
+        "text": "R",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-085"
+      },
+      {
+        "x": 321,
+        "y": 179,
+        "w": 134,
+        "h": 62,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-086"
+      },
+      {
+        "points": [
+          [
+            331,
+            192
+          ],
+          [
+            334,
+            189
+          ],
+          [
+            359,
+            189
+          ],
+          [
+            356,
+            192
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-087"
+      },
+      {
+        "points": [
+          [
+            356,
+            192
+          ],
+          [
+            359,
+            189
+          ],
+          [
+            359,
+            210
+          ],
+          [
+            356,
+            213
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-088"
+      },
+      {
+        "x": 331,
+        "y": 192,
+        "w": 25,
+        "h": 21,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-089"
+      },
+      {
+        "x": 331,
+        "y": 198.8,
+        "w": 25,
+        "h": 9.94,
+        "text": "B",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-090"
+      },
+      {
+        "points": [
+          [
+            360,
+            192
+          ],
+          [
+            363,
+            189
+          ],
+          [
+            388,
+            189
+          ],
+          [
+            385,
+            192
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-091"
+      },
+      {
+        "points": [
+          [
+            385,
+            192
+          ],
+          [
+            388,
+            189
+          ],
+          [
+            388,
+            210
+          ],
+          [
+            385,
+            213
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-092"
+      },
+      {
+        "x": 360,
+        "y": 192,
+        "w": 25,
+        "h": 21,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-093"
+      },
+      {
+        "x": 360,
+        "y": 198.8,
+        "w": 25,
+        "h": 9.94,
+        "text": "A",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-094"
+      },
+      {
+        "points": [
+          [
+            389,
+            192
+          ],
+          [
+            392,
+            189
+          ],
+          [
+            417,
+            189
+          ],
+          [
+            414,
+            192
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-095"
+      },
+      {
+        "points": [
+          [
+            414,
+            192
+          ],
+          [
+            417,
+            189
+          ],
+          [
+            417,
+            210
+          ],
+          [
+            414,
+            213
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-096"
+      },
+      {
+        "x": 389,
+        "y": 192,
+        "w": 25,
+        "h": 21,
+        "fill": "#B1AFD4",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-097"
+      },
+      {
+        "x": 389,
+        "y": 198.8,
+        "w": 25,
+        "h": 9.94,
+        "text": "R",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-098"
+      },
+      {
+        "points": [
+          [
+            418,
+            192
+          ],
+          [
+            421,
+            189
+          ],
+          [
+            446,
+            189
+          ],
+          [
+            443,
+            192
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#FFFFFF",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-099"
+      },
+      {
+        "points": [
+          [
+            443,
+            192
+          ],
+          [
+            446,
+            189
+          ],
+          [
+            446,
+            210
+          ],
+          [
+            443,
+            213
+          ]
+        ],
+        "width": 0.65,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#E7E6E6",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_5_Source_Intervention_Design-100"
+      },
+      {
+        "x": 418,
+        "y": 192,
+        "w": 25,
+        "h": 21,
+        "fill": "#E7E6E6",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 0,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-101"
+      },
+      {
+        "x": 418,
+        "y": 198.8,
+        "w": 25,
+        "h": 9.94,
+        "text": "N",
+        "size": 7.1,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-102"
+      },
+      {
+        "x": 21,
+        "y": 224.0,
+        "w": 118,
+        "h": 9.379999999999999,
+        "text": "Both opposing sides retained",
+        "size": 6.7,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-103"
+      },
+      {
+        "x": 175,
+        "y": 224.0,
+        "w": 118,
+        "h": 9.52,
+        "text": "Noncritical source replaced",
+        "size": 6.8,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-104"
+      },
+      {
+        "x": 329,
+        "y": 224.0,
+        "w": 118,
+        "h": 9.52,
+        "text": "One opposing side replaced",
+        "size": 6.8,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-105"
+      },
+      {
+        "x": 6,
+        "y": 252,
+        "w": 455,
+        "h": 20,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_5_Source_Intervention_Design-106"
+      },
+      {
+        "x": 10,
+        "y": 258.0,
+        "w": 447,
+        "h": 9.379999999999999,
+        "text": "Matched unit count   |   Source cap: 256 tokens   |   Within-case length spread: at most 8 tokens",
+        "size": 6.7,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-107"
+      },
+      {
+        "x": 8,
+        "y": 281.0,
+        "w": 451,
+        "h": 9.379999999999999,
+        "text": "B: bridge    A: answer side    O: opposing side    N: noncritical source    R: replacement",
+        "size": 6.7,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_5_Source_Intervention_Design-108"
+      }
+    ]
+  },
+  {
+    "stem": "Figure_6_Reference_Diagnostics",
+    "title": "Source inputs and complete-reference checks",
+    "width": 468,
+    "height": 288,
+    "note": "Three diagnostic inputs use the same 300 confirmation questions. Source inspection is confined to the fixed 60-question subset. R denotes a complete inspected reference in the lower detail. Its containment is one direct diagnostic of retaining that reference, not a necessary condition for all alternative complete witnesses. The three checks are not mutually exclusive error classes.",
+    "items": [
+      {
+        "x": 7,
+        "y": 4.0,
+        "w": 10,
+        "h": 12.32,
+        "text": "a",
+        "size": 8.8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-001"
+      },
+      {
+        "x": 20,
+        "y": 4.5,
+        "w": 441,
+        "h": 11.2,
+        "text": "Reader inputs on the same confirmation questions",
+        "size": 8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-002"
+      },
+      {
+        "x": 6,
+        "y": 24,
+        "w": 100,
+        "h": 127,
+        "fill": "#F7EAE9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 5,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_6_Reference_Diagnostics-003"
+      },
+      {
+        "x": 12,
+        "y": 32.0,
+        "w": 88,
+        "h": 10.08,
+        "text": "Candidate sources",
+        "size": 7.2,
+        "bold": true,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-004"
+      },
+      {
+        "x": 36,
+        "y": 55,
+        "w": 49,
+        "h": 39,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_6_Reference_Diagnostics-005"
+      },
+      {
+        "x": 33,
+        "y": 58,
+        "w": 49,
+        "h": 39,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_6_Reference_Diagnostics-006"
+      },
+      {
+        "x": 30,
+        "y": 61,
+        "w": 49,
+        "h": 39,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_6_Reference_Diagnostics-007"
+      },
+      {
+        "x": 27,
+        "y": 64,
+        "w": 49,
+        "h": 39,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 2,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_6_Reference_Diagnostics-008"
+      },
+      {
+        "x": 30,
+        "y": 79.5,
+        "w": 43,
+        "h": 10.08,
+        "text": "Pool V",
+        "size": 7.2,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-009"
+      },
+      {
+        "x": 14,
+        "y": 121.0,
+        "w": 84,
+        "h": 9.66,
+        "text": "Original text + IDs",
+        "size": 6.9,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-010"
+      },
+      {
+        "points": [
+          [
+            120,
+            47
+          ],
+          [
+            120,
+            131
+          ]
+        ],
+        "width": 1.6,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_6_Reference_Diagnostics-011"
+      },
+      {
+        "points": [
+          [
+            108,
+            88
+          ],
+          [
+            120,
+            88
+          ]
+        ],
+        "width": 1.6,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_6_Reference_Diagnostics-012"
+      },
+      {
+        "points": [
+          [
+            120,
+            88
+          ],
+          [
+            116.0,
+            86.24
+          ],
+          [
+            116.0,
+            89.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_6_Reference_Diagnostics-013"
+      },
+      {
+        "points": [
+          [
+            120,
+            46
+          ],
+          [
+            134,
+            46
+          ]
+        ],
+        "width": 1.6,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_6_Reference_Diagnostics-014"
+      },
+      {
+        "points": [
+          [
+            134,
+            46
+          ],
+          [
+            130.0,
+            44.24
+          ],
+          [
+            130.0,
+            47.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_6_Reference_Diagnostics-015"
+      },
+      {
+        "x": 139,
+        "y": 31,
+        "w": 178,
+        "h": 32,
+        "fill": "#FDE694",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_6_Reference_Diagnostics-016"
+      },
+      {
+        "x": 145,
+        "y": 36.0,
+        "w": 166,
+        "h": 10.5,
+        "text": "Selected packet S",
+        "size": 7.5,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-017"
+      },
+      {
+        "x": 145,
+        "y": 49.0,
+        "w": 166,
+        "h": 9.52,
+        "text": "Automatic selection; 256-token cap",
+        "size": 6.8,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-018"
+      },
+      {
+        "points": [
+          [
+            319,
+            47
+          ],
+          [
+            335,
+            47
+          ]
+        ],
+        "width": 1.4,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_6_Reference_Diagnostics-019"
+      },
+      {
+        "points": [
+          [
+            335,
+            47
+          ],
+          [
+            331.0,
+            45.24
+          ],
+          [
+            331.0,
+            48.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_6_Reference_Diagnostics-020"
+      },
+      {
+        "points": [
+          [
+            120,
+            89
+          ],
+          [
+            134,
+            89
+          ]
+        ],
+        "width": 1.6,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_6_Reference_Diagnostics-021"
+      },
+      {
+        "points": [
+          [
+            134,
+            89
+          ],
+          [
+            130.0,
+            87.24
+          ],
+          [
+            130.0,
+            90.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_6_Reference_Diagnostics-022"
+      },
+      {
+        "x": 139,
+        "y": 74,
+        "w": 178,
+        "h": 32,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_6_Reference_Diagnostics-023"
+      },
+      {
+        "x": 145,
+        "y": 79.0,
+        "w": 166,
+        "h": 10.5,
+        "text": "Full context V",
+        "size": 7.5,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-024"
+      },
+      {
+        "x": 145,
+        "y": 92.0,
+        "w": 166,
+        "h": 9.52,
+        "text": "All candidate units",
+        "size": 6.8,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-025"
+      },
+      {
+        "points": [
+          [
+            319,
+            90
+          ],
+          [
+            335,
+            90
+          ]
+        ],
+        "width": 1.4,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_6_Reference_Diagnostics-026"
+      },
+      {
+        "points": [
+          [
+            335,
+            90
+          ],
+          [
+            331.0,
+            88.24
+          ],
+          [
+            331.0,
+            91.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_6_Reference_Diagnostics-027"
+      },
+      {
+        "points": [
+          [
+            120,
+            132
+          ],
+          [
+            134,
+            132
+          ]
+        ],
+        "width": 1.6,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_6_Reference_Diagnostics-028"
+      },
+      {
+        "points": [
+          [
+            134,
+            132
+          ],
+          [
+            130.0,
+            130.24
+          ],
+          [
+            130.0,
+            133.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_6_Reference_Diagnostics-029"
+      },
+      {
+        "x": 139,
+        "y": 117,
+        "w": 178,
+        "h": 32,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_6_Reference_Diagnostics-030"
+      },
+      {
+        "x": 145,
+        "y": 122.0,
+        "w": 166,
+        "h": 10.5,
+        "text": "Annotation reference R",
+        "size": 7.5,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-031"
+      },
+      {
+        "x": 145,
+        "y": 135.0,
+        "w": 166,
+        "h": 9.52,
+        "text": "Privileged support identifiers",
+        "size": 6.8,
+        "bold": false,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-032"
+      },
+      {
+        "points": [
+          [
+            319,
+            133
+          ],
+          [
+            335,
+            133
+          ]
+        ],
+        "width": 1.4,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_6_Reference_Diagnostics-033"
+      },
+      {
+        "points": [
+          [
+            335,
+            133
+          ],
+          [
+            331.0,
+            131.24
+          ],
+          [
+            331.0,
+            134.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_6_Reference_Diagnostics-034"
+      },
+      {
+        "points": [
+          [
+            338,
+            47
+          ],
+          [
+            338,
+            133
+          ]
+        ],
+        "width": 1.6,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_6_Reference_Diagnostics-035"
+      },
+      {
+        "points": [
+          [
+            338,
+            90
+          ],
+          [
+            352,
+            90
+          ]
+        ],
+        "width": 1.8,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_6_Reference_Diagnostics-036"
+      },
+      {
+        "points": [
+          [
+            352,
+            90
+          ],
+          [
+            348.0,
+            88.24
+          ],
+          [
+            348.0,
+            91.76
+          ]
+        ],
+        "width": 0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "#161616",
+        "closed": true,
+        "kind": "path",
+        "id": "Figure_6_Reference_Diagnostics-037"
+      },
+      {
+        "x": 357,
+        "y": 59,
+        "w": 104,
+        "h": 62,
+        "fill": "#FAE4D5",
+        "color": "#161616",
+        "width": 0.9,
+        "r": 5,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_6_Reference_Diagnostics-038"
+      },
+      {
+        "x": 363,
+        "y": 70.0,
+        "w": 92,
+        "h": 10.639999999999999,
+        "text": "Same fixed",
+        "size": 7.6,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-039"
+      },
+      {
+        "x": 363,
+        "y": 84.0,
+        "w": 92,
+        "h": 10.639999999999999,
+        "text": "8B reader",
+        "size": 7.6,
+        "bold": true,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-040"
+      },
+      {
+        "x": 363,
+        "y": 105.0,
+        "w": 92,
+        "h": 8.959999999999999,
+        "text": "Separate input conditions",
+        "size": 6.4,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-041"
+      },
+      {
+        "points": [
+          [
+            228,
+            149
+          ],
+          [
+            228,
+            163
+          ],
+          [
+            446,
+            163
+          ],
+          [
+            446,
+            194
+          ]
+        ],
+        "width": 1.0,
+        "color": "#161616",
+        "dashed": true,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_6_Reference_Diagnostics-042"
+      },
+      {
+        "points": [
+          [
+            446,
+            192
+          ],
+          [
+            446,
+            194
+          ]
+        ],
+        "width": 1.0,
+        "color": "#161616",
+        "dashed": false,
+        "fill": "none",
+        "closed": false,
+        "kind": "path",
+        "id": "Figure_6_Reference_Diagnostics-043"
+      },
+      {
+        "x": 7,
+        "y": 173.0,
+        "w": 10,
+        "h": 12.32,
+        "text": "b",
+        "size": 8.8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-044"
+      },
+      {
+        "x": 20,
+        "y": 173.5,
+        "w": 441,
+        "h": 11.2,
+        "text": "Complete-reference detail: fixed 60-question inspection",
+        "size": 8,
+        "bold": true,
+        "align": "left",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-045"
+      },
+      {
+        "x": 6,
+        "y": 194,
+        "w": 455,
+        "h": 86,
+        "fill": "#FFFFFF",
+        "color": "#161616",
+        "width": 1,
+        "r": 5,
+        "dashed": true,
+        "kind": "rect",
+        "id": "Figure_6_Reference_Diagnostics-046"
+      },
+      {
+        "x": 14,
+        "y": 202,
+        "w": 132,
+        "h": 69,
+        "fill": "#DAE2F5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_6_Reference_Diagnostics-047"
+      },
+      {
+        "x": 19,
+        "y": 209.0,
+        "w": 122,
+        "h": 10.36,
+        "text": "Budget feasibility",
+        "size": 7.4,
+        "bold": true,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-048"
+      },
+      {
+        "x": 167,
+        "y": 202,
+        "w": 132,
+        "h": 69,
+        "fill": "#E1EFD9",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_6_Reference_Diagnostics-049"
+      },
+      {
+        "x": 172,
+        "y": 209.0,
+        "w": 122,
+        "h": 10.36,
+        "text": "Evidence retention",
+        "size": 7.4,
+        "bold": true,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-050"
+      },
+      {
+        "x": 320,
+        "y": 202,
+        "w": 132,
+        "h": 69,
+        "fill": "#FAE4D5",
+        "color": "#161616",
+        "width": 0.8,
+        "r": 4,
+        "dashed": false,
+        "kind": "rect",
+        "id": "Figure_6_Reference_Diagnostics-051"
+      },
+      {
+        "x": 325,
+        "y": 209.0,
+        "w": 122,
+        "h": 10.36,
+        "text": "Reader use",
+        "size": 7.4,
+        "bold": true,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-052"
+      },
+      {
+        "x": 25,
+        "y": 228,
+        "w": 110,
+        "h": 20,
+        "size": 9.5,
+        "latex": "C(R)\\leq B",
+        "ast": [
+          {
+            "type": "run",
+            "text": "C",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "(",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "R",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": ")",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "≤",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "B",
+            "normal": false
+          }
+        ],
+        "align": "center",
+        "color": "#161616",
+        "kind": "math",
+        "id": "Figure_6_Reference_Diagnostics-053"
+      },
+      {
+        "x": 22,
+        "y": 253.0,
+        "w": 116,
+        "h": 9.379999999999999,
+        "text": "Does complete support fit?",
+        "size": 6.7,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-054"
+      },
+      {
+        "x": 178,
+        "y": 228,
+        "w": 110,
+        "h": 20,
+        "size": 9.5,
+        "latex": "R\\subseteq S",
+        "ast": [
+          {
+            "type": "run",
+            "text": "R",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "⊆",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "S",
+            "normal": false
+          }
+        ],
+        "align": "center",
+        "color": "#161616",
+        "kind": "math",
+        "id": "Figure_6_Reference_Diagnostics-055"
+      },
+      {
+        "x": 175,
+        "y": 253.0,
+        "w": 116,
+        "h": 9.379999999999999,
+        "text": "Is this reference retained?",
+        "size": 6.7,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-056"
+      },
+      {
+        "x": 331,
+        "y": 228,
+        "w": 110,
+        "h": 20,
+        "size": 9.5,
+        "latex": "f(q,R)",
+        "ast": [
+          {
+            "type": "run",
+            "text": "f",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "(",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "q",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": ",",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": "R",
+            "normal": false
+          },
+          {
+            "type": "run",
+            "text": ")",
+            "normal": false
+          }
+        ],
+        "align": "center",
+        "color": "#161616",
+        "kind": "math",
+        "id": "Figure_6_Reference_Diagnostics-057"
+      },
+      {
+        "x": 328,
+        "y": 253.0,
+        "w": 116,
+        "h": 9.1,
+        "text": "Read the complete reference",
+        "size": 6.5,
+        "bold": false,
+        "align": "center",
+        "color": "#161616",
+        "kind": "text",
+        "id": "Figure_6_Reference_Diagnostics-058"
+      }
+    ]
+  }
+]

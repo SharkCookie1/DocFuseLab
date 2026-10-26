@@ -1,0 +1,94 @@
+{
+  "version": "step105-independent-second-source-fixed-confirmation-v1",
+  "frozen_before_first_inference": true,
+  "cohort": {
+    "source": "2WikiMultihopQA dev",
+    "conflict": 200,
+    "clean": 100,
+    "total": 300,
+    "source_disjoint_from_known_hotpot_question_and_support_title_keys": true
+  },
+  "scope": "Controlled two-hop date-endpoint conflict variants; clean rows repeat the same terminal sentence. This is not natural conflict or unrestricted2Wiki generalization.",
+  "arms": [
+    "plain_set",
+    "set_graph",
+    "strong_chain",
+    "joint",
+    "mmr"
+  ],
+  "source_budget_tokens": 256,
+  "mmr_lambda": 0.5,
+  "reader": "Original Qwen3-VL-8B-Instruct NF4, frozen Step101 check+answer protocol",
+  "construction": "Frozen Step99 whole-source4B-thinking proposals plus Step73 source-block8B/support/relation graph and selectors",
+  "input_adapter": {
+    "all_original_contexts": true,
+    "sentence_boundaries": "Original dataset list boundaries",
+    "document_boundary": "Literal Document: plus title prepended to first sentence",
+    "added_source": "One additional terminal sentence, same title and status",
+    "source_order": "sha256 canonical [step105-document-order-v1,source_id,document_key]",
+    "conflict_edit": "One exact complete official answer span, terminal date year+7",
+    "clean_edit": "Same terminal source sentence copied unchanged",
+    "extra_exact_text_units_not_deduplicated": true
+  },
+  "sampling": {
+    "order": "sha256 canonical [step105-2wiki-sample-order-v1,source_id]",
+    "sample_size": 300,
+    "assignment": "Included index modulo3:0,1 conflict;2 clean",
+    "eligibility": [
+      "Compositional, exactly2 official evidence triples with literal normalized connecting entity and terminal official answer",
+      "Terminal relation date of birth or date of death",
+      "Exactly2 support facts in2 distinct documents",
+      "Exact date or year format; original and edited full dates calendar-valid",
+      "Exactly1 support sentence contains official full answer once",
+      "No four-digit date in terminal document title",
+      "Original and edited year≤2020; birth edit does not cross another dated event in its sentence",
+      "No duplicate context titles",
+      "No known normalized question or prior supplied/support title overlap",
+      "No shared official support titles among selected sources",
+      "Both4B and8B full witness native inputs≤4000, leaving room under6144 input cap",
+      "Every untruncated source unit costs≤256"
+    ]
+  },
+  "inference": {
+    "native_config_file": "protocol99.json",
+    "no_prompt_or_model_change": true,
+    "no_json_repair": true,
+    "no_quality_retry": true,
+    "completed_invalid_retained": true,
+    "partial_attempt_cost_retained": true,
+    "exact_packet_prompt_cache": true,
+    "no_total_wall_pause": true
+  },
+  "primary": {
+    "population": "All200 frozen conflict rows",
+    "endpoint": "Valid literal CONFLICT response",
+    "contrast": "joint minus plain_set",
+    "test": "two-sided exact McNemar",
+    "alpha": 0.05,
+    "interval": "95% paired source-cluster percentile bootstrap,20000 draws,seed105202610",
+    "criterion": "Full cohort complete,positive paired difference,CI lower bound>0 and exact p<.05",
+    "no_optional_stopping": true
+  },
+  "secondary": [
+    "Same-graph set,strong-chain,andMMR paired contrasts reported descriptively",
+    "All100 clean exact match,F1,falseCONFLICT,UNKNOWN,andinvalid outcomes",
+    "Annotated complete-chain and bilateral-support retention",
+    "Selected source token usage,exact packet identity,andall construction/reader costs"
+  ],
+  "power_planning": {
+    "assumed_paired_discordance": 0.23,
+    "target_difference": 0.1,
+    "n_conflict": 200,
+    "approx_min_detectable_difference_80pct_power": 0.095,
+    "interpretation": "Planning approximation,not promised effect or post-hoc selection.100clean rows monitor false conflicts without a small-margin noninferiority claim."
+  },
+  "cost_policy": "All source construction,selection,readers,invalid outputs and interrupted attempts counted. Per-arm logical costs share physical calls and cannot be summed. No total-cost efficiency claim by budget alone.",
+  "runtime_estimate": "Plan roughly25–40hours at historical hardware; new mean witness input1786 vs historical803 means this is not a guarantee or cutoff.300native calls each have frozen600s per-call safeguard; no12h pause. Actual cost is recorded.",
+  "not_part_of_this_confirmation": [
+    "No new reader sweep",
+    "No budget sweep",
+    "No SetR extra long-selection pass",
+    "No adapted thresholds,seed search,or selective restarts"
+  ],
+  "citation": "Ho,X.,Duong Nguyen,A.-K.,Sugawara,S.,andAizawa,A.(2020).Constructing A Multi-hop QA Dataset for Comprehensive Evaluation of Reasoning Steps.COLING,6609–6625.https://aclanthology.org/2020.coling-main.580/"
+}

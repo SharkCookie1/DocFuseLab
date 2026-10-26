@@ -1,0 +1,277 @@
+{
+  "scope": "Post hoc input-based sensitivities; do not replace the frozen full-cohort primary comparison.",
+  "flag_manifest_sha256": "2307ae3c1b064cd0343d50f83f56a8341d537613b2c4b48d1a3dfbf6d31f8cdc",
+  "bootstrap_seed": 105202610,
+  "bootstrap_repetitions": 20000,
+  "subsets": {
+    "full_frozen_cohort": {
+      "conflict": {
+        "n": 200,
+        "joint_correct": 46.0,
+        "plain_correct": 30.0,
+        "difference": 0.08,
+        "wins": 25,
+        "losses": 9,
+        "ties": 166,
+        "exact_mcnemar_p": 0.00904118549078703,
+        "bootstrap95": [
+          0.025,
+          0.135
+        ],
+        "all_arms": {
+          "plain_set": {
+            "correct": 30.0,
+            "false_conflict": 0
+          },
+          "set_graph": {
+            "correct": 31.0,
+            "false_conflict": 0
+          },
+          "strong_chain": {
+            "correct": 46.0,
+            "false_conflict": 0
+          },
+          "joint": {
+            "correct": 46.0,
+            "false_conflict": 0
+          },
+          "mmr": {
+            "correct": 0.0,
+            "false_conflict": 0
+          }
+        },
+        "removed_qids": []
+      },
+      "clean": {
+        "n": 100,
+        "joint_correct": 67.0,
+        "plain_correct": 58.0,
+        "difference": 0.09,
+        "wins": 13,
+        "losses": 4,
+        "ties": 83,
+        "exact_mcnemar_p": 0.049041748046875,
+        "bootstrap95": [
+          0.01,
+          0.17
+        ],
+        "all_arms": {
+          "plain_set": {
+            "correct": 58.0,
+            "false_conflict": 0
+          },
+          "set_graph": {
+            "correct": 63.0,
+            "false_conflict": 0
+          },
+          "strong_chain": {
+            "correct": 65.0,
+            "false_conflict": 0
+          },
+          "joint": {
+            "correct": 67.0,
+            "false_conflict": 0
+          },
+          "mmr": {
+            "correct": 5.0,
+            "false_conflict": 1
+          }
+        },
+        "removed_qids": []
+      }
+    },
+    "exclude_definite": {
+      "conflict": {
+        "n": 194,
+        "joint_correct": 46.0,
+        "plain_correct": 30.0,
+        "difference": 0.08247422680412371,
+        "wins": 25,
+        "losses": 9,
+        "ties": 160,
+        "exact_mcnemar_p": 0.00904118549078703,
+        "bootstrap95": [
+          0.02577319587628866,
+          0.13917525773195877
+        ],
+        "all_arms": {
+          "plain_set": {
+            "correct": 30.0,
+            "false_conflict": 0
+          },
+          "set_graph": {
+            "correct": 31.0,
+            "false_conflict": 0
+          },
+          "strong_chain": {
+            "correct": 46.0,
+            "false_conflict": 0
+          },
+          "joint": {
+            "correct": 46.0,
+            "false_conflict": 0
+          },
+          "mmr": {
+            "correct": 0.0,
+            "false_conflict": 0
+          }
+        },
+        "removed_qids": [
+          "3bcc1eff2185878dfd46202c",
+          "f1676b2ef95f2db844771961",
+          "0c11c3ff67cb9456b9bba584",
+          "99af20fe6a55dc6df090addd",
+          "4cbf0952b15fe02e9ae6b73d",
+          "5545319742d2f419eaea6640"
+        ]
+      },
+      "clean": {
+        "n": 99,
+        "joint_correct": 66.0,
+        "plain_correct": 57.0,
+        "difference": 0.09090909090909091,
+        "wins": 13,
+        "losses": 4,
+        "ties": 82,
+        "exact_mcnemar_p": 0.049041748046875,
+        "bootstrap95": [
+          0.010101010101010102,
+          0.1717171717171717
+        ],
+        "all_arms": {
+          "plain_set": {
+            "correct": 57.0,
+            "false_conflict": 0
+          },
+          "set_graph": {
+            "correct": 62.0,
+            "false_conflict": 0
+          },
+          "strong_chain": {
+            "correct": 64.0,
+            "false_conflict": 0
+          },
+          "joint": {
+            "correct": 66.0,
+            "false_conflict": 0
+          },
+          "mmr": {
+            "correct": 4.0,
+            "false_conflict": 1
+          }
+        },
+        "removed_qids": [
+          "73ad503a38a01493cba83fcc"
+        ]
+      }
+    },
+    "exclude_definite_and_unresolved": {
+      "conflict": {
+        "n": 179,
+        "joint_correct": 46.0,
+        "plain_correct": 29.0,
+        "difference": 0.09497206703910614,
+        "wins": 25,
+        "losses": 8,
+        "ties": 146,
+        "exact_mcnemar_p": 0.004551384132355452,
+        "bootstrap95": [
+          0.0335195530726257,
+          0.1564245810055866
+        ],
+        "all_arms": {
+          "plain_set": {
+            "correct": 29.0,
+            "false_conflict": 0
+          },
+          "set_graph": {
+            "correct": 31.0,
+            "false_conflict": 0
+          },
+          "strong_chain": {
+            "correct": 46.0,
+            "false_conflict": 0
+          },
+          "joint": {
+            "correct": 46.0,
+            "false_conflict": 0
+          },
+          "mmr": {
+            "correct": 0.0,
+            "false_conflict": 0
+          }
+        },
+        "removed_qids": [
+          "a0822ed7273b831cc6333555",
+          "2243055659e3286ee6f2412e",
+          "3bcc1eff2185878dfd46202c",
+          "447aafdd22f97523a9ce1703",
+          "f1676b2ef95f2db844771961",
+          "167567cb393a33e7ed4a8d89",
+          "43bf9a2b2f35b83525074bb0",
+          "0c11c3ff67cb9456b9bba584",
+          "99af20fe6a55dc6df090addd",
+          "0d3ae90158b2c00b5f0010b5",
+          "4cbf0952b15fe02e9ae6b73d",
+          "f868ab16745af4075d13b5a2",
+          "5545319742d2f419eaea6640",
+          "4ef61dd06714d4975d14eb31",
+          "fb7c5accfe59531e827e1e22",
+          "1ab0acf7767d6d77237e3b72",
+          "c71d7ac50639b23b353c702f",
+          "b640aece39339405a0048cb0",
+          "88aa63606a0c32d1712a4002",
+          "31b367bbeaafb5a7aedfcde6",
+          "037959eeec50790246584817"
+        ]
+      },
+      "clean": {
+        "n": 91,
+        "joint_correct": 66.0,
+        "plain_correct": 56.0,
+        "difference": 0.10989010989010989,
+        "wins": 13,
+        "losses": 3,
+        "ties": 75,
+        "exact_mcnemar_p": 0.021270751953125,
+        "bootstrap95": [
+          0.03296703296703297,
+          0.1978021978021978
+        ],
+        "all_arms": {
+          "plain_set": {
+            "correct": 56.0,
+            "false_conflict": 0
+          },
+          "set_graph": {
+            "correct": 62.0,
+            "false_conflict": 0
+          },
+          "strong_chain": {
+            "correct": 64.0,
+            "false_conflict": 0
+          },
+          "joint": {
+            "correct": 66.0,
+            "false_conflict": 0
+          },
+          "mmr": {
+            "correct": 4.0,
+            "false_conflict": 1
+          }
+        },
+        "removed_qids": [
+          "e60898132bcff7dd9ee11d1e",
+          "8debe1a6745cb4748083eea4",
+          "479dee19dcb6a56695e45b16",
+          "67991d7b3c3122679d66e3db",
+          "c82b44cf0df94ef484c5c4cd",
+          "73ad503a38a01493cba83fcc",
+          "0069e5857e7828a6382da5f4",
+          "49037fa0bbfd8a9301d1ced0",
+          "02cf9588bb136f6e4213df1d"
+        ]
+      }
+    }
+  }
+}

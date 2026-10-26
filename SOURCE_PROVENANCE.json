@@ -1,0 +1,60 @@
+{
+  "source_extracts": [
+    {
+      "analysis_file": "data/summary106.json",
+      "source_basename": "summary106.json",
+      "source_sha256": "8976b2f428e0c736900ee5ba89be89156b64e96006904d457b8833f1ea22db5a",
+      "analysis_sha256": "f413d99792353afd31f28227a921f68121e7db73696ee7023cefccef2a65c2bd",
+      "scope": "Selected aggregate fields for the manuscript tables; not a raw execution archive."
+    },
+    {
+      "analysis_file": "data/summary106c.json",
+      "source_basename": "summary106c.json",
+      "source_sha256": "6f0f7c405e20f0259a60a7396907b1d61aa0e08fabd009fef658560de13d46c2",
+      "analysis_sha256": "cb38d75d8a05ca86fc7172a4adc886b0847347dcb5446792a711238bb5dc34ca",
+      "scope": "Selected aggregate fields for the manuscript tables; not a raw execution archive."
+    },
+    {
+      "analysis_file": "data/conflict_types.json",
+      "source_basename": "conflict_type_results.json",
+      "source_sha256": "91032a619b6c5bda5d2c1444c915d6179b445f6a11741c2c7ad10a8aa8587104",
+      "analysis_sha256": "e673477994db0aa2d454433e6e8f471b790eafa5a3df3756b1c1cfb8d53c98e9",
+      "scope": "Selected aggregate fields for the manuscript tables; not a raw execution archive."
+    },
+    {
+      "analysis_file": "data/baseline101.json",
+      "source_basename": "baseline101.json",
+      "source_sha256": "beba49151f5f6c90903aa3cacc94b103f2919862219a8ad3c58e0cd8328f152f",
+      "analysis_sha256": "5d8d2c66e101daee20f14d10b991019196bf6bf880e3ee44c2ec3ac9ad30efa9",
+      "scope": "Selected aggregate fields for the manuscript tables; not a raw execution archive."
+    },
+    {
+      "analysis_file": "data/baseline102.json",
+      "source_basename": "baseline102.json",
+      "source_sha256": "a65758f6bc48cd7622230dd1c8ad7f11ecb6a65ca672f61a17e5a8a9e2cdbf3c",
+      "analysis_sha256": "f91f092c765089ae601a7d41fed0554077785993771d87d702664a7ea960a0dc",
+      "scope": "Selected aggregate fields for the manuscript tables; not a raw execution archive."
+    },
+    {
+      "analysis_file": "data/baseline103.json",
+      "source_basename": "baseline103.json",
+      "source_sha256": "13e3dbb3696e52f6fda31ec8346e9c60538fc82f85815753b3000a6ca5c553f6",
+      "analysis_sha256": "75499626bfd5b8da207df4dec2534b18465e47bb9935b607bac5ab4fc95d30c2",
+      "scope": "Selected aggregate fields for the manuscript tables; not a raw execution archive."
+    },
+    {
+      "analysis_file": "data/summary104.json",
+      "source_basename": "summary104.json",
+      "source_sha256": "dc5c4b644fcb2362ff3c85f9fbb57cc72428065c428174b26b6e42543040bed8",
+      "analysis_sha256": "021168c628fc31fa0ec9551c84a316f88d69e302179376ae6b9f14d5da60c296",
+      "scope": "Selected aggregate fields for the manuscript tables; not a raw execution archive."
+    },
+    {
+      "analysis_file": "data/summary105.json",
+      "source_basename": "summary105.json",
+      "source_sha256": "2cc7e41ff6b76c8187e66067605e09cfe140dd6ed08c049dc04d7648c51f93cb",
+      "analysis_sha256": "1e579fe9a6b0c26d59e255b8f5daac1f8923111841fca28f7d2530fbf0b480cc",
+      "scope": "Selected aggregate fields for the manuscript tables; not a raw execution archive."
+    }
+  ]
+}
